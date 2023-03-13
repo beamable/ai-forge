@@ -1,0 +1,5 @@
+.fill-popup-window > #_windowRoot > #container,
+.fill-popup-window > #_windowRoot,
+.fill-popup-window {
+    flex-grow: 1;
+}

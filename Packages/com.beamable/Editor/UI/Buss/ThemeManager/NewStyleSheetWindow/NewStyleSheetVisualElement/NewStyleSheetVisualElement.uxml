@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement">
+        <engine:VisualElement>
+            <beamable:LabeledTextField name="styleSheetName" label="Variable Name"/>
+            <engine:Label name="info" text="Style sheet will be created under Assets/Resources folder"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="buttonStrip">
+            <beamable:GenericButtonVisualElement name="cancelButton" text="Cancel" type="Cancel"/>
+            <beamable:PrimaryButtonVisualElement name="confirmButton" text="Confirm"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

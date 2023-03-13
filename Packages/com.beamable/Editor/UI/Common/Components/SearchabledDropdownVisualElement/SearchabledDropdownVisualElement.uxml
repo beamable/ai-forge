@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamableToolbox="Beamable.Editor.UI.Components"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.UI.Components">
+
+    <engine:VisualElement name="popupContent">
+        <beamable:SearchBarVisualElement name="searchBar"/>
+
+        <engine:Button name="refreshButton">
+        </engine:Button>
+
+        <engine:VisualElement>
+            <beamable:LoadingIndicatorVisualElement>
+                <beamable:LoadingSpinnerVisualElement/>
+            </beamable:LoadingIndicatorVisualElement>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="mainBlockedContent">
+            <engine:ScrollView>
+                <engine:VisualElement name="elementsList">
+                    <!-- list of realm -->
+                </engine:VisualElement>
+            </engine:ScrollView>
+
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+
+</engine:UXML>

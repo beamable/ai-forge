@@ -1,0 +1,26 @@
+﻿#microserviceContainer {
+    flex-grow: 1;
+    flex-direction: row;
+    min-height: 30px;
+}
+
+#microserviceNameContainer {
+    min-width: 130px;
+    max-width: 130px;
+    justify-content: center;
+}
+
+#microserviceName {
+    -unity-text-align: middle-left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#dependencyCheckboxes {
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.emptyColumnEntry {
+    flex-grow: 1;
+}

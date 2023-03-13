@@ -1,0 +1,949 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb5f08b5ebc447ee8bfd049d3f0f653, type: 3}
+  m_Name: DefaultTheme
+  m_EditorClassIdentifier: 
+  Parent: {fileID: 0}
+  ColorPalette:
+    Styles:
+    - Name: white
+      Enabled: 1
+      Color: {r: 1, g: 1, b: 1, a: 1}
+    - Name: black
+      Enabled: 1
+      Color: {r: 0, g: 0, b: 0, a: 1}
+    - Name: primary
+      Enabled: 1
+      Color: {r: 0.8117648, g: 0.3254902, b: 0.60784316, a: 1}
+    - Name: secondary
+      Enabled: 1
+      Color: {r: 0.11347453, g: 0.6140829, b: 0.9622642, a: 1}
+    - Name: foreground
+      Enabled: 1
+      Color: {r: 0.9912353, g: 1, b: 0.9764151, a: 1}
+    - Name: input placeholder
+      Enabled: 1
+      Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    - Name: input background
+      Enabled: 1
+      Color: {r: 1, g: 1, b: 1, a: 1}
+    - Name: input foreground
+      Enabled: 1
+      Color: {r: 0, g: 0, b: 0, a: 1}
+    - Name: error
+      Enabled: 1
+      Color: {r: 1, g: 0.5520674, b: 0.19339621, a: 1}
+    - Name: panel background
+      Enabled: 1
+      Color: {r: 1, g: 1, b: 1, a: 1}
+    - Name: panel foreground
+      Enabled: 1
+      Color: {r: 0, g: 0, b: 0, a: 1}
+    - Name: panel foreground 2
+      Enabled: 1
+      Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+    - Name: facebook
+      Enabled: 1
+      Color: {r: 0.043075833, g: 0.3708232, b: 0.8301887, a: 1}
+    - Name: apple
+      Enabled: 1
+      Color: {r: 0.103773594, g: 0.09936811, b: 0.09936811, a: 1}
+    - Name: danger
+      Enabled: 1
+      Color: {r: 0.9176471, g: 0.36862746, b: 0.3372549, a: 1}
+    - Name: light gray
+      Enabled: 1
+      Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - Name: disabled
+      Enabled: 1
+      Color: {r: 0.33962262, g: 0.32840866, b: 0.32840866, a: 0.7058824}
+    - Name: transparent dark
+      Enabled: 1
+      Color: {r: 0, g: 0, b: 0, a: 0.67058825}
+    - Name: panel foreground 3
+      Enabled: 1
+      Color: {r: 0, g: 0, b: 0, a: 0.30588236}
+  TextPalette:
+    Styles:
+    - Name: heading 1
+      Enabled: 1
+      Font:
+        Name: lato bold
+      FontSize: 24
+      FontStyles: 10000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+    - Name: heading 2
+      Enabled: 1
+      Font:
+        Name: lato bold
+      FontSize: 20
+      FontStyles: 100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+    - Name: heading 3
+      Enabled: 1
+      Font:
+        Name: sans
+      FontSize: 18
+      FontStyles: 0100000010000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: -24
+      CharacterSpacing: 0
+    - Name: body 1
+      Enabled: 1
+      Font:
+        Name: sans
+      FontSize: 14
+      FontStyles: 00000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: -25
+      CharacterSpacing: 0
+    - Name: body small
+      Enabled: 1
+      Font:
+        Name: sans
+      FontSize: 12
+      FontStyles: 00000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+    - Name: button cta
+      Enabled: 1
+      Font:
+        Name: lato
+      FontSize: 18
+      FontStyles: 0100000010000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+    - Name: form label
+      Enabled: 1
+      Font:
+        Name: lato
+      FontSize: 16
+      FontStyles: 00000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+    - Name: agreement text
+      Enabled: 1
+      Font:
+        Name: sans
+      FontSize: 11
+      FontStyles: 00000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+    - Name: button small
+      Enabled: 1
+      Font:
+        Name: lato
+      FontSize: 16
+      FontStyles: 0100000010000000
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+      LineSpacing: 0
+      CharacterSpacing: 0
+  FontPalette:
+    Styles:
+    - Name: lato
+      Enabled: 1
+      FontAsset: {fileID: 11400000, guid: 9fa6531a4de424c23a9799802ebd7567, type: 2}
+    - Name: lato bold
+      Enabled: 1
+      FontAsset: {fileID: 11400000, guid: 4cfaaed11d49f4816b25fd0b6356122a, type: 2}
+    - Name: sans
+      Enabled: 1
+      FontAsset: {fileID: 11400000, guid: e1df5e1d027b84bdcb1c0b760bc4c5db, type: 2}
+  ImagePalette:
+    Styles:
+    - Name: background
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: c0280f4bc860e432b813ee02a125ac48, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button back
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 4236c9a3fed474cf39e58ffe79563a73, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button primary
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: caa07d9b55bdf42beb129a848c05e9ea, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button shadow
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: c913a0d915c7e48b7831bd3f22bcabe9, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button exit
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 39342746a2fc345a1ad06e8c9a6fe514, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: logo banner
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: dc467a3b44fdf114e8a219a996fddeff, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon email
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 45878e06d6da04e0ea2373477acdf746, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon check
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 8c009420f11a449c0bf8330acf653bf8, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon lock
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: c7b6af71e175a42f492f02e6d7772fc4, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: loading forever
+      Enabled: 1
+      Material: {fileID: 2100000, guid: 61811287cdc1546ed8d4ab6c9701d1ba, type: 2}
+      Sprite: {fileID: 0}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon apple
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 6594a387a01c541ea8935ee0cccd25ac, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon google
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 27f164b656477405bb673e7d76c73265, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon facebook
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: a4d04167ff3c9414996b8b1f724b94c3, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button facebook
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: caa07d9b55bdf42beb129a848c05e9ea, type: 3}
+      ImageType: 1
+      TintColor: {r: 0.085395135, g: 0.6359531, b: 0.9528302, a: 1}
+      BlendMode: 2
+    - Name: icon facebook
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: a4d04167ff3c9414996b8b1f724b94c3, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon user
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: de3949616f47c4b51abcae72c7aa042d, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon edit
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 79b46d9827476437db9d386e82752c2f, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: panel
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: b38f38a852f9c42b692ee223c1749b9f, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: panel border
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 8c5a6007ffd7e4ccb803c3e7b8cc8da4, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button shadow border
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: c78998ef27f2b4f72b28f48fe6549b74, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon delete
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 81afdb4d79b0549899156c05a5f38a71, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: input background
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: caa07d9b55bdf42beb129a848c05e9ea, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon error
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 9a2dec8143d0c449e955ed59f7a65351, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: avatar boarder
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 8c5a6007ffd7e4ccb803c3e7b8cc8da4, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: panel boarder
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 8c5a6007ffd7e4ccb803c3e7b8cc8da4, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: pagination
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: c913a0d915c7e48b7831bd3f22bcabe9, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: promotion image 1
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 5da734184a01e480e9a8f11dafc6ebdf, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: promotion image 2
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 6ac7f1422c8cc4b4eb06a59cfcf823ce, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: promotion image 3
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: ffe00af62a19e4f6fab81d0c400b9a7f, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: separater
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 0}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 3
+    - Name: shop button frame
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 87af10e9ae7464c5bbdbfff1e1146c1d, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: icon shop
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: ddb7f1bbcac3349efbac72bf38e4074a, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button left edge
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: a97ca497f570e4dd794f1525fae7895c, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: button right edge
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: ac5368a6cb33a4a8595f2addd5e70b30, type: 3}
+      ImageType: 1
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+    - Name: wifi_Icon
+      Enabled: 1
+      Material: {fileID: 0}
+      Sprite: {fileID: 21300000, guid: 88c3924f80b1b48a79ab11069658220c, type: 3}
+      ImageType: 0
+      TintColor: {r: 1, g: 1, b: 1, a: 1}
+      BlendMode: 0
+  GradientPalette:
+    Styles:
+    - Name: secondary
+      Enabled: 1
+      Mode: 1
+      Direction: 1
+      OverrideAllColor: 0
+      Start:
+        Name: secondary
+      Finish:
+        Name: secondary
+      StartBlendMode: 0
+      FinishBlendMode: 1
+      StartTint: {r: 1, g: 1, b: 1, a: 1}
+      FinishTint: {r: 0.5319708, g: 0, b: 0.5943396, a: 1}
+    - Name: primary
+      Enabled: 1
+      Mode: 0
+      Direction: 1
+      OverrideAllColor: 0
+      Start:
+        Name: primary
+      Finish:
+        Name: primary
+      StartBlendMode: 0
+      FinishBlendMode: 0
+      StartTint: {r: 1, g: 1, b: 1, a: 1}
+      FinishTint: {r: 0.7122642, g: 0.9790201, b: 1, a: 1}
+    - Name: shadow
+      Enabled: 1
+      Mode: 0
+      Direction: 1
+      OverrideAllColor: 0
+      Start:
+        Name: white
+      Finish:
+        Name: white
+      StartBlendMode: 0
+      FinishBlendMode: 0
+      StartTint: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+      FinishTint: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - Name: apple
+      Enabled: 1
+      Mode: 0
+      Direction: 1
+      OverrideAllColor: 0
+      Start:
+        Name: apple
+      Finish:
+        Name: apple
+      StartBlendMode: 0
+      FinishBlendMode: 0
+      StartTint: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+      FinishTint: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - Name: facebook
+      Enabled: 1
+      Mode: 0
+      Direction: 1
+      OverrideAllColor: 0
+      Start:
+        Name: facebook
+      Finish:
+        Name: facebook
+      StartBlendMode: 0
+      FinishBlendMode: 0
+      StartTint: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+      FinishTint: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - Name: window header background
+      Enabled: 1
+      Mode: 1
+      Direction: 1
+      OverrideAllColor: 0
+      Start:
+        Name: white
+      Finish:
+        Name: white
+      StartBlendMode: 2
+      FinishBlendMode: 2
+      StartTint: {r: 0, g: 0.09803922, b: 0.18039216, a: 1}
+      FinishTint: {r: 0.015686275, g: 0.3254902, b: 0.5294118, a: 1}
+  LayoutPalette:
+    Styles:
+    - Name: top left
+      Enabled: 1
+      Padding:
+        m_Left: 12
+        m_Right: 12
+        m_Top: 0
+        m_Bottom: 0
+    - Name: bottom right
+      Enabled: 1
+      Padding:
+        m_Left: 12
+        m_Right: 12
+        m_Top: 0
+        m_Bottom: 0
+    - Name: menu
+      Enabled: 1
+      Padding:
+        m_Left: 10
+        m_Right: 10
+        m_Top: 42
+        m_Bottom: 25
+    - Name: menu landscape
+      Enabled: 1
+      Padding:
+        m_Left: 35
+        m_Right: 35
+        m_Top: 20
+        m_Bottom: 20
+  SelectablePalette:
+    Styles:
+    - Name: normal
+      Enabled: 1
+      SelectionData:
+        Colors:
+          NormalColor:
+            Name: white
+          HighlightedColor:
+            Name: light gray
+          PressedColor:
+            Name: white
+          SelectedColor:
+            Name: 
+          DisabledColor:
+            Name: disabled
+          ColorMultiplier: 1
+          FadeDuration: 0.1
+        Transition: 1
+        AnimationTriggers:
+          m_NormalTrigger: 
+          m_HighlightedTrigger: 
+          m_PressedTrigger: 
+          m_SelectedTrigger: 
+          m_DisabledTrigger: 
+        SpriteState:
+          m_HighlightedSprite: {fileID: 0}
+          m_PressedSprite: {fileID: 0}
+          m_SelectedSprite: {fileID: 0}
+          m_DisabledSprite: {fileID: 0}
+    - Name: danger
+      Enabled: 1
+      SelectionData:
+        Colors:
+          NormalColor:
+            Name: danger
+          HighlightedColor:
+            Name: danger
+          PressedColor:
+            Name: danger
+          SelectedColor:
+            Name: danger
+          DisabledColor:
+            Name: danger
+          ColorMultiplier: 1
+          FadeDuration: 0.1
+        Transition: 1
+        AnimationTriggers:
+          m_NormalTrigger: 
+          m_HighlightedTrigger: 
+          m_PressedTrigger: 
+          m_SelectedTrigger: 
+          m_DisabledTrigger: 
+        SpriteState:
+          m_HighlightedSprite: {fileID: 0}
+          m_PressedSprite: {fileID: 0}
+          m_SelectedSprite: {fileID: 0}
+          m_DisabledSprite: {fileID: 0}
+  ButtonPalette:
+    Styles:
+    - Name: back
+      Enabled: 1
+      ImageColor:
+        Name: white
+      TextColor:
+        Name: 
+      Image:
+        Name: button back
+      Selectable:
+        Name: normal
+      Text:
+        Name: 
+      Gradient:
+        Name: 
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: exit
+      Enabled: 1
+      ImageColor:
+        Name: white
+      TextColor:
+        Name: 
+      Image:
+        Name: button exit
+      Selectable:
+        Name: normal
+      Text:
+        Name: 
+      Gradient:
+        Name: 
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: primary
+      Enabled: 1
+      ImageColor:
+        Name: white
+      TextColor:
+        Name: white
+      Image:
+        Name: button primary
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: primary
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: secondary
+      Enabled: 1
+      ImageColor:
+        Name: white
+      TextColor:
+        Name: primary
+      Image:
+        Name: button shadow
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: shadow
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: facebook
+      Enabled: 1
+      ImageColor:
+        Name: facebook
+      TextColor:
+        Name: white
+      Image:
+        Name: button shadow
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: facebook
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: google
+      Enabled: 1
+      ImageColor:
+        Name: white
+      TextColor:
+        Name: black
+      Image:
+        Name: button shadow
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: shadow
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: apple
+      Enabled: 1
+      ImageColor:
+        Name: apple
+      TextColor:
+        Name: white
+      Image:
+        Name: button shadow
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: apple
+      ClickSound:
+        Name: menu click
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: delete account message
+      Enabled: 1
+      ImageColor:
+        Name: black
+      TextColor:
+        Name: white
+      Image:
+        Name: button left edge
+      Selectable:
+        Name: <none>
+      Text:
+        Name: body 1
+      Gradient:
+        Name: <none>
+      ClickSound:
+        Name: <none>
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: delete account
+      Enabled: 1
+      ImageColor:
+        Name: white
+      TextColor:
+        Name: white
+      Image:
+        Name: button right edge
+      Selectable:
+        Name: danger
+      Text:
+        Name: form label
+      Gradient:
+        Name: <none>
+      ClickSound:
+        Name: <none>
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: scroll button
+      Enabled: 1
+      ImageColor:
+        Name: primary
+      TextColor:
+        Name: white
+      Image:
+        Name: button back
+      Selectable:
+        Name: normal
+      Text:
+        Name: <none>
+      Gradient:
+        Name: <none>
+      ClickSound:
+        Name: <none>
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: buy
+      Enabled: 1
+      ImageColor:
+        Name: primary
+      TextColor:
+        Name: white
+      Image:
+        Name: button primary
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: <none>
+      ClickSound:
+        Name: <none>
+      OverrideAlignment: 0
+      Alignment: 0
+    - Name: shop
+      Enabled: 1
+      ImageColor:
+        Name: primary
+      TextColor:
+        Name: primary
+      Image:
+        Name: button primary
+      Selectable:
+        Name: normal
+      Text:
+        Name: button cta
+      Gradient:
+        Name: <none>
+      ClickSound:
+        Name: <none>
+      OverrideAlignment: 0
+      Alignment: 0
+  TransformPalette:
+    Styles:
+    - Name: close button
+      Enabled: 1
+      PositionOffset: {x: 0, y: 0}
+      Scale: {x: 1, y: 1}
+    - Name: back button
+      Enabled: 1
+      PositionOffset: {x: 0, y: 0}
+      Scale: {x: 1, y: 1}
+    - Name: avatar scroll left
+      Enabled: 1
+      PositionOffset: {x: 10, y: 0}
+      Scale: {x: 1, y: 1}
+    - Name: avatar scroll right
+      Enabled: 1
+      PositionOffset: {x: -10, y: 0}
+      Scale: {x: 1, y: 1}
+  SoundPalette:
+    Styles:
+    - Name: menu click
+      Enabled: 1
+      AudioClip: {fileID: 0}
+      Volume: 1
+  WindowPalette:
+    Styles:
+    - Name: fullscreen
+      Enabled: 1
+      HeaderImage:
+        Name: empty
+      HeaderColor:
+        Name: white
+      HeaderGradient:
+        Name: window header background
+      HeaderHeight: 84.71
+      Pivot: {x: 0.5, y: 0.5}
+      AnchoredPosition: {x: 0, y: 0}
+      AnchorMax: {x: 1, y: 1}
+      AnchorMin: {x: 0, y: 0}
+      OffsetMax: {x: 0, y: 0}
+      OffsetMin: {x: 0, y: 0}
+      SizeDelta: {x: 0, y: 0}
+      AnchoredPosition3D: {x: 0, y: 0, z: 0}
+  StringPalette:
+    Styles:
+    - Name: de.am.title.main
+      Enabled: 1
+      DefaultContent: Your Account
+    - Name: de.am.title.email
+      Enabled: 1
+      DefaultContent: Sign in
+    - Name: de.am.title.existing
+      Enabled: 1
+      DefaultContent: 'Change '
+    - Name: de.am.title.forgot
+      Enabled: 1
+      DefaultContent: Forgot Password
+    - Name: de.am.title.new
+      Enabled: 1
+      DefaultContent: Switch Accounts
+    - Name: de.am.aliasedittag
+      Enabled: 1
+      DefaultContent: (optional)
+    - Name: de.am.promo.header.1
+      Enabled: 1
+      DefaultContent: Save Your Progress
+    - Name: de.am.promo.header.2
+      Enabled: 1
+      DefaultContent: Play Across Devices
+    - Name: de.am.promo.header.3
+      Enabled: 1
+      DefaultContent: Get Social
+    - Name: de.am.promo.body.1
+      Enabled: 1
+      DefaultContent: Signing in below allows you to recover your progress when you
+        get a new device.
+    - Name: de.am.promo.body.2
+      Enabled: 1
+      DefaultContent: Sign in on your other devices to have a seamless gameplay experience
+        and continue where you left off.
+    - Name: de.am.promo.body3
+      Enabled: 1
+      DefaultContent: Connect your account to other platforms and social networks
+        to connect and play with your friends.
+    - Name: de.am.register.email
+      Enabled: 1
+      DefaultContent: Sign in with email
+    - Name: de.am.register.facebook
+      Enabled: 1
+      DefaultContent: Sign in with facebook
+    - Name: de.am.register.google
+      Enabled: 1
+      DefaultContent: Sign in with Google
+    - Name: de.am.register.apple
+      Enabled: 1
+      DefaultContent: Sign in with apple
+    - Name: de.am.register.new
+      Enabled: 1
+      DefaultContent: New account
+    - Name: de.am.loadgame
+      Enabled: 1
+      DefaultContent: Load Game
+    - Name: de.am.title.error
+      Enabled: 1
+      DefaultContent: Error
+    - Name: de.am.title.setup
+      Enabled: 1
+      DefaultContent: Setup
+    - Name: de.am.message.setup
+      Enabled: 1
+      DefaultContent: Take a moment to set up your account's avatar and alias.
+    - Name: de.am.alias.placeholder
+      Enabled: 1
+      DefaultContent: Anonymous...
+    - Name: de.am.alias.placeholder.error
+      Enabled: 1
+      DefaultContent: Please enter a valid alias...
+    - Name: de.am.delete.account.message
+      Enabled: 1
+      DefaultContent: Are you sure you want to remove this account?
+    - Name: de.am.delete.account.button
+      Enabled: 1
+      DefaultContent: Remove
+    - Name: de.am.enter.email.message
+      Enabled: 1
+      DefaultContent: Please enter a valid email address.
+    - Name: de.am.enter.password.message
+      Enabled: 1
+      DefaultContent: You've previously linked an account to this email. Please enter
+        your password to continue.
+    - Name: de.am.enter.create.password.message
+      Enabled: 1
+      DefaultContent: Thank you! Please enter a password to continue.
+    - Name: de.inv.title.main
+      Enabled: 1
+      DefaultContent: Inventory
+    - Name: de.store.title.reward
+      Enabled: 1
+      DefaultContent: Congratulations

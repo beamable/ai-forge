@@ -1,0 +1,18 @@
+﻿/* === BEGIN - ANNOUNCEMENTS === */
+#announcement-logo {
+    opacity: 0.8;
+}
+/* === END - ANNOUNCEMENTS === */
+
+/* TODO TD625827 UI hover interactions implemented in different way for each element. Need to standardize our UI elements. */
+.boundedButton:hover, .unboundedButton:hover {
+    -unity-background-image-tint-color: #8D8D8D;
+}
+
+#startBtn:hover, #servicesFilter:hover, #realmButton:hover {
+    background-color: #8D8D8D;
+}
+
+.squareBtn:hover, #clear:hover, #advanceBtn:hover {
+    background-color: #B4B4B4;
+}

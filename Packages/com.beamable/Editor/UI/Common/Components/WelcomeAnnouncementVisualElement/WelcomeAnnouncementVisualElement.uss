@@ -1,0 +1,11 @@
+#announcement-logo {
+    width: 70px;
+    height: 65px;
+}
+
+.announcement-descriptionSection {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 4px;
+    margin-right: 4px;
+}

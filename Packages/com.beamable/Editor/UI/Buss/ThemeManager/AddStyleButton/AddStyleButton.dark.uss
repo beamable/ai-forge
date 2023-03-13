@@ -1,0 +1,23 @@
+﻿#addStyleButton {
+    background-color: #646464;
+}
+
+#addStyleButton:hover {
+    background-color: #787878;
+}
+
+#addStyleButton.inactive {
+    border-color: #676767;
+}
+
+#addStyleButton.inactive > Label{
+    color: #A0A0A0;
+}
+
+#addStyleButton.inactive:hover {
+    background-color: #646464;
+}
+
+#addStyleButton > Label {
+    color: #FFFFFF;
+}

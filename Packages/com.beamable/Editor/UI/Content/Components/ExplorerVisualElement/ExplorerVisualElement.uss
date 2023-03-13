@@ -1,0 +1,45 @@
+ExplorerVisualElement #content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+ExplorerVisualElement #mainVisualElement {
+    flex-grow: 1;
+}
+
+ExplorerVisualElement #content #list-container {
+    flex-grow: 1;
+}
+
+ExplorerVisualElement #content #tree-container {
+    flex-grow: 1;
+}
+
+ExplorerVisualElement #content #splitter {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+ExplorerVisualElement #content #splitter .splitWrapper.leftSplit {
+    flex-grow: .2;
+    border-right-width: 1px;
+    border-right-color: #646464;
+}
+
+ExplorerVisualElement #content #splitter .splitWrapper.rightSplit {
+    flex-grow: .8;
+}
+
+ExplorerVisualElement .splitWrapper {
+    flex-grow: 1;
+    min-width: 150px;
+}
+
+ExplorerVisualElement .splitWrapper > VisualElement {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}

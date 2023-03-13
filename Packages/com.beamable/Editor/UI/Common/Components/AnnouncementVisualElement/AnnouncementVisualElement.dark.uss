@@ -1,0 +1,8 @@
+#action {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+AnnouncementVisualElement.info {
+    background-color: #474c47;
+}

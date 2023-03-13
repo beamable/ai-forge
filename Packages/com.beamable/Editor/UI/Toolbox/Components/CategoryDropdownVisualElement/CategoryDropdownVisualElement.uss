@@ -1,0 +1,48 @@
+
+#popupContent {
+    flex-grow: 1;
+    flex-direction: column;
+    height: 200px;
+    position: relative;
+    /*background-color: #000000;*/
+}
+CategoryDropdownVisualElement {
+    flex-grow: 1;
+
+}
+CategoryDropdownVisualElement > TemplateContainer {
+    flex-grow: 1;
+}
+CategoryDropdownVisualElement #mainVisualElement {
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 24px;
+    margin-bottom: 15px;
+}
+
+#searchBar {
+    position:absolute;
+    left: 0px;
+    right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-self: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+ScrollView {
+    flex-grow: 1;
+}
+ScrollView #ContentView.content-view {
+    left: 0px;
+    right: 0px;
+}
+#tagList {
+    flex-grow: 1;
+    /*min-height: 150px;*/
+    flex-direction: column;
+}

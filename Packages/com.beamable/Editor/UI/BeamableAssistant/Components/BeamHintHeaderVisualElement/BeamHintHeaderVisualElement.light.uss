@@ -1,0 +1,43 @@
+
+.hintHeader{    
+    background-color: #a7a7a7;   
+}
+
+.hintHeader.oddRow{
+    background-color: #B4B4B4;
+}
+
+#hintTypeIcon.validation{
+    background-image: resource("Packages/com.beamable/Editor/UI/BeamableAssistant/Icons/validation.png");
+}
+
+#hintTypeIcon.hint{
+    background-image: resource("Packages/com.beamable/Editor/UI/BeamableAssistant/Icons/hint.png");    
+}
+
+.hintTitle{
+    color: #000;
+}
+
+
+#moreDetailsButton{    
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/actionBarlight.png");    
+    border-color: #a2a2a2;
+}
+
+/*2018 UXML for Unity Toggle Component */
+#moreDetailsButton > Label {
+    color: #000;
+}
+/*2019+ UXML for Unity Toggle Component */
+#moreDetailsButton > VisualElement > Label {    
+    color: #000;
+}
+
+.hintSubtitle {
+    color: #000;    
+}
+
+#hintDetailsBox{
+    background-color: #d1d1d1;    
+}

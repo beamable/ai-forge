@@ -1,0 +1,3 @@
+﻿LabeledCheckboxVisualElement #icon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Database_light.png");
+}

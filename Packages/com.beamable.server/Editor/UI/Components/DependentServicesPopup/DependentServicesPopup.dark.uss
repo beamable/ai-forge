@@ -1,0 +1,11 @@
+#dependencyGridContainer {
+    background-color: #232323;
+}
+
+.sectionHighlight {
+    background-color: #383838;
+}
+
+.sectionHighlightLabel {
+    color: #DBA308;
+}

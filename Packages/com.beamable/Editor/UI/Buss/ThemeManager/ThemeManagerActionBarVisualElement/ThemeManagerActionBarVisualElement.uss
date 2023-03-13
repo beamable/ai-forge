@@ -1,0 +1,93 @@
+﻿#root {
+    height: 37px;
+    flex-direction:row;
+}
+
+#leftContainer {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    margin-right: 10px;
+}
+
+#rightContainer {
+    flex-grow: 1;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.boundedButton {
+    height: 35px;
+    width: 70px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    background-image: none;
+    border-radius: 0px;
+}
+
+.unboundedButton {
+    height: 38px;
+    width: 38px;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+    border-radius: 0px;
+}
+
+.buttonText{
+    font-size: 9px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-center;
+    top: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.iconLabelButton{
+    top: 3px;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+
+.iconButton {
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+
+#searchBar {
+    align-self: center;
+    border-radius: 8px;
+    flex-grow: 1;
+    min-width: 100px;
+    padding-right: 10px;
+}
+
+Button.unity-button,
+Button {
+    background-color: rgba(0,0,0,0);
+}

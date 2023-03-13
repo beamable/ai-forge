@@ -1,0 +1,61 @@
+Label, Button {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    font-size: 11px;
+}
+
+#mainContainer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#dependencyGridContainer {
+    min-width: 580px;
+    min-height: 330px;
+    flex-direction: column;
+}
+
+#storageObjectContainer {
+    flex-direction: row;
+    min-height: 50px;
+}
+
+#emptyCornerBox {
+    min-width: 130px;
+}
+
+#storageObjectsContainer {
+    flex-direction: row;
+}
+
+#microservicesContainer {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#buttonsContainer {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+Button {
+    width: 100px;
+    height: 28px;
+}
+
+#confirmBtn {
+    margin-right: 10px;
+}
+
+#cancelBtn {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+PrimaryButtonVisualElement {
+    height: 28px;
+}
+
+

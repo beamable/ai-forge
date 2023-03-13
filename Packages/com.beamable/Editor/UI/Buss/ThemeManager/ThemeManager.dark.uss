@@ -1,0 +1,8 @@
+
+.unfolded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Fold out_light.png");
+}
+
+.folded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/foldoutRight.png");
+}

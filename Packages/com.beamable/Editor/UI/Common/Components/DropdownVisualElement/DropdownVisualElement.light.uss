@@ -1,0 +1,11 @@
+﻿#mainContainer {
+    background-color: #b4b4b4;
+}
+
+#value {
+    color: #000000;
+}
+
+#button {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown_Line_dark.png");
+}

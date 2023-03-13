@@ -1,0 +1,72 @@
+#_windowRoot {
+    flex-grow: 1;
+}
+
+#window-main {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    min-width: 550px;
+    min-height: 700px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    padding-bottom: 10px;
+    flex-grow: 1;
+}
+
+#scrollView {
+    flex-grow: 1;
+}
+
+#navigationGroup {
+    /*margin-bottom: 10px;*/
+}
+
+#styleSheetSource {
+    margin-bottom: 10px;
+}
+
+#stylesGroup {
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+#toggle {
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 5px
+}
+
+#toggle Label {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Medium.ttf");
+    -unity-font-style: bold;
+    -unity-text-align: middle-right;
+}
+
+BussElementHierarchyVisualElement {
+    flex-grow: 1;
+}
+
+#themeManagerContainer > ScrollView > #ContentViewport > #ContentView.content-view {
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+#themeManagerContainerScrollView {
+    flex-grow: 1;
+}
+
+InlineStyleVisualElement {
+    /*padding-bottom: 10px;*/
+}
+
+#foldIcon {
+    height: 10px;
+    width: 10px;
+}
+
+

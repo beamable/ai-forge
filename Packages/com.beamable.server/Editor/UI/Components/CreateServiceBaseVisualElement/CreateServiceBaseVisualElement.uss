@@ -1,0 +1,60 @@
+PrimaryButtonVisualElement {
+    width: 80px;
+    height: 23px;
+    align-self: center;
+}
+
+#createServiceBaseMainVisualElement {
+    flex-grow: 1;
+    min-height: 80px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+#header {
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header > TextField {
+    width: 250px;
+    height: 18px;
+}
+
+#header > Label {
+    margin-bottom: 0px;
+}
+
+#serviceIcon {
+    margin-left: 5px;
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+    
+}
+
+#buttonsSection {
+    margin-top: 10px;
+    flex-direction: row-reverse;
+}
+
+#buttonsSection > PrimaryButtonVisualElement {
+    width: 120px;
+    height: 30px;
+}
+
+#createBtn > TemplateContainer > Button {
+    border-color: #0090FD;
+}
+
+#createBtn > TemplateContainer > Button.unity-disabled {
+    border-color: #838383;
+}
+
+#createBtn > TemplateContainer > Button {
+    margin-right: 0px;
+}
+

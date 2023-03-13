@@ -1,0 +1,74 @@
+﻿* {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    font-size: 12px;
+}
+
+CronEditorVisualElement,
+CronEditorVisualElement > TemplateContainer {
+    flex-grow: 1;
+}
+
+#mainVisualElement {
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#displaySection {
+    flex-grow: 1;
+    padding-bottom: 10px;
+}
+
+#humanFormatPreview {
+    flex-grow: 1;
+    white-space: normal;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#humanFormatPreview.validationFailed {
+    color: #ff0000;
+}
+
+#rawFormatLabel {
+    padding-bottom: 3px;
+    padding-left: 1px;
+}
+
+#rawFormatInput {
+    min-height: 36px;
+    white-space: normal;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#rawFormatInput > TextInput {
+    -unity-text-align: upper-left;
+}
+
+#buttonSection {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;
+    height: 52px;
+}
+
+#cancelButton {
+    align-self: center;
+}
+
+#cancelButton > TemplateContainer > #mainVisualElement > Button {
+    height: 28px;
+}
+
+#confirmButton {
+    width: 100px;
+    height: 28px;
+    align-self: center;
+}

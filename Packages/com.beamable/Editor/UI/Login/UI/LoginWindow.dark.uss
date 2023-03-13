@@ -1,0 +1,6 @@
+#logo {
+    background-image: resource("Packages/com.beamable/Editor/UI/Login/UI/icon/logo2 L white.png");
+}
+.linkText {
+    background-color: rgba(0,0,0,0);
+}

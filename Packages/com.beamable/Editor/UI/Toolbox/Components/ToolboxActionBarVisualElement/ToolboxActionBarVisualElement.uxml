@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+
+
+<engine:VisualElement name="mainVisualElement">
+    <engine:VisualElement name="leftContentVisualElement">
+
+        <engine:Button class="boundedButton" name="contentManager">
+            <engine:Image name="contentManagerIcon"/>
+            <engine:Label text="Content" class="buttonText"/>
+        </engine:Button>
+
+        <engine:Button class="boundedButton" name="skinning">
+            <engine:Image name="skinningIcon"/>
+            <engine:Label text="Skinning" class="buttonText"/>
+        </engine:Button>
+
+        <engine:Button class="boundedButton" name="globalConfig">
+            <engine:Image name="globalConfigIcon"/>
+            <engine:Label text="Config" class="buttonText"/>
+        </engine:Button>
+
+        <engine:Button  class="boundedButton" name="microservice">
+            <engine:Image name="microserviceIcon"/>
+            <engine:Label text="Microservice" class="buttonText"/>
+        </engine:Button>
+    </engine:VisualElement>
+
+    <engine:VisualElement name="rightContentVisualElement">
+        <beamable:SearchBarVisualElement name="searchBar"/>
+        <engine:Button class="unboundedButton" name="typeButton">
+            <engine:Image name="typeIcon"/>
+        </engine:Button>
+        <engine:Button class="unboundedButton" name="CategoryButton">
+            <engine:Image name="categoryIcon"/>
+        </engine:Button>
+        <engine:Button class="unboundedButton" name="accountButton">
+            <engine:Image name="accountIcon"/>
+        </engine:Button>
+        <engine:Button class="unboundedButton" name="infoButton">
+            <engine:Image name="infoIcon"/>
+        </engine:Button>
+    </engine:VisualElement>
+
+</engine:VisualElement>
+
+</engine:UXML>

@@ -1,0 +1,14 @@
+ConsoleLogVisualElement {
+    background-color: #d1d1d1;
+}
+ConsoleLogVisualElement.oddRow {
+    background-color: #c8c8c8;
+}
+
+#postfixIcon.remote_icon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/remote_wifi_dark.png");
+}
+
+#statusIcon.debug {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/debug_dark.png");
+}

@@ -1,0 +1,53 @@
+DockerLoginVisualElement,
+#window-main,
+DockerLoginVisualElement > TemplateContainer {
+    flex-grow: 1;
+}
+
+#docker-logo {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/docker_dark.png");
+    height: 50px;
+    width: 60px;
+    margin-top: 20px
+}
+#logo-wrapper{
+    align-items: center;
+}
+
+#login-wrapper {
+    flex-direction: row;
+}
+PrimaryButtonVisualElement {
+    height: 30px;
+    flex-grow: 1;
+
+}
+
+#error {
+    color: #FF0000;
+}
+TextField {
+    height: 20px;
+}
+
+#buttons {
+    /*flex-direction: row;*/
+    align-items: stretch;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+#help {
+    align-self: flex-end;
+    background-image: none;
+    max-height: 16px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: link;
+}

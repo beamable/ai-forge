@@ -1,0 +1,10 @@
+/*#resetPassword{*/
+/*    border-color: #383838;*/
+/*}*/
+/*#logout{*/
+/*    border-color: #383838;*/
+/*}*/
+
+#avatarImg{
+    background-image: resource('Packages/com.beamable/Editor/UI/Toolbox/Icons/Account_dark.png');
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+    
+    <engine:VisualElement name="mainVisualElement">
+        <engine:VisualElement name="displaySection">
+            <engine:Label name="humanFormatPreview" class="--noMargin --noPadding validationFailed"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement name="inputSection">
+            <engine:Label name="rawFormatLabel" text="Enter CRON string" class="--noMargin --noPadding"/>
+            <engine:TextField name="rawFormatInput" class="--noMargin --noPadding"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement name="buttonSection">
+            <beamable:GenericButtonVisualElement name="cancelButton" text="Cancel" type ="Cancel"/>
+            <beamable:PrimaryButtonVisualElement name="confirmButton" text="Confirm"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

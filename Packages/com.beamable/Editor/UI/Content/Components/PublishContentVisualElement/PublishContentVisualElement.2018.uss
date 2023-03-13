@@ -1,0 +1,3 @@
+#manifestNameRow{
+    flex-direction: column;
+}

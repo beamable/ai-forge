@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainContainer">
+        <engine:VisualElement name="textField">
+            <engine:Label name="organization" text="Please enter your Organization's Alias or CID" class="labelText phase1"/>
+            <engine:TextField name="organizationID" class="input phase1" />
+            <engine:Label name="accountLabel" text="Please enter your email" class="labelText phase1"/>
+            <engine:TextField name="account" class="input phase1"/>
+
+            <engine:Label name="codeLabel" text="Please enter your code" class="labelText phase2"/>
+            <engine:VisualElement name="codeGroup" class="phase2">
+                <engine:TextField name="code" class="input"/>
+            </engine:VisualElement>
+            <engine:Label name="newPasswordLabel" text="Please enter new password" class="labelText phase2"/>
+            <engine:TextField name="password" class="input phase2"/>
+            <engine:TextField name="confirmPassword" class="input phase2"/>
+            <beamable:GenericButtonVisualElement name="login" text="Back to login" type="Link"/>
+          <beamable:GenericButtonVisualElement name="resend" text="Resend code" type="Link" class="linkText phase2"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="actionBtn">
+            <beamable:PrimaryButtonVisualElement name="getCode" class="phase1" text="Send Code"/>
+            <beamable:PrimaryButtonVisualElement name="signIn" class="phase2" text="Reset Password"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="errorContainer">
+            <engine:Label name="errorLabel"></engine:Label>
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+
+</engine:UXML>

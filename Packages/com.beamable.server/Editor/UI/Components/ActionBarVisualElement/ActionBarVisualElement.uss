@@ -1,0 +1,153 @@
+#mainVisualElement {
+    height: 35px;
+    flex-direction:row;
+}
+
+#leftContentVisualElement {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    margin-right: 10px;
+}
+#rightContentVisualElement {
+    flex-grow: 1;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.boundedButton {
+    height: 35px;
+    width: 70px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    cursor: pan;
+    border-radius: 0px;
+}
+.buttonText{
+    font-size: 9px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-center;
+    top: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+
+#publish, #startAll, #dependencies, #createNew {
+    width: 80px;
+}
+#startIcon{
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+
+#buildIcon{
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+.mainPart {
+    width: 70px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+}
+
+#createNew {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+#dropDownImg {
+    position: absolute;
+    height: 35px;
+    right: 0px;
+    width: 18px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown_Line_dark.png")
+}
+
+#createNew.disabledStorage {
+    width: 70px;
+}
+
+#createNew.disabledStorage #dropDownImg {
+    height: 0px;
+    width: 0px;
+}
+
+#dropDownImg.hidden {
+    position: absolute;
+    right: 10000px;
+}
+
+#createNewIcon{
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+
+#publishIcon{
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+
+.unboundedButton {
+    height: 35px;
+    width: 38px;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+    cursor: pan;
+    border-radius: 0px;
+}
+#refreshIcon {
+    top: 4px;
+    align-self: center;
+    height: 28px;
+    width: 28px;
+
+}
+
+#infoIcon{
+    top: 8px;
+    align-self: center;
+    height: 15px;
+    width: 8px;
+}
+
+#dependenciesIcon{
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+
+

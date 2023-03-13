@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+
+    <beamable:LoadingBarElement name="mainLoadingBar"/>
+
+    <engine:VisualElement>
+        <beamable:LoadingIndicatorVisualElement>
+            <beamable:LoadingSpinnerVisualElement/>
+        </beamable:LoadingIndicatorVisualElement>
+    </engine:VisualElement>
+
+    <engine:VisualElement name="mainVisualElement">
+        <beamable:PublishStatusVisualElement name="topMessage"/>
+
+        <engine:VisualElement name="splitPane">
+            <engine:VisualElement name="services">
+                <engine:VisualElement name="header">
+                    <engine:VisualElement name="enabledC" class="column"/>
+
+                    <engine:VisualElement name="nameC" class="column">
+                        <engine:Image class="HeaderSeparatorImage"/>
+                        <engine:Label text="Name" class="SubTitleText"/>
+                    </engine:VisualElement>
+
+                    <engine:VisualElement name="depsC" class="column">
+                        <engine:Image class="HeaderSeparatorImage"/>
+                        <engine:Label text="Dependencies" class="SubTitleText"/>
+                    </engine:VisualElement>
+
+                    <engine:VisualElement name="SizeC" class="column">
+                        <engine:Image class="HeaderSeparatorImage"/>
+                        <engine:Label text="Size" class="SubTitleText"/>
+                    </engine:VisualElement>
+
+                    <engine:VisualElement name="CommentsC" class="column">
+                        <engine:Image class="HeaderSeparatorImage"/>
+                        <engine:Label text="Comments" class="SubTitleText" name="commentsLabel"/>
+                    </engine:VisualElement>
+
+                    <engine:VisualElement name="CheckC" class="column"/>
+                </engine:VisualElement>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="bottomContainer">
+                    <engine:TextField name="largeCommentsArea" multiline="true"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+
+
+        <engine:VisualElement name="buttonStrip">
+            <beamable:GenericButtonVisualElement name="cancelBtn" text="Cancel"/>
+            <beamable:PrimaryButtonVisualElement name="continueBtn" text="Publish"/>
+        </engine:VisualElement>
+
+
+    </engine:VisualElement>
+
+</engine:UXML>

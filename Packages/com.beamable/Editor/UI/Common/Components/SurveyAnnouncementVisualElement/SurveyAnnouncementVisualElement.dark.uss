@@ -1,0 +1,11 @@
+#announcement-logo {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Survey_light.png");
+}
+
+#announcement-ignore {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/close_light_SM.png");
+}
+
+#announcement-surveysSection > Button {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/light_Square_background.png");
+}

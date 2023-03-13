@@ -1,0 +1,21 @@
+{
+    "name": "EasyFeatureIntegrationExample.FeatureCompositionIntegration",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable",
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Customer.Common",
+        "Unity.Beamable.EasyFeatures.LeaderboardView",
+        "Beamable.Platform",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

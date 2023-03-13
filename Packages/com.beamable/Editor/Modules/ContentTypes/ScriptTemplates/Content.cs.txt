@@ -1,0 +1,16 @@
+﻿using Beamable;
+using Beamable.Common.Content;
+
+[System.Serializable]
+public class #SCRIPTNAME#Ref : ContentRef<#SCRIPTNAME#> { }
+
+[System.Serializable]
+public class #SCRIPTNAME#Link : ContentLink<#SCRIPTNAME#> { }
+
+[ContentType("#SCRIPTNAME#")]
+[System.Serializable]
+public class #SCRIPTNAME# : ContentObject
+{
+
+}
+

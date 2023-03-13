@@ -1,0 +1,21 @@
+{
+    "name": "Unity.Beamable.EasyFeatures.LobbyView",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable",
+        "Unity.Beamable.Editor",
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.EasyFeatures.Components",
+        "Beamable.Platform",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

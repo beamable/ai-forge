@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:beamableMS="Beamable.Editor.Microservice.UI.Components"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement">
+
+        <engine:VisualElement name="foldContainer">
+            <engine:Button name="foldButton" class="noMarginNoPaddingNoBorder">
+                <engine:VisualElement name="foldIcon" class="foldIcon unfoldIcon"/>
+            </engine:Button>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="serviceCard">
+            <engine:VisualElement name="logHeader">
+                
+                <engine:VisualElement class="leftArea" name="leftArea">
+                    <engine:Image name="serviceIcon"/>
+                    <engine:Label name="serviceName"/>
+                    <engine:TextField name="microserviceNewTitle" class="title" text="ANGIE'S TEST"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement class="centerArea" name="centerArea">
+                    <engine:Button name="startBtn" class="confirmBtn noMarginNoPaddingNoBorder">
+                        <engine:VisualElement name="buildImage"/>
+                    </engine:Button>
+                </engine:VisualElement>
+                
+                <engine:VisualElement class="rightArea" name="rightArea">
+                    <engine:VisualElement name="openDocsBtn">
+                        <engine:VisualElement name="btnIcon"/>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="openScriptBtn">
+                        <engine:VisualElement name="btnIcon"/>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="moreBtn">
+                        <engine:VisualElement name="btnIcon"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+            </engine:VisualElement>
+
+            <engine:VisualElement name="SubTitle">
+                <engine:VisualElement class="rightArea">
+                </engine:VisualElement>
+            </engine:VisualElement>
+            
+            <engine:VisualElement name="logContainer" class="--positionHidden"/>
+            <beamableMS:MicroserviceVisualElementSeparator name="separator" class="--positionHidden"/>
+
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+
+</engine:UXML>

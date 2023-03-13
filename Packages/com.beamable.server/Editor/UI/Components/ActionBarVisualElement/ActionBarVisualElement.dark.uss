@@ -1,0 +1,38 @@
+ #mainVisualElement,
+.boundedButton,
+.unboundedButton {
+    background-color: #414141;
+}
+
+.boundedButton:hover,
+.unboundedButton:hover {
+    background-color: #474747;
+}
+
+#startIcon{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Start all L.png");
+}
+
+#createNewIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewLight.png");
+}
+
+#publishIcon{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/publis_light.png");
+}
+
+#infoIcon{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Info_Light.png");
+}
+
+#refreshIcon{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Refresh.png");
+}
+
+#dropDownImg{
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown_Line_light.png")
+}
+
+#dependenciesIcon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/dependencies_light.png");
+}

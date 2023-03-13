@@ -1,0 +1,35 @@
+
+.boundedButton {
+    border-color: #282828;
+}
+
+.unboundedButton {
+    border-color: #282828;
+}
+
+#tagButtonImg {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Tag.png")
+}
+
+#typeButtonImg {
+    width: 30px;
+    height: 30px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Type.png")
+}
+
+#statusButtonImg {
+    width: 30px;
+    height: 30px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Statuses.png")
+}
+
+#refreshButtonImg {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Refresh.png")
+}
+
+#docIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Info_Light.png");
+}

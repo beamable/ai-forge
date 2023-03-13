@@ -1,0 +1,17 @@
+{
+    "name": "Beamable.Config",
+    "references": [
+        "Beamable.SmallerJSON",
+        "Beamable.Service",
+        "Beamable.ConsoleCommands",
+        "Unity.Beamable.Runtime.Common"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

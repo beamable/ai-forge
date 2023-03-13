@@ -1,0 +1,18 @@
+Label{
+    border-radius: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 15px;
+    min-width: 15px;
+    min-height: 15px;
+    -unity-text-align: middle-center;
+}
+
+.danger Label {
+    background-color: rgba(230, 13, 13, .8);
+    color: #FFFFFF;
+}
+
+CountVisualElement {
+    align-self: center;
+}

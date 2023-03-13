@@ -1,0 +1,56 @@
+#_windowRoot {
+    flex-grow: 1;
+    min-height: 500px;
+}
+#window-main {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#textField{
+    align-self: center;
+}
+.input{
+    height: 30px;
+    -unity-text-align: middle-left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+#env-presets-label {
+    margin-top: 15px;
+}
+#env-presets {
+    flex-direction: row;
+}
+
+#actionBtn{
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: stretch;
+}
+ScrollView {
+    flex-grow: 1;
+}
+#actionBtn PrimaryButtonVisualElement {
+    flex-grow: 1;
+    height: 35px;
+    min-height: 35px;
+}
+#actionBtn #cancel Button {
+    width: initial;
+}

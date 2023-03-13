@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+    <engine:VisualElement>
+
+        <engine:Label text="The Beamable Microservices feature is a separate Unity package. To use it, you must have Docker installed on your machine. Would you like to install the Beamable Microservice package into this project?"/>
+
+
+        <engine:VisualElement name="buttonWrapper">
+            <engine:Button name="download" text="Download"/>
+            <engine:Button name="cancel" text="Cancel"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="docsWrapper">
+            <engine:Button name="docs" text="Read the Docs"/>
+        </engine:VisualElement>
+
+
+    </engine:VisualElement>
+</engine:UXML>

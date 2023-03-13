@@ -1,0 +1,16 @@
+#popupContent {
+    flex-direction: column;
+    width: 110px;
+    height: 110px;
+}
+
+ScrollView {
+    flex-grow: 1;
+}
+
+#statusFilterList {
+    flex-grow: 1;
+    min-height: 111px;
+    flex-direction: column;
+}
+

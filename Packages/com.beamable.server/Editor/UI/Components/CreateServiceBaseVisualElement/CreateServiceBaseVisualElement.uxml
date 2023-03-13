@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:beamableMS="Beamable.Editor.Microservice.UI.Components"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="createServiceBaseMainVisualElement">
+        <engine:VisualElement name="header">
+            <engine:VisualElement name="serviceIcon"/>
+            <engine:TextField name="nameTextField"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="buttonsSection">
+            <beamable:PrimaryButtonVisualElement name="createBtn" text="Create"/>
+            <beamable:PrimaryButtonVisualElement name="cancelBtn" text="Cancel"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    
+</engine:UXML>

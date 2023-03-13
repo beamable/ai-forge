@@ -1,0 +1,20 @@
+﻿
+.header {
+    background-color: #A7A7A7;
+}
+
+#addButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewDark.png");
+}
+
+#removeButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/removeDark.png");
+}
+
+LabeledTextField #label {
+    color: #000000;
+}
+
+LabeledObjectField #label {
+    color: #000000;
+}

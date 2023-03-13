@@ -1,0 +1,24 @@
+.boundedButton Label {
+    color: #000000;
+}
+
+#mainVisualElement {
+    background-color: #8d8d8d;
+}
+
+
+.boundedButton {
+    border-color: #6C6C6C;
+    background-color: #b4b4b4;
+}
+
+.unboundedButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/actionBarLight.png");
+
+}
+
+#openPortalButton{
+    border-color: #6C6C6C;
+    background-color: #b4b4b4;
+}
+

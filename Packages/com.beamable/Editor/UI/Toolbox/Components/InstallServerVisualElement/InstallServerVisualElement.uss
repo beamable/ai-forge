@@ -1,0 +1,41 @@
+#docs {
+    border-color: #008CFF;
+    color: #008CFF;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    margin-left:3px;
+    margin-right:3px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    background-image: none;
+    background-color: rgba(0,0,0,0);
+
+    -unity-text-align: lower-right;
+}
+Label {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#docsWrapper{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#buttonWrapper{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+#download{
+    background-color: #008CFF;
+    background-image: none;
+    color: #FFFFFF;
+}
+#cancel {
+
+}

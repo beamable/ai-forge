@@ -1,0 +1,14 @@
+#root {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    flex-direction: row;
+    align-items: center;
+}
+
+#label {
+    width: 120px;
+}
+
+#objectField {
+    flex-grow: 1;
+    flex-shrink: 1;
+}

@@ -1,0 +1,9 @@
+
+#status-bar-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+    background-color: #DEDEDE;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement">
+
+        <engine:VisualElement name="logWindow">
+            <engine:VisualElement name="logWindowHeader">
+                <engine:VisualElement class="leftArea" name="clearContainer" >
+                    <engine:Button name="clear" text="clear"/>
+                    <engine:Button name="popupBtn" class="squareBtn"/>
+                </engine:VisualElement>
+                <engine:VisualElement class="rightArea" name="white">
+                  <beamable:SearchBarVisualElement name="searchBar"/>
+                    <engine:Button name="info" class="squareBtn">
+                        <engine:VisualElement class="img"/>
+                        <engine:Label name="infoCount" text="123" class="countNo"/>
+                    </engine:Button>
+                    <engine:Button name="warning" class="squareBtn">
+                        <engine:VisualElement class="img"/>
+                        <engine:Label name="warningCount" text="123" class="countNo"/>
+                    </engine:Button>
+                    <engine:Button name="error" class="squareBtn">
+                        <engine:VisualElement class="img"/>
+                        <engine:Label name="errorCount" text="123" class="countNo"/>
+                    </engine:Button>
+                    <engine:Button name="debug" class="squareBtn">
+                        <engine:VisualElement class="img"/>
+                        <engine:Label name="debugCount" text="123" class="countNo"/>
+                    </engine:Button>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="logWindowBody">
+                <engine:VisualElement name="logListRoot"/>
+                <engine:VisualElement name ="detailWindow">
+                    <engine:ScrollView>
+                        <engine:TextField/>
+                    </engine:ScrollView>
+                    <engine:VisualElement name="detailWindowBottomBar">
+                        <engine:VisualElement name="copyTextBtn"/>
+                        <engine:VisualElement name="pagination">
+                            <engine:VisualElement name="leftArrow"/>
+                            <engine:Label name="paginationRange" text="1/4"/>
+                            <engine:VisualElement name="rightArrow"/>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+
+</engine:UXML>

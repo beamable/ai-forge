@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b01c69ddee74601b87e118abaa938f4, type: 3}
+  m_Name: AiSword
+  m_EditorClassIdentifier: 
+  _tags: []
+  icon:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  clientPermission:
+    writeSelf: 1
+  federation:
+    HasValue: 1
+    Value:
+      Service: AIMicroservice
+      Namespace: OpenAI
+  itemType: sword
+  itemTheme: dark age
+  dynamicProperties:
+  - propertyName: name
+    propertyDescription: creative sword name
+  - propertyName: description
+    propertyDescription: sword description, max 2000 characters
+  - propertyName: image
+    propertyDescription: short item image description

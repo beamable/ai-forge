@@ -1,0 +1,56 @@
+.boundedButton {
+    min-width: 85px;
+    height: 22px;
+    position: relative;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    background-image: none;
+}
+#manifestButton.production #banner{
+    background-color: #FF0000;
+}
+#manifestButton.staging #banner{
+    background-color: #ff9c00;
+}
+#manifestButton #banner {
+    position: absolute;
+    left: -1px;
+    top: 0px;
+    bottom: 0px;
+    width: 5px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#manifestButton.hidden {
+    width: 0px;
+}
+#manifestButton {
+    justify-content: center;
+}
+#manifestButton Label {
+   -unity-text-align: middle-left;
+    margin-right: 18px;
+    /*margin-top: 4px;*/
+    /*margin-bottom: 0px;*/
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+#manifestButton Image#dropDownIcon{
+    align-self: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 10px;
+    height: 5px;
+
+}

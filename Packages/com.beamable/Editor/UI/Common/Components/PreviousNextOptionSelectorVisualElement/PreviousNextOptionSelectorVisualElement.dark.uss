@@ -1,0 +1,7 @@
+﻿.right {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/triangle_right_light.png");
+}
+
+.left {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/triangle_left_light.png");
+}

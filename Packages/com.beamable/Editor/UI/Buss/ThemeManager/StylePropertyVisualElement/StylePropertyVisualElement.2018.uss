@@ -1,0 +1,50 @@
+#root {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#propertyLabel {
+    width: 140px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-left;
+    font-size: 12px;
+    height: 20px;
+}
+
+#value {
+    justify-content: center;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#globalVariable {
+    width: 140px;
+}
+
+.dropdown {
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    height: 20px;
+}
+
+.equalWidth {
+    width: 0;
+}
+
+#removeButtonContainer {
+    width: 30px;
+    height: 36px;
+    justify-content: center;
+}
+
+#removeButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/remove.png");
+    align-self: center;
+    width: 16px;
+    height: 16px;
+}

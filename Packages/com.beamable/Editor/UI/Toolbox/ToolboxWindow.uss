@@ -1,0 +1,31 @@
+#_windowRoot {
+    flex-grow: 1;
+}
+#window-main {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    min-width: 550px;
+}
+
+#contentListVisualElement{
+    position: absolute;
+    flex-direction: row;
+    top: 65px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+ToolboxBreadcrumbsVisualElement {
+    height: 30px;
+    min-height: 30px;
+}
+ToolboxActionBarVisualElement {
+    height: 35px;
+    min-height: 35px;
+}

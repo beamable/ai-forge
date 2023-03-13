@@ -1,0 +1,7 @@
+﻿#SizeC {
+    width: 165px;
+}
+
+#commentsText {
+    width: 120px;
+}

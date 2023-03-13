@@ -1,0 +1,16 @@
+﻿#baseButton {
+    width: 100%;
+    justify-content: center;
+}
+
+#dropDownImg  {
+    align-self: stretch;
+    right: 0px;
+    width: 18px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown_Line_dark.png")
+}
+
+.hidden {
+    position: absolute;
+    right: 10000px;
+}

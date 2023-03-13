@@ -1,0 +1,3 @@
+.hintTitle{
+    white-space: nowrap;    
+}

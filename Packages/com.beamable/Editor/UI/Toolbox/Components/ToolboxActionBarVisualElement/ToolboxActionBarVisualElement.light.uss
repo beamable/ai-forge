@@ -1,0 +1,40 @@
+
+.boundedButton {
+    border-color: #b4b4b4;
+}
+
+#contentManagerIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Content_Manager_dark.png");
+}
+
+#skinningIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Skinning_dark.png");
+}
+
+#globalConfigIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Config_dark.png");
+}
+
+#microserviceIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Microservice_dark.png");
+}
+
+#categoryIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Tag_dark.png");
+}
+
+#typeIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Game_mode_dark.png");
+}
+
+#infoIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Info_dark.png");
+}
+
+.unboundedButton {
+    border-color: #b4b4b4;
+}
+
+#accountIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Account_dark.png");
+}

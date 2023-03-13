@@ -1,0 +1,3 @@
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #errorContainer > ListView {
+    background-color: #f4f4f4;
+}

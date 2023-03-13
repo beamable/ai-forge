@@ -1,0 +1,71 @@
+
+.squareBtn {
+    border-color: #383838;
+    background-color: #454545;
+}
+
+#clear {
+    border-color: #383838;
+    background-color: rgba(12,12,12,0);
+}
+
+.attached {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/popup.png");
+}
+
+.detached {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/detached.png");
+}
+
+#advanceBtn {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/advance.png");
+}
+
+#detailWindow, #detailWindowBottomBar, #logWindowHeader, #white, #clearContainer, #logListRoot {
+    border-color: #383838;
+}
+
+.confirmBtn {
+    border-color: #383838;
+}
+
+.squareBtn.active {
+    background-color: #666666;
+}
+
+#debug .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/debug_Gray.png");
+}
+
+#debug.active .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/debug.png");
+}
+
+#info .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/info_Gray.png");
+}
+
+#detailWindowBottomBar > #copyTextBtn {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/copy.png");
+}
+
+#pagination > #leftArrow {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Page Previous.png");
+}
+
+#pagination > #rightArrow {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/next.png");
+}
+
+#paginationRange {
+    color: #FFFFFF;
+}
+
+#popupBtn {
+    background-color: #545454;
+}
+
+#popupBtn:hover,
+#detailWindowBottomBar > #copyTextBtn:hover {
+    background-color: #474747;
+}

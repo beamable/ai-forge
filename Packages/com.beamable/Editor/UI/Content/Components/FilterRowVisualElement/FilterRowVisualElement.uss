@@ -1,0 +1,17 @@
+#rowContent {
+    margin-left: 4px;
+    height: 20px;
+    flex-direction: row;
+}
+#tagName {
+    /*width: 60px;*/
+    flex-grow: 1;
+    font-size: 11px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    /*color: #FFFFFF;*/
+}
+
+#filterCheckbox {
+    margin-top: 7px;
+}
+

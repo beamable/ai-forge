@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:contentManager="Beamable.Editor.Content.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+  <engine:VisualElement name="mainVisualElement">
+
+    <engine:VisualElement name="status-icon"/>
+    <engine:Label name="Description"/>
+
+    <contentManager:CountVisualElement name="count1" is-dangerous="true"/>
+    <engine:Button name="description1" text="Invalid" class="statusShowBtn noBackground" />
+    <contentManager:CountVisualElement name="count2"/>
+    <engine:Button name="description2" text="created" class="statusShowBtn noBackground"/>
+    <contentManager:CountVisualElement name="count3"/>
+    <engine:Button name="description3" text="modified" class="statusShowBtn noBackground"/>
+    <contentManager:CountVisualElement name="count4"/>
+    <engine:Button name="description4" text="deleted" class="statusShowBtn noBackground"/>
+    
+    <engine:VisualElement name="messages">
+      <engine:Label name="remoteModeWarning"/>
+      <engine:Label name="UpdateDate"/>
+    </engine:VisualElement>
+
+
+  </engine:VisualElement>
+
+</engine:UXML>

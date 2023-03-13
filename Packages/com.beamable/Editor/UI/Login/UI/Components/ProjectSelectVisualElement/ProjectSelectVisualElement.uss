@@ -1,0 +1,40 @@
+#listArea{
+    top:20px;
+    align-self: center;
+    width: 280px;
+}
+LoadingIndicatorVisualElement {
+    top:20px;
+    align-self: center;
+    width: 300px;
+
+}
+.cover {
+
+    position: absolute;
+    left: 100000px;
+}
+#confirm{
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.highLight{
+    border-color: #3e7de7;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+}
+ScrollView {
+    flex-grow: 1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#realmBox{
+    background-image: none;
+    width: 310px;
+    flex-grow: 1;
+    align-self: center;
+    height: 300px;
+}

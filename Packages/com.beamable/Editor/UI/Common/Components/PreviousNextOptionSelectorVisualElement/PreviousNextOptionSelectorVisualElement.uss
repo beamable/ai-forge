@@ -1,0 +1,23 @@
+﻿#mainVisualElement {
+    background-color: #616161;
+    height: 25px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#currentOptionLabel {
+    -unity-text-align: middle-center;
+    width: 100px;
+}
+
+.selectorBtn {
+    width: 30px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 8px;
+    height: 8px;
+}

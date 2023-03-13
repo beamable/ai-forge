@@ -1,0 +1,34 @@
+#popupContent {
+    flex-grow: 1;
+    flex-direction: column;
+    height: 200px;
+    position: relative;
+}
+
+
+#searchBar {
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-self: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+ScrollView {
+    flex-grow: 1;
+    top: 20px;
+}
+ScrollView #ContentView.content-view {
+    left: 0px;
+    right: 0px;
+}
+
+#typeFilterList {
+    flex-grow: 1;
+    min-height: 180px;
+    flex-direction: column;
+}
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:Button name="baseButton" class="boundedButton">
+        <engine:Image name="dropDownImg" class="--image-scale-to-fit">
+            <engine:Button name="dropdownButton" class="--noBorder dropdownButton"/>
+        </engine:Image>
+        <engine:Label text="Button" class="buttonLabel" name="label"/>
+    </engine:Button>
+</engine:UXML>

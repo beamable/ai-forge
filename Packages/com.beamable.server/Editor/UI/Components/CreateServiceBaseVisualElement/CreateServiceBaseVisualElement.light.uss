@@ -1,0 +1,22 @@
+﻿#header {
+    background-color: #dedede;
+}
+
+#cancelBtn > TemplateContainer > Button {
+    background-color: rgba(0,0,0,0);
+    border-color: #000000;
+    color: #000000;
+}
+
+ServiceCreateDependentService,
+ServiceCreateDependentService > TemplateContainer > #mainContainer{
+    background-color: #dedede;
+}
+
+.MicroService {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/MS not runnning light without wifi.png");
+}
+
+.StorageObject {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/SO not running light without wifi.png");
+}

@@ -1,0 +1,35 @@
+.service {
+    display: flex;
+    flex-direction: row;
+}
+
+.service .comment {
+    flex-grow: 1;
+}
+.headers .serviceName,
+.service .serviceName {
+    max-width: 100px;
+    min-width: 100px;
+}
+.headers .template,
+.service .template {
+    min-width: 80px;
+}
+.service .enabled {
+    min-width: 20px;
+}
+
+.headers {
+    display: flex;
+    flex-direction: row;
+}
+
+.general-comment {
+    max-height: 45px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

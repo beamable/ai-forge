@@ -1,0 +1,41 @@
+.bussPropertyRoot{
+    left: 0px;
+    right: 0px;
+}
+
+.bussPropertyField {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+ToolbarButton{
+    flex-grow: 1;
+    margin-bottom: 2px;
+    margin-right: 1px;
+    border-width: 1px;
+    align-items: center;
+}
+
+ToolbarButton > Image{
+    margin: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+.hidden{
+    position: absolute;
+}
+
+VertexColorBussPropertyVisualElement DropdownVisualElement #mainContainer {
+    min-height: 18px;
+    min-width: 180px;
+    margin: 5px;
+}
+
+VertexColorBussPropertyVisualElement DropdownVisualElement #mainContainer #button {
+    width: 20px;
+}
+
+VertexColorBussPropertyVisualElement DropdownVisualElement #mainContainer #value {
+    font-size: 10px;
+}

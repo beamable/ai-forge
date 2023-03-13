@@ -1,0 +1,20 @@
+{
+    "name": "EasyFeatureIntegrationExample.FeatureExtensionIntegration",
+    "references": [
+        "Unity.Beamable",
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Customer.Common",
+        "Unity.Beamable.EasyFeatures.LeaderboardView",
+        "Beamable.Platform",
+        "Beamable.Extensions",
+        "Unity.TextMeshPro"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

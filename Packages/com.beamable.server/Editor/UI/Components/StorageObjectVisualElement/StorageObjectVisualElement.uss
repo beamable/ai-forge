@@ -1,0 +1,10 @@
+﻿StorageObjectVisualElement > TemplateContainer > #mainVisualElement,
+RemoteStorageObjectVisualElement > TemplateContainer > #mainVisualElement,
+CreateStorageObjectVisualElement > TemplateContainer > #mainVisualElement {
+    margin-right: 10px;
+}
+
+RemoteStorageObjectVisualElement > TemplateContainer > #mainVisualElement {
+    height: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,169 @@
+#popupContent {
+    flex-grow: 1;
+    flex-direction: column;
+    height: 200px;
+    position: relative;
+    /*background-color: #000000;*/
+}
+
+SearchabledDropdownVisualElement LoadingIndicatorVisualElement {
+    top: 20px;
+    align-items: center;
+}
+SearchabledDropdownVisualElement {
+    flex-grow: 1;
+}
+SearchabledDropdownVisualElement > TemplateContainer {
+    flex-grow: 1;
+}
+SearchabledDropdownVisualElement .cover,
+SearchabledDropdownVisualElement #mainBlockedContent.cover {
+    position: absolute;
+    left: 100000px;
+}
+SearchabledDropdownVisualElement #mainBlockedContent {
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 24px;
+}
+
+#searchBar {
+    position:absolute;
+    left: 0px;
+    right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-self: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+ScrollView {
+    flex-grow: 1;
+}
+ScrollView #ContentView.content-view {
+    left: 0px;
+    right: 0px;
+}
+#elementsList {
+    flex-grow: 1;
+    /*min-height: 150px;*/
+    flex-direction: column;
+}
+
+Button.unity-button,
+Button {
+    background-image: none;
+    height: 25px;
+    -unity-text-align: middle-left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-left-width: 4px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(128,128,128);
+}
+Button.unity-button:hover,
+Button:hover {
+    background-color: rgba(128,128,128,.4);
+}
+
+Button.unity-button.production:hover,
+Button.production:hover {
+    background-color: rgba(255, 0, 0, .4);
+}
+
+Button.unity-button.staging:hover,
+Button.staging:hover {
+    background-color: rgba(255, 255, 0, .4);
+}
+
+Button.unity-button.production,
+Button.production {
+
+    border-color: #ff0000;
+    background-color: rgba(255, 0, 0, .1);
+}
+
+Button.unity-button.staging,
+Button.staging {
+
+    border-color: #ffa200;
+    background-color: rgba(255, 255, 0, .1);
+}
+
+Button.unity-button.selected,
+Button.selected {
+    /*-unity-font-style: bold;*/
+}
+
+
+Button.unity-button#refreshButton,
+Button#refreshButton {
+    position:absolute;
+    right: 0;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
+    border-left-width: 0px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    -unity-slice-left: -4;
+    -unity-slice-top: -4;
+    -unity-slice-right: -4;
+    -unity-slice-bottom:-4;
+}
+#refreshButtonIcon{
+
+}
+
+Button#editButton {
+     position:absolute;
+     right: 20px;
+     top: 4px;
+     width: 15px;
+     height: 15px;
+     margin-top: -3px;
+     border-left-width: 0px;
+     background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/editing_dark.png");
+     -unity-background-image-tint-color: #adadad;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+     padding: 0px;
+     -unity-slice-left: -4;
+     -unity-slice-top: -4;
+     -unity-slice-right: -4;
+     -unity-slice-bottom:-4;
+ }
+
+.editMode Button#editButton{
+    background-color: #bbb3b3;
+}
+
+Button.deleteButton{
+
+
+    opacity: .4;
+    visibility: hidden;
+}
+
+.editMode .deleteButton{
+    visibility: visible;
+}
+
+.deleteButton:hover{
+    opacity: .8;
+}

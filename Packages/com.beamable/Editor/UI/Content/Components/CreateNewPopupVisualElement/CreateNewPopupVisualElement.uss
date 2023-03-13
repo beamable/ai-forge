@@ -1,0 +1,23 @@
+
+#mainVisualElement {
+    flex-direction: column;
+    /*background-color: #c2c2c2;*/
+    border-radius: 5px;
+}
+
+#mainVisualElement .addItemButton {
+    height: 30px;
+    flex-grow:1;
+    -unity-text-align: middle-left;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*background-color: #c2c2c2;*/
+    background-image: none;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    color: #c2c2c2;
+}
+

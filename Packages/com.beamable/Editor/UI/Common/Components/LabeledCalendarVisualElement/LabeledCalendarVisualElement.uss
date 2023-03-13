@@ -1,0 +1,17 @@
+﻿#mainVisualElement {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#label {
+    width: 120px;
+    padding-top: 7px;
+    align-self: flex-start;
+}
+
+#calendar {
+    flex-grow: 1;
+    flex-shrink: 1;
+}

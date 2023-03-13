@@ -1,0 +1,28 @@
+﻿#popupContent {
+    flex-grow: 1;
+    flex-direction: column;
+    position: relative;
+}
+
+Button.unity-button,
+Button {
+    background-image: none;
+    height: 25px;
+    -unity-text-align: middle-left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left-width: 4px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(128,128,128);
+}
+
+Button.unity-button:hover,
+Button:hover {
+    background-color: rgba(128,128,128,.4);
+}

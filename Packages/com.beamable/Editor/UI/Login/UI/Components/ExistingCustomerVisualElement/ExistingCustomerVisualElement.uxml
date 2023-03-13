@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainContainer">
+        <engine:VisualElement name="textField">
+            <engine:Label name="organization" text="Please enter your Organization's Alias or CID" class="labelText"/>
+            <engine:TextField name="organizationID" class="input" />
+            <beamable:GenericButtonVisualElement name="newOrganization" text="Create a new organization" type="Link"/>
+
+            <engine:Label name="createAccount" text="Please enter your account info" class="labelText"/>
+            <engine:TextField name="account" class="input"/>
+            <engine:TextField name="password" class="input"/>
+            <beamable:GenericButtonVisualElement name="forgotPassword" text="Forgot Password" type="Link"/>
+            <engine:VisualElement name="linkBtn">
+                <engine:VisualElement name="createNew">
+                    <engine:Label name="labelText" text="I don’t have an account."/>
+                    <beamable:GenericButtonVisualElement name="createNewLink" text="Create one now" type="Link"/>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="actionBtn">
+                <beamable:PrimaryButtonVisualElement name="signIn" text="Sign In"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement name="errorContainer">
+                <engine:Label name="errorLabel"></engine:Label>
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

@@ -1,0 +1,37 @@
+#announcement-logo {
+    width: 50px;
+    height: 54px;
+}
+
+#announcement-surveysSection {
+    flex-direction: row;
+}
+
+#announcement-surveysSection > Button {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+#announcement-surveysSection > Button > Image {
+    width: 40px;
+    height: 45px;
+    align-self: center;
+}
+
+#announcement-surveyPositiveIcon {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/face_happy_light.png");
+}
+
+#announcement-surveyNeutralIcon {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/face_ok_light.png");
+}
+
+#announcement-surveyNegativeIcon {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/face_sad_light.png");
+}

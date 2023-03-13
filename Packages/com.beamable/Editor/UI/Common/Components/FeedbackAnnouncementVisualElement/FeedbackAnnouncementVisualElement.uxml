@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+
+
+    <engine:VisualElement name="announcement-main" class="announcement-main">
+        <engine:VisualElement name="announcement-ignoreSection" class="announcement-ignoreSection">
+            <engine:Button name="announcement-ignore"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="announcement-logoSection" class="announcement-logoSection">
+            <engine:VisualElement name="announcement-logo"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="announcement-textsSection" class="announcement-textsSection">
+            <engine:Label name="announcement-title"/>
+            <engine:Label name="announcement-description"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="announcement-buttonsSection" class="announcement-buttonsSection">
+            <engine:Button name="announcement-share" class="announcement-buttons"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

@@ -1,0 +1,73 @@
+﻿BussSelectorLabelVisualElement {
+    flex-direction: row;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+BussSelectorLabelVisualElement > * {
+    flex-direction: column;
+}
+
+BussSelectorLabelVisualElement > * > * {
+    flex-direction: row;
+}
+
+#labelRow {
+    opacity: .7;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+BussSelectorLabelVisualElement.is-not-applied {
+    opacity: .5;
+}
+
+BussSelectorLabelVisualElement.is-exact #labelRow {
+    display: none;
+}
+
+#notApplied,
+#inheritedLabel {
+    display: none
+}
+
+BussSelectorLabelVisualElement.is-inherited #inheritedLabel {
+    display: flex;
+}
+BussSelectorLabelVisualElement.is-not-applied #notApplied {
+    display: flex;
+}
+
+#root {
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+#separator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+TextField {
+    background-image: none;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-left;
+    -unity-font-style: normal;
+    height: 14px;
+    font-size: 12px;
+    flex-grow: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+TextField>#unity-text-input {
+    background-color: rgba(0,0,0,0);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+TextElement {
+    -unity-font-style: normal;
+}

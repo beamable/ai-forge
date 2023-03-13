@@ -1,0 +1,101 @@
+#cardContainer {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-left;
+}
+
+#cardHeader {
+    -unity-font-style: bold;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: stretch;
+}
+
+#selectorLabelParent {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#foldIconParent {
+    justify-content: center;
+    margin-left:10px;
+}
+
+#foldIcon {
+    height: 10px;
+    width: 10px;
+}
+
+#sectionHeader {
+    height: 30px;
+    flex-direction: row;
+}
+
+#sectionLabel {
+    padding-left: 30px;
+}
+
+#divider {
+    flex-grow: 1;
+}
+
+.button {
+    -unity-text-align: middle-center;
+    align-self: center;
+    margin-left: 3px;
+    height: 30px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.smallButton {
+    width: 30px;
+}
+
+.mediumButton {
+    min-width: 70px;
+}
+
+.largeButton {
+    width: 90px;
+}
+
+.remove {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/remove.png"); 
+    margin-right: 10px;
+}
+
+.add {
+    margin-left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#removeButtonContainer {
+    width: 26px;
+    height: 36px;
+    justify-content: center;
+}
+
+#removeButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/remove.png");
+    align-self: center;
+    width: 16px;
+    height: 16px;
+}
+
+BussStylePropertyVisualElement.doesntExists, BussStylePropertyVisualElement.doesntExists #globalVariable {
+    display: none;
+    visibility: hidden;
+}
+
+.showAllProperties BussStylePropertyVisualElement.doesntExists, BussStylePropertyVisualElement.exists {
+    display: flex;
+    visibility: visible;
+}
+
+.hidden .showAllProperties BussStylePropertyVisualElement.doesntExists, .hidden BussStylePropertyVisualElement.exists {
+     display: none;
+     visibility: hidden;
+}

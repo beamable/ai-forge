@@ -1,0 +1,46 @@
+.header {
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.headerLabel {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-font-style: bold;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.subheader{
+    height: 30px;
+    flex-direction: row;
+}
+
+.subheaderLabel{
+    padding-left: 30px;
+    align-self: center;
+}
+
+.propertyContainer{
+    min-height: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.headerSeparator{
+    flex-grow: 1;
+}
+
+.addButton{
+    width: 30px;
+    height: 30px;
+}
+
+.addButton:hover {
+     background-color: rgb(120,120,120);
+ }

@@ -1,0 +1,36 @@
+#root{
+    left: 0px;
+    right: 0px;
+}
+
+.bussPropertyField {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+ToolbarButton{
+    margin-bottom: 2px;
+    margin-right: 1px;
+    align-items: center;
+    justify-content: center;
+    background-color: #CBCBCB;
+    width: 24px;
+    height: 16px;
+}
+
+ToolbarButton.selected{
+    background-color: #eeeeee;
+}
+
+ToolbarButton > Image{
+    margin: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+
+
+
+
+
+

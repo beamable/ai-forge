@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <VisualElement name="window-main">
+
+        <VisualElement name="logo-wrapper">
+            <VisualElement name="docker-logo">
+                <!-- Filled in with USS-->
+            </VisualElement>
+        </VisualElement>
+        <VisualElement >
+            <Label name="title" text="In order to use this feature, you need to login to Docker Hub. Please enter your Docker Hub credentials below."/>
+        </VisualElement>
+
+        <VisualElement name="form">
+            <TextField name="username"/>
+            <TextField name="password"/>
+            <Label name="help" text="Forgot Dockerhub Credentials?"/>
+        </VisualElement>
+
+        <VisualElement name="buttons">
+            <Label name="error"/>
+            <VisualElement name="login-wrapper">
+                <beamable:PrimaryButtonVisualElement name="login" text="Log into DockerHub"/>
+            </VisualElement>
+        </VisualElement>
+
+    </VisualElement>
+
+</UXML>

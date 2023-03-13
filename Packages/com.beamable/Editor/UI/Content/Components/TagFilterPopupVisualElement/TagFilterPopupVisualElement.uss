@@ -1,0 +1,47 @@
+#popupContent {
+    flex-grow: 1;
+    flex-direction: column;
+    height: 200px;
+    position: relative;
+}
+
+
+#searchBar {
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-self: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+ScrollView {
+    flex-grow: 1;
+    top: 20px;
+}
+ScrollView #ContentView.content-view {
+    left: 0px;
+    right: 0px;
+}
+#tagFilterList {
+    flex-grow: 1;
+    /*min-height: 150px;*/
+    flex-direction: column;
+}
+ #addNewButton {
+    height: 20px;
+    width: 70px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    align-self: center;
+    background-color: #484848;
+    font-size: 8px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    /*color: #FFFFFF;*/
+    border-radius:8px;
+}
+
+

@@ -1,0 +1,43 @@
+#mainContainer {
+    /*background-color: #9b9b9b;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+    height: 0;
+}
+
+#mainContainer.visible{
+    visibility: visible;
+    height: 30px;
+}
+
+#mainContainer.failed {
+    background-color: rgba(0,0,0,0);
+}
+
+Label {
+    font-size: 10px;
+    color: #E02020;
+    /*-unity-font-style: bold;*/
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+
+Button {
+    width: 15px;
+    height: 15px;
+    border-width: 0;
+    background-color: rgba(0,0,0,0);
+    -unity-font-style: bold;
+    -unity-slice-bottom: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-left: 0;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+

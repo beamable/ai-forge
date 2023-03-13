@@ -1,0 +1,6 @@
+TemplateContainer {
+    position: absolute;
+}
+
+LoadingSpinnerVisualElement {
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:Label name="about" text="Are you sure you want to deploy your microservices?"/>
+
+    <engine:VisualElement class="headers">
+        <engine:Label class="enabled" text="On"/>
+        <engine:Label class="serviceName" text="Service"/>
+        <engine:Label class="template" text="Size"/>
+        <engine:Label class="comments" text="Comments"/>
+    </engine:VisualElement>
+    <engine:VisualElement name="container">
+
+    </engine:VisualElement>
+
+    <engine:VisualElement>
+        <engine:Label text="General Comment"/>
+        <engine:TextField name="general-comment" class="general-comment" multiline="true"/>
+    </engine:VisualElement>
+
+    <engine:VisualElement class="button-container">
+        <engine:Button name="cancelButton" text="Cancel"/>
+        <engine:Button name="continueButton" text="Continue"/>
+    </engine:VisualElement>
+</engine:UXML>

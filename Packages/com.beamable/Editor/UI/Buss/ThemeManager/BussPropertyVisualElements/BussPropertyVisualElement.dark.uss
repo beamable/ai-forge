@@ -1,0 +1,7 @@
+ToolbarButton{
+    background-color: #4D4D4D;
+}
+
+ToolbarButton.selected{
+    background-color: #898989;
+}

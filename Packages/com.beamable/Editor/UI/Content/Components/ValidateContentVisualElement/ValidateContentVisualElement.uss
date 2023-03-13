@@ -1,0 +1,90 @@
+ValidateContentVisualElement,
+ValidateContentVisualElement > TemplateContainer
+{
+    flex-grow: 1;
+}
+
+ValidateContentVisualElement > TemplateContainer > #mainElementContent {
+    flex-grow: 1;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #summaryContainer {
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #message {
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #message.failed {
+    -unity-font-style: bold;
+}
+
+LoadingBarVisualElement.failed #progress {
+    background-color: rgba(230, 13, 13, .9);
+}
+
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #summaryContainer > #summary{
+}
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #buttonStrip {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #buttonStrip > #okayBtn {
+    width: 100px;
+    height: 28px;
+}
+
+#emptyMessage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#emptyMessage.hidden {
+    left: 10000px;
+}
+
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #errorContainer {
+    flex-grow: 1;
+}
+ValidateContentVisualElement > TemplateContainer > #mainElementContent > #errorContainer > ListView {
+    flex-grow: 1;
+}
+.summaryAlignLeft {
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+}
+.summaryAlignLeft > Label {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.summaryAlignLeft > Label#errorCountLbl {
+    margin-left: 15px;
+}
+.summaryAlignRight {
+    flex-direction: row-reverse;
+}
+
+#detailBtn {
+    height: 20px;
+    width: 35px;
+    font-size: 8px;
+    -unity-text-align: middle-center;
+    align-self: flex-end;
+}
+
+
+
+ListView :selected {
+    background-color: rgba(160, 0, 0, .3);
+}
+
+ContentValidationErrorVisualElement.noErrors Label {
+    opacity: .5;
+}

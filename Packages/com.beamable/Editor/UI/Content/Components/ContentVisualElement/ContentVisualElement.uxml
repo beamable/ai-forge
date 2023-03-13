@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.Content.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+  <engine:VisualElement name="mainVisualElement">
+      <engine:VisualElement name="statusIcon"/>
+      <engine:VisualElement name="resizable">
+          <engine:TextField name="nameTextField"/>
+          <engine:Label name="pathLabel"/>
+          <beamable:TagListVisualElement name="tagListVisualElement"/>
+          <engine:Label name="lastChanged"/>
+      </engine:VisualElement>
+
+  </engine:VisualElement>
+
+</engine:UXML>

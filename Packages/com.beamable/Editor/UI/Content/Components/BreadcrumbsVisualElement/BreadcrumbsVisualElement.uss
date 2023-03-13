@@ -1,0 +1,80 @@
+BreadcrumbsVisualElement #mainVisualElement {
+	height:30px;
+	justify-content:flex-end;
+}
+
+BreadcrumbsVisualElement #mainVisualElement {
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+}
+
+BreadcrumbsVisualElement #tokenListVisualElement {
+	flex-direction:row;
+	flex-grow:1;
+	flex-shrink: 1;
+	overflow: hidden;
+	justify-content:flex-start;
+}
+
+BreadcrumbsVisualElement .tokenTextWord {
+	-unity-font-style: bold;
+	font-size:12px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left: 8px;
+}
+
+BreadcrumbsVisualElement .tokenTextArrow {
+	-unity-font-style: bold;
+	font-size:12px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+BreadcrumbsVisualElement #counterVisualElement {
+	border-radius:10px;
+}
+BreadcrumbsVisualElement #counterVisualElement > Label {
+	-unity-font-style: bold;
+	font-size:12px;
+    padding-left: 8px;
+}
+
+BreadcrumbsVisualElement #realmButton{
+	margin-right: 10px;
+}
+
+#contentSorter {
+	height: 22px;
+	justify-content: center;
+	border-radius: 2px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	background-image: none;
+}
+Button#contentSorter {
+	background-image: none;
+}
+
+#contentSorter > Label {
+	flex: 1;
+	margin-right: 18px;
+	margin-top: 2px;
+	font-size: 10px;
+	-unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+	align-self: flex-start;
+	-unity-text-align: middle-left;
+}
+
+#contentSorter > Image{
+	align-self: flex-end;
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	width: 10px;
+	height: 5px;
+	background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close.png")
+}

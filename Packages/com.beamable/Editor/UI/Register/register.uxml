@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement class="register-content">
+
+        <engine:VisualElement class="register-header">
+            <engine:Label text="Welcome to Beamable. You must register an account to continue."/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="register-field">
+            <engine:Label text="customer name"/>
+            <engine:TextField text="" class="register-customer"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="register-field">
+            <engine:Label text="customer alias"/>
+            <engine:TextField text="" class="register-customer-alias"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="register-field">
+            <engine:Label text="project name"/>
+            <engine:TextField text="" class="register-project"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="register-field">
+            <engine:Label text="email"/>
+            <engine:TextField text="" class="register-email"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="register-field">
+            <engine:Label text="password"/>
+            <engine:TextField text="" class="register-password"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="register-footer">
+            <engine:Label class="register-error"/>
+
+            <engine:Button text="Register"/>
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+
+</engine:UXML>

@@ -1,0 +1,125 @@
+.squareBtn{
+    background-color: #A7A7A7;
+}
+
+#clear{
+    background-color: #A7A7A7;
+    border-color: #6C6C6C;
+}
+
+#advanceBtn{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/advance_dark.png");
+    background-color: #A7A7A7;
+}
+
+#detailWindow, #white, #clearContainer, #logListRoot {
+    border-color: #6C6C6C;
+}
+
+.confirmBtn {
+    background-color: #A7A7A7;
+    border-color: #6C6C6C;
+}
+
+.separator {
+    background-color: #6C6C6C;
+}
+
+#dropDown{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/dropdown_border_dark.png");
+}
+
+#moreBtn > #btnIcon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/advance_dark.png");
+}
+
+#openDocsBtn > #btnIcon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/local swagger doc dark.png");
+}
+
+#openScriptBtn > #btnIcon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/read doc dark.png");
+}
+
+#buildImage {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Play_dark.png");
+}
+
+.building #buildImage {
+    background-color: #656565;
+}
+
+.running #buildImage {
+    background-color: #2e5b8d;
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Play_light.png");
+}
+
+.localBuilding {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/local Building D.png");
+}
+
+.localRunning {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Local Running D.png");
+}
+
+.localStopped{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Local Stopped D.png");
+}
+
+.remoteEnabled{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Remote Running D.png");
+}
+
+.remoteStopped{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Remote Stopped D.png");
+}
+
+.different{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/different D.png");
+}
+
+.remoteDeploying{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Remote Deploying D.png");
+}
+.remoteDisabled{
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Remote Disable D.png");
+}
+
+#leftDashLine, #rightDashLine {
+    background-color: #4A4A4A;
+}
+
+#logHeader {
+    background-color: #dedede;
+}
+
+#logContainer {
+    background-color: #c8c8c8;
+}
+
+.MicroService_remoteDisabled {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/MS not runnning light.png");
+}
+
+.MicroService_remoteEnabled {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/MS running light.png");
+}
+
+.StorageObject_remoteDisabled {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/SO not running light.png");
+}
+
+.StorageObject_remoteEnabled {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/SO running light.png");
+}
+
+#startBtn {
+    background-color: #c8c8c8;
+}
+
+#openDocsBtn > #btnIcon:hover,
+#openScriptBtn > #btnIcon:hover,
+#moreBtn > #btnIcon:hover,
+#startBtn:hover {
+    background-color: #bbbbbb;
+}

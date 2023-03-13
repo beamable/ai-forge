@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements" xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+
+    <engine:VisualElement name="popupContent">
+        <beamable:SearchBarVisualElement name="searchBar"/>
+        <engine:ScrollView>
+            <engine:VisualElement name="tagFilterList">
+                <!-- list of tags -->
+
+            </engine:VisualElement>
+        </engine:ScrollView>
+
+        <!-- <engine:Button text="Add New" name="addNewButton"/>-->
+    </engine:VisualElement>
+</engine:UXML>

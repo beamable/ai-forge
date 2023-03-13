@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="debugButtons">
+        <!-- Debug buttons go here. Or this will be deleted. -->
+    </engine:VisualElement>
+
+    <engine:ScrollView>
+        <engine:VisualElement>
+            <beamable:LoadingIndicatorVisualElement/>
+            <engine:VisualElement name="header">
+                <engine:VisualElement name="logo"/>
+                <engine:Label name="welcomeText" class="text" text="Thank you for using Beamable, please select the following options"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="main">
+            <!-- Content goes here, based on model -->
+        </engine:VisualElement>
+        
+        <engine:Label name="versionNumber"/>
+    </engine:ScrollView>
+
+</engine:UXML>

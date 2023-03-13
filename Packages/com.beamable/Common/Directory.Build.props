@@ -1,0 +1,14 @@
+<Project>
+    <PropertyGroup>
+        <Deterministic>true</Deterministic>
+    </PropertyGroup>
+    <PropertyGroup>
+        <HiddenBinPath>../../../Temp/beamable.core/bin</HiddenBinPath>
+        <HiddenObjPath>../../../Temp/beamable.core/obj</HiddenObjPath>
+        <BaseOutputPath>$(HiddenBinPath)</BaseOutputPath>
+        <BaseIntermediateOutputPath>$(HiddenObjPath)</BaseIntermediateOutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+
+    </PropertyGroup>
+</Project>

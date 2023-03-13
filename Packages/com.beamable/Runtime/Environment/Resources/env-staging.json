@@ -1,0 +1,9 @@
+{
+    "environment": "staging",
+    "apiUrl": "https://api.beamable.com",
+    "portalUrl": "https://portal.beamable.com",
+    "beamMongoExpressUrl": "https://storage.beamable.com",
+    "dockerRegistryUrl": "https://microservices.beamable.com/v2/",
+    "isUnityVsp": "UNITY__VSP__UID",
+    "sdkVersion": "BUILD__SDK__VERSION__STRING"
+}

@@ -1,0 +1,29 @@
+.confirm {
+	width: 85px;
+    height: 26px;
+}
+
+.cancel {
+    width: 85px;
+    height: 26px;
+}
+
+.link.unity-button,
+.link {
+    background-color: rgba(0,0,0,0);
+    align-self: flex-end;
+    background-image: none;
+    height: 15px;
+    border-radius: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.default {
+    width: 80px;
+    height: 26px;
+}

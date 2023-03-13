@@ -1,0 +1,51 @@
+.boundedButton {
+    height: 22px;
+    position: relative;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 2px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    background-image: none;
+}
+#realmButton.production #banner{
+    background-color: #FF0000;
+}
+#realmButton.staging #banner{
+    background-color: #ff9c00;
+}
+#realmButton #banner {
+    flex-direction: row;
+    position: absolute;
+    left: -1px;
+    top: 0px;
+    bottom: 0px;
+    width: 5px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+#realmButton {
+    justify-content: center;
+}
+#realmButton Label {
+    margin-right: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+#realmButton Image#dropDownIcon{
+    align-self: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 10px;
+    height: 5px;
+}

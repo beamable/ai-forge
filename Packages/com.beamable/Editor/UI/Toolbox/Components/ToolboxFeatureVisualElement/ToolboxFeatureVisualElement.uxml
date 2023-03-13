@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.Toolbox.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+
+
+    <engine:VisualElement name="mainContent">
+        <engine:VisualElement name="highLightContainer">
+            <engine:Image name="functionIcon"/>
+            <engine:VisualElement name="imageMask" class="imageMaskDefault"/>
+        </engine:VisualElement>
+            <engine:VisualElement name="titleAndIcon">
+                <engine:Label name="title" text="Title"/>
+        </engine:VisualElement>
+        <engine:Label name="description"/>
+    </engine:VisualElement>
+
+</engine:UXML>

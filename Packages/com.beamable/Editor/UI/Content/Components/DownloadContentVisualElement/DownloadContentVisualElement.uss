@@ -1,0 +1,98 @@
+
+.cover {
+    position: absolute;
+    left: 10000px;
+}
+
+DownloadContentVisualElement,
+DownloadContentVisualElement > TemplateContainer
+{
+    flex-grow: 1;
+}
+
+DownloadContentVisualElement > TemplateContainer > #mainVisualElement {
+    flex-grow: 1;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+#summaryContainer {
+    margin-bottom: 12px;
+    flex-direction: row;
+}
+.summaryAlignLeft {
+    flex-direction: row;
+    min-width: 200px;
+    flex-shrink: 0;
+}
+.summaryAlignRight {
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+#downloadPreviewContainer {
+    flex-grow: 1;
+}
+
+
+
+#buttonStrip {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#downloadPreviewContainer .unity-foldout__content, /* 2019 has the .unity-foldout__content class. */
+#downloadPreviewContainer .unity-foldout-content /* 2018 has the .unity-foldout-content class. */ {
+    padding-left: 12px;
+}
+
+#downloadBtn{
+    width: 100px;
+    height: 28px;
+}
+
+DownloadContentVisualElement ScrollView  #ContentView {
+    left: 1px;
+    right: 1px;
+}
+DownloadContentVisualElement ScrollView {
+    flex-grow: 1;
+}
+DownloadContentVisualElement Foldout #unity-content > ListView,
+DownloadContentVisualElement Foldout #unity-content,
+DownloadContentVisualElement Foldout {
+    flex-grow: 1;
+}
+
+.hide {
+    position: absolute;
+    left: 50000px;
+}
+
+#loadingViewContainer{
+   align-self: center;
+   align-items: center;
+}
+LoadingBarVisualElement {
+    margin-left: -26px;
+    margin-right: -26px;
+}
+
+ListView :selected {
+    background-color: rgba(59, 146, 250, .4);
+}
+#noDownloadLbl.textElement{
+ position: absolute;
+}
+LoadingIndicatorVisualElement {
+    margin-top: 40px;
+}
+LoadingIndicatorVisualElement.hide {
+    margin-top: 0px;
+}
+LoadingSpinnerVisualElement {
+    align-self: center;
+}

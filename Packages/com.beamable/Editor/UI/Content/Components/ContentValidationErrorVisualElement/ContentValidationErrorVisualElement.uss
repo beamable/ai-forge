@@ -1,0 +1,31 @@
+
+.cover {
+    position: absolute;
+    left: 10000px;
+}
+
+ContentValidationErrorVisualElement,
+ContentValidationErrorVisualElement > TemplateContainer
+{
+    flex-grow: 1;
+}
+
+#mainVisualElement {
+    flex-grow: 1;
+}
+
+#summaryContainer {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 18px;
+}
+.summaryAlignLeft {
+    flex: 1;
+    flex-direction: row;
+}
+.summaryAlignRight {
+    flex: 1;
+    flex-direction: row-reverse;
+    /*padding-right: 20px;*/
+}

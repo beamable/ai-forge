@@ -1,0 +1,7 @@
+Button#refreshButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Refresh.png");
+}
+
+#realmButton Image#dropDownIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close.png")
+}

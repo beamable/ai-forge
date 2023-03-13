@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements" xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xmlns:contentManager="Beamable.Editor.Content.Components"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components">
+
+    <beamable:LoadingBarElement/>
+
+    <engine:VisualElement name="mainElementContent">
+
+        <engine:Label name="message"/>
+        <engine:VisualElement name="summaryContainer">
+            <engine:VisualElement class="summaryAlignLeft">
+                <engine:Label name="errorObjectLbl" text="Invalid Content Objects: "/>
+                <contentManager:CountVisualElement name="errorObjectCount" is-dangerous="true"/>
+
+                <engine:Label name="errorCountLbl" text="Total Errors: "/>
+                <contentManager:CountVisualElement name="errorCount" is-dangerous="true"/>
+            </engine:VisualElement>
+            <engine:VisualElement class="summaryAlignRight">
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="errorContainer"/>
+
+        <engine:VisualElement name="buttonStrip">
+            <beamable:GenericButtonVisualElement name="cancelBtn" text="Cancel" type ="Cancel"/>
+            <beamable:PrimaryButtonVisualElement name="okayBtn" text="Validating"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

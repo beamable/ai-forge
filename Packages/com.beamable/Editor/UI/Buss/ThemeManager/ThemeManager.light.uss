@@ -1,0 +1,17 @@
+#navigationGroup {
+    /*background-color: #B4B4B4;*/
+}
+
+#filterToggle > TemplateContainer > #mainVisualElement> Label {
+    color: #090909;
+}
+
+.unfolded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Fold out_Dark.png");
+}
+
+.folded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/FoldRight_Dark copy.png");
+}
+
+

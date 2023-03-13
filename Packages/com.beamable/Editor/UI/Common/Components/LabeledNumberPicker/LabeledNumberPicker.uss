@@ -1,0 +1,39 @@
+﻿#mainVisualElement {
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+LabeledIntegerField #label {
+    width: 15px;
+    -unity-text-align: middle-center;
+}
+
+LabeledIntegerField #integerField {
+    width: 25px;
+}
+
+LabeledIntegerField #integerField > IntegerInput {
+    -unity-text-align: middle-center;
+}
+
+#buttonGroup {
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonImage {
+    width: 10px;
+    height: 6px;
+    position: absolute;
+}
+
+#button {
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 20px;
+    height: 20px;
+}

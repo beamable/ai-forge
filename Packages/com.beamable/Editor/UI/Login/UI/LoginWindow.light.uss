@@ -1,0 +1,3 @@
+#logo{
+    background-image: resource("Packages/com.beamable/Editor/UI/Login/UI/icon/logo2 L tran.png");
+}

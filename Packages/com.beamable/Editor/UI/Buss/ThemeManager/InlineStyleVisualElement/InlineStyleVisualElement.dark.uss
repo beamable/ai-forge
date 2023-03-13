@@ -1,0 +1,27 @@
+.header {
+    background-color: #282828;
+}
+
+.subheader{
+    color: rgb(255,255,255);
+}
+
+.subheaderLabel {
+    color: rgb(255,255,255);
+}
+
+.propertyContainer{
+    background-color: #282828;
+}
+
+LabeledTextField #label {
+    color: rgb(255,255,255);
+}
+
+LabeledObjectField #label {
+    color: rgb(255,255,255);
+}
+
+.addButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewLight.png");
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement">
+        <engine:VisualElement name="counterVisualElement">
+            <engine:Label name="counterLabel"/>
+        </engine:VisualElement>
+      <engine:VisualElement name="tokenListVisualElement">
+      </engine:VisualElement>
+
+        <engine:Button name="contentSorter" class="boundedButton">
+            <engine:Image name="dropDownIcon"/>
+            <engine:Label name="contentSorterTitle" text="Name (A-Z)" class="buttonText"/>
+        </engine:Button>
+        <beamable:ManifestButtonVisualElement name="manifestButton"/>
+        <beamable:RealmButtonVisualElement name="realmButton"/>
+    </engine:VisualElement>
+
+</engine:UXML>

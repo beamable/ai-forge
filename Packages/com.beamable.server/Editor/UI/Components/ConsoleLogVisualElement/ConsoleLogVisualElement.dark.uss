@@ -1,0 +1,3 @@
+﻿#statusIcon.debug {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/debug_Gray.png");
+}

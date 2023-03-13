@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f176a8ce561a427ca4b567d75e74d858, type: 3}
+  m_Name: pl_PL
+  m_EditorClassIdentifier: 
+  localization: 1
+  EveryMinute: "co minut\u0119"
+  EveryHour: "co godzin\u0119"
+  AnErrorOccuredWhenGeneratingTheExpressionD: "Wyst\u0105pi\u0142 b\u0142\u0105d
+    podczas generowania opisu wyra\u017Cenia cron. Sprawd\u017A sk\u0142adni\u0119
+    wyra\u017Cenia cron."
+  AtSpace: 'O '
+  EveryMinuteBetweenX0AndX1: "Co minut\u0119 od {0} do {1}"
+  At: O
+  SpaceAnd: ' i'
+  EverySecond: "co sekund\u0119"
+  EveryX0Seconds: co {0} sekund
+  SecondsX0ThroughX1PastTheMinute: sekundy od {0} do {1}
+  AtX0SecondsPastTheMinute: w {0} sekundzie
+  EveryX0Minutes: co {0} minut
+  MinutesX0ThroughX1PastTheHour: minuty od {0} do {1}
+  AtX0MinutesPastTheHour: w {0} minucie
+  EveryX0Hours: co {0} godzin
+  BetweenX0AndX1: od {0} do {1}
+  AtX0: o {0}
+  ComaEveryDay: ", co dzie\u0144"
+  ComaEveryX0DaysOfTheWeek: ', co {0} dni tygodnia'
+  ComaX0ThroughX1: ', od {0} do {1}'
+  First: pierwszy
+  Second: drugi
+  Third: trzeci
+  Fourth: czwarty
+  Fifth: "pi\u0105ty"
+  ComaOnThe: ', '
+  SpaceX0OfTheMonth: " {0} miesi\u0105ca"
+  ComaOnTheLastX0OfTheMonth: ", ostatni {0} miesi\u0105ca"
+  ComaOnlyOnX0: ', tylko {0}'
+  ComaEveryX0Months: ", co {0} miesi\u0119cy"
+  ComaOnlyInX0: ', tylko {0}'
+  ComaOnTheLastDayOfTheMonth: ", ostatni dzie\u0144 miesi\u0105ca"
+  ComaOnTheLastWeekdayOfTheMonth: ", ostatni dzie\u0144 roboczy miesi\u0105ca"
+  FirstWeekday: "pierwszy dzie\u0144 roboczy"
+  WeekdayNearestDayX0: "dzie\u0144 roboczy najbli\u017Cszy {0}-ego dnia"
+  ComaOnTheX0OfTheMonth: ", {0} miesi\u0105ca"
+  ComaEveryX0Days: ', co {0} dni'
+  ComaBetweenDayX0AndX1OfTheMonth: ", od {0}-ego do {1}-ego dnia miesi\u0105ca"
+  ComaOnDayX0OfTheMonth: ", {0}-ego dnia miesi\u0105ca"
+  SpaceAndSpace: ' i '
+  ComaEveryMinute: ", co minut\u0119"
+  ComaEveryHour: ", co godzin\u0119"
+  ComaEveryX0Years: ', co {0} lat'
+  CommaStartingX0: ', startowy {0}'
+  AMPeriod: AM
+  PMPeriod: PM
+  CommaDaysBeforeTheLastDayOfTheMonth: ", {0} dni przed ostatnim dniem miesi\u0105ca"
+  ComaOnlyInYearX0: ', tylko {0}'

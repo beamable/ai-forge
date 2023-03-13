@@ -1,0 +1,9 @@
+﻿DependentServicesCheckboxVisualElement {
+    width: 100px;
+    justify-content: center;
+}
+
+#checkbox {
+    flex-grow: 1;
+    align-self: center;
+}

@@ -1,0 +1,15 @@
+﻿CreateNewServiceDropdownVisualElement {
+    border-color: #000000;
+}
+
+#serviceEntryButton:hover {
+    background-color: #474747;
+}
+
+#serviceEntryButton > #imageMicroService {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/MS not running without wifi.png");
+}
+
+#serviceEntryButton > #imageStorageObject {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/SO not running without wifi.png");
+}

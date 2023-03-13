@@ -1,0 +1,14 @@
+Button#refreshButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Refresh.png");
+}
+
+.boundedButton {
+    border-color:#8f8f8f;
+}
+
+.manifestNotPublished{
+    background-color: #FF786E;
+}
+#manifestButton Image#dropDownIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close.png")
+}

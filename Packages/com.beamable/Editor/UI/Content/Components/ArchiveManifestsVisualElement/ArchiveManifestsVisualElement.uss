@@ -1,0 +1,49 @@
+﻿
+ArchiveManifestsVisualElement,
+ArchiveManifestsVisualElement > TemplateContainer
+{
+    flex-grow: 1;
+}
+
+ArchiveManifestsVisualElement > TemplateContainer > #mainVisualElement {
+    flex-grow: 1;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+#listRoot {
+    margin-left: 26px;
+}
+
+#manifestWarningMessage {
+    margin-top: 4px;
+}
+
+#scroll {
+    background-color: #484848;
+    margin-top: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 40px;
+}
+
+#buttonStrip {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#archiveBtn{
+    width: 100px;
+    height: 28px;
+}
+
+.disabled *{
+    opacity: .5;
+}
+
+LabeledCheckboxVisualElement #checkbox {
+
+    width: 40px;
+}

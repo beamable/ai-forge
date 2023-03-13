@@ -1,0 +1,73 @@
+
+#mainVisualElement {
+    height: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.boundedButton {
+    height: 22px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 2px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    background-image: none;
+    justify-content: center;
+}
+.unboundedButton {
+    height: 30px;
+    width: 38px;
+    position: absolute;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/actionBarBackground.png");
+    cursor: pan;
+    right: 0px;
+}
+
+
+#realmButton {
+    bottom: 3px;
+    position: relative;
+    justify-content: flex-end;
+    align-self: flex-end;
+    right: 10px;
+}
+
+#openPortalButton{
+    height: 22px;
+    top: 0px;
+    margin-bottom: 3px;
+    width: 80px;
+    position: relative;
+    align-self: flex-end;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    background-image: none;
+    border-radius: 2px;
+    right: 10px;
+}
+

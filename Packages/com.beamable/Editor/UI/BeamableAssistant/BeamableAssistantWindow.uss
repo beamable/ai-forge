@@ -1,0 +1,140 @@
+/* global styles for the window live here */
+
+#_windowRoot {
+    flex-grow: 1;
+    min-width:500px;
+}
+#window-main {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#assistant-container {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+/*#beamable-assistant-action-bar{*/
+/*    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/actionBarBackground.png");*/
+/*}*/
+
+#beam-hints-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#mainVisualElement {
+    flex-grow: 1;
+}
+
+#list-container {
+    flex-grow: 1;
+}
+
+
+
+#beam-hints-splitter {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+
+
+
+
+.splitPadding {
+    width: 20px;    
+}
+
+.splitWrapper {
+    min-width: 100px;
+}
+
+.splitWrapper.leftSplit {
+    flex-grow: 1;
+    min-width: 230px;
+}
+
+.splitWrapper.rightSplit {
+    flex-grow: 5;
+}
+
+
+
+ScrollView {
+    flex-grow: 1;
+    border-right-width: 2px;
+    border-color: #adadad;
+}
+
+ScrollView > #ContentViewport > #ContentView,
+ScrollView > #unity-content-viewport > #unity-content-container {
+    left: 0;
+    right: 0;
+}
+
+#domain-tree-container {
+    flex-direction: row;
+    flex-grow: 1;    
+}
+
+#domain-tree-imgui{
+    flex-grow: 1;
+}
+
+
+#hints-container{
+    flex-grow: 1;
+}
+
+.beamableAssistantHeader {
+    height: 30px;
+    background-color: #8D8D8D;    
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.beamableAssistantHeader > .title{
+    font-size: 17px;
+    align-self: center;
+    -unity-text-align: middle-left;
+    flex-grow: 1;
+}
+
+#hintTypeBlank{
+    max-width: 80px;
+    height: 20px;
+    flex: 1;
+}
+
+#hintTypeBlank VisualElement{
+    flex-grow: 1;
+    margin-top: 1px;
+    margin-bottom: 2px;    
+    border-right-width: 2px;
+    border-color: #a7a7a7;
+}
+
+
+.assistantSearchField > TemplateContainer > #searchTextField {    
+    width: 180px;
+    height: 20px;
+    align-self: flex-end;
+    flex-grow: 1;  
+    
+    border-radius: 8px;
+}
+
+.assistantSearchField > TemplateContainer > #searchTextField > #searchImg {
+    top: 3px;
+    bottom: 2px;
+    left: 4px;
+}

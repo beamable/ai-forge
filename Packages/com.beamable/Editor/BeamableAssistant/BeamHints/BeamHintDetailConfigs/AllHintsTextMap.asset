@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef5b1bc461025a4a9ae68c8ed87c677, type: 3}
+  m_Name: AllHintsTextMap
+  m_EditorClassIdentifier: 
+  HintDomainToTitle:
+    keys:
+    - BEAM_C#MS
+    - CODE_MISUSE
+    - BEAM_BEAMABLE_ASSISTANT
+    - BEAM_INITIALIZATION
+    - DOCKER
+    - BEAM_CONTENT
+    values:
+    - Beamable C# Microservices
+    - Code Misuse
+    - Beamable Assistant
+    - Beamable Initialization
+    - Docker
+    - Beamable Content
+  HintIdToHintTitle:
+    keys:
+    - AttributeValidation-ClientCallableUnsupportedParameters
+    - AttributeValidation-ClientCallableAsyncVoid
+    - AttributeValidation-MicroserviceAttributeMissing
+    - AttributeValidation-MisconfiguredHintDetailsProvider
+    - AttributeNameCollision-MicroserviceNameCollision
+    - AttributeValidation-MisconfiguredHintSystemAttribute
+    - AttributeValidation-UnsupportedRegisterBeamableDependencySignature
+    - DockerProcessNotRunning
+    - AttributeValidation-StorageObjectAttributeMissing
+    - AttributeNameCollision-StorageObjectNameCollision
+    - InstallDockerProcess
+    - DockerOverlappingPorts
+    - ChangesNotDeployedToLocalDocker
+    - AttributeValidation-InvalidContentTypeAttribute
+    - AttributeValidation-InvalidContentFormerlySerializedAsAttribute
+    - AttributeNameCollision-ContentTypeNameCollision
+    - AttributeValidation-ContentTypeAttributeMissing
+    values:
+    - ClientCallable has unsupported parameters
+    - '"async void" ClientCallable exists'
+    - Missing MicroserviceAttribute
+    - HintDetailsProvider with invalid signature
+    - Microservice Name Collision
+    - Hint System Attribute Misuse
+    - Unsupported BeamableRegisterDependency Attribute
+    - Docker is not running
+    - Missing StorageObject Attributes
+    - StorageObject Name Collision
+    - Docker is not installed
+    - Docker port is already in use
+    - Changes to C#MS are not deployed to local Docker instance
+    - One or more ContentTypeAttributes in your code have errors
+    - One or more ContentFormerlySerializedAsAttributes in your code have errors
+    - One or more ContentType Attribute declarations have the same name
+    - ContentObject types without ContentTypeAttributes are not allowed
+  HintIdToHintIntroText:
+    keys:
+    - AttributeValidation-ClientCallableUnsupportedParameters
+    - AttributeValidation-ClientCallableAsyncVoid
+    - AttributeValidation-MicroserviceAttributeMissing
+    - AttributeValidation-MisconfiguredHintDetailsProvider
+    - AttributeNameCollision-MicroserviceNameCollision
+    - AttributeValidation-MisconfiguredHintSystemAttribute
+    - AttributeValidation-UnsupportedRegisterBeamableDependencySignature
+    - DockerProcessNotRunning
+    - AttributeValidation-StorageObjectAttributeMissing
+    - AttributeNameCollision-StorageObjectNameCollision
+    - InstallDockerProcess
+    - DockerOverlappingPorts
+    - ChangesNotDeployedToLocalDocker
+    - AttributeValidation-InvalidContentTypeAttribute
+    - AttributeValidation-InvalidContentFormerlySerializedAsAttribute
+    - AttributeNameCollision-ContentTypeNameCollision
+    - AttributeValidation-ContentTypeAttributeMissing
+    values:
+    - "The ClientCallables below have unsupported parameters. We don't support client
+      callables with Delegate, Task or Promise parameters. \n\nWe don't support it
+      since it's impossible to serialize these types over to the microservice as
+      they are not really data types (function-pointer-like types).\n\nThe following
+      ClientCallables have unsupported parameters:\n\n"
+    - 'ClientCallables with "async void" signatures are not Awaitable.
+
+
+      This
+      means the Microservice will treat the call as a fire-and-forget and will return
+      a 200 response to the client calling the method provided it doesn''t throw
+      any exception during the first part of its execution.
+
+
+      The following
+      ClientCallables have "async void" signatures:
+
+
+'
+    - 'When creating a Microservices, you must both subclass the Microservice class
+      as well as add a MicroserviceAttribute with a unique name to it. This allows
+      our systems to correctly identify it and parse its internal attributes in a
+      more performant way.
+
+
+      Create microservices through the Microservice
+      Window''s Create button, so you don''t forget to add the attribute.
+
+
+      The
+      following subclassed types have attributes missing:
+
+
+'
+    - 'When configuring your own hints, please ensure the signature is as follows.
+      If it isn''t, we can''t correctly store and map your converter to the hints
+      it is meant to convert.
+
+
+      void(in BeamHint hint, in BeamHintTextMap textMap,
+      BeamHintVisualsInjectionBag injectionBag)
+
+
+      These converters have incorrect
+      signatures:
+
+
+'
+    - 'All Microservice attributes must have project-wide unique names. We utilize
+      this name to create the docker container that your microservice will live in.
+      Here are all collisions we detected:
+
+
+
+'
+    - 'The BeamHintSystemAttribute can only be used with classes that implement IBeamHintSystem.
+      This allows our systems to correctly identify it and parse its internal attributes
+      in a more performant way.
+
+      The following attributes were found in types
+      that don''t implement IBeamHintSystem:
+
+
+'
+    - 'We detected you are using RegisterBeamableDependency over a method with an
+      unsupported signature. Only the following signatures are supported:
+
+
+
+      static
+      void(IDependencyBuilder builder)
+
+
+
+      The methods we identified were:
+
+'
+    - We noticed Docker is not running in your machine. We can start Docker Hub for
+      you (if you have it installed to the default path) by clicking on the button
+      below.
+    - 'When creating a StorageObject, you must both subclass a StorageObject class
+      as well as add a StorageObjectAttribute with a unique name to it. This allows
+      our systems to correctly identify it and parse its internal attributes in a
+      more performant way.
+
+
+
+      Create storage objects through the Microservice
+      Window''s Create button, so you don''t forget to add the attribute.
+
+
+
+      The
+      following subclassed types have attributes missing:
+
+
+
+'
+    - 'All StorageObject Attributes must have project-wide unique names. We utilize
+      this name to create the docker container that your storage object will live
+      in. Here are all collisions we detected:
+
+
+
+'
+    - 'We noticed Docker is not installed or incorrectly configured.
+
+
+
+      If
+      you have docker installed out of the default path, go to Beamable => Configuration
+      Manager => Microservices Configuration => Docker Command and write the command
+      to run docker.
+
+
+
+      If you don''t have docker installed, click on the button
+      and follow the instructions to install it.
+
+'
+    - 'We noticed that one of the ports specified for one of the services is already
+      in use. Please check your Docker configuration and adjust it.
+
+'
+    - 'When you build/play Microservice, we generate a Docker image with all the
+      non-unity DLLs that exist in that C#MS''s Assembly Definition file. If code
+      in any of those Assemblies changes, you must re-run your local Microservice
+      if you wish it to see any of the changes.
+
+
+
+      We detected that these systems
+      must be rebuilt due to one or more files in their Assemblies having changed.
+
+'
+    - 'Content Type attributes must exist on all types that implement <b>IContentObject</b>
+      or are scriptable objects inheriting from <b>ContentObject</b>. They also cannot
+      have any ''.'' characters in their Name field.
+
+
+      These are the types
+      that break these rules:
+
+
+'
+    - 'ContentFormerlySerializedAs attributes can exist on all types that implement
+      IContentObject or are scriptable objects inheriting from ContentObject. They
+      also cannot have any ''.'' characters in their Name field.
+
+
+      These are
+      the types that break these rules:
+
+
+'
+    - 'ContentType and ContentFormerlySerializedAs attributes can''t have equal names
+      across your codebase as this name is used for de/serialization. These were
+      the detected types that break this rule:
+
+
+'
+    - "ContentObjects that don't have any ContentTypeAttriibute are not known to
+      Beamable serialization or the Beamable platform. This means you can't publish
+      them or create them directly via the Content Manager. \r\n\r\nA common use-case
+      for this is when you want a non-serializable ContentObject base type to exist
+      but want all of their children to be serializable. You can skip the ContentTypeAttribute
+      on the base type and add them to the children. Serialization will work normally
+      for the children but the parent type won't be creatable via ContentManager.\r\n\r\nThese
+      are all types that we identified that don't have the ContentTypeAttribute and,
+      therefore, are not serializable:\r\n\r\n"

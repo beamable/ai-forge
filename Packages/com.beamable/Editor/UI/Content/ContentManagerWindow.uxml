@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.Content.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+  <engine:VisualElement name="window-main">
+
+    <!-- TODO: Remove this comment. This is embedded the new way (Recommended) - srivello -->
+    <beamable:ActionBarVisualElement name = "actionBarVisualElement"/>
+
+    <!-- TODO: Fix. This is embedded the old way - srivello -->
+    <engine:VisualElement name="explorer-container"/>
+    <engine:VisualElement name="status-bar-container"/>
+
+  </engine:VisualElement>
+
+</engine:UXML>

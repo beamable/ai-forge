@@ -1,0 +1,47 @@
+﻿BussSelectorLabelVisualElement {
+    flex-direction: row;
+}
+
+#root {
+    margin-left: 10px;
+    flex-direction: row;
+}
+
+#separator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+TextElement {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-left;
+    height: 14px;
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+TextField {
+    background-image: none;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-left;
+    /*color: rgba(256,256,256,1);*/
+    height: 14px;
+    font-size: 12px;
+    flex-grow: 1;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/*TextField:hover {*/
+/*    color: rgba(180,180,180,1);*/
+/*}*/
+
+/*#styleSheetName:hover {*/
+/*    color: rgba(180,180,180,1);*/
+/*}*/

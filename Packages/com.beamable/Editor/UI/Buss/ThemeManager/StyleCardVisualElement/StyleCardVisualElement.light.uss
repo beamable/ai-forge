@@ -1,0 +1,51 @@
+#cardHeader {
+    color: rgb(37, 37, 37);
+    background-color: #A7A7A7;
+}
+
+#sectionHeader {
+    color: rgb(37, 37, 37);
+}
+
+#sectionLabel {
+    color: rgb(37, 37, 37);
+}
+
+
+.button > TextElement {
+    color: rgb(37, 37, 37);
+}
+
+.smallButton:hover {
+    background-color: #DCDCDC;
+}
+
+
+
+.add {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewDark.png");
+}
+
+.edit {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/editing_dark.png");
+}
+
+.wizard {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/wizard_dark.png");
+}
+
+.undo {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/undo_dark.png");
+}
+
+.cleanAll {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/Erase_dark.png");
+}
+
+.unfolded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Fold out_Dark.png");
+}
+
+.folded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/FoldRight_Dark copy.png");
+}

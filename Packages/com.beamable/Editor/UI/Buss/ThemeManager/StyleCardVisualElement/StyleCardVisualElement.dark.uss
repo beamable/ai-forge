@@ -1,0 +1,52 @@
+#cardHeader {
+    color: rgb(255, 255, 255);
+    background-color: #282828;
+}
+
+#sectionHeader {
+    color: rgb(255,255,255);
+}
+
+#sectionLabel {
+    color: rgb(255,255,255);
+    -unity-font-style: bold;
+}
+
+#properties {
+    margin-bottom: 10px;
+}
+
+.button > TextElement {
+    color: rgb(255,255,255);
+}
+
+.smallButton:hover {
+    background-color: rgb(120,120,120);
+}
+
+.add {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewLight.png");
+}
+.edit {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/edit.png");
+}
+
+.wizard {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/wizard.png");
+}
+
+.undo {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/undo.png");
+}
+
+.cleanAll {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/cleanAll.png");
+}
+
+.unfolded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Fold out_light.png");
+}
+
+.folded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/foldoutRight.png");
+}

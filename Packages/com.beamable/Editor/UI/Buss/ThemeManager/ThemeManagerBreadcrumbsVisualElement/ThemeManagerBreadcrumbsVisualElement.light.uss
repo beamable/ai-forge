@@ -1,0 +1,9 @@
+﻿ThemeManagerBreadcrumbsVisualElement {
+    background-color: #8d8d8d;
+}
+.boundedButton {
+    background-color: #b4b4b4;
+}
+Image#dropDownIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close Dark.png")
+}

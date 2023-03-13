@@ -1,0 +1,78 @@
+#_windowRoot, #window-main, #window-main ScrollView {
+    flex-grow: 1;
+}
+
+Foldout.category > Toggle Label {
+    -unity-font-style: bold;
+}
+
+Foldout.category > .unity-foldout-content {
+    padding-left: 10px;
+}
+ScrollView{
+    flex-grow: 1;
+}
+ScrollView #ContentView.content-view {
+    left: 0px;
+    right: 0px;
+}
+ScrollView .oddRow {
+    /*background-color: rgba(0,0,0,.07);*/
+}
+
+#topBar {
+    flex-direction: row;
+}
+#topBar SearchBarVisualElement {
+    flex-grow: 1;
+}
+
+
+.unboundedButton {
+    height: 35px;
+    width: 37px;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-color: #383838;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+    /*background-color: #484848;*/
+    cursor: pan;
+}
+.unboundedButtonLabel {
+    margin-top: -7px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 9px;
+    /*color: #FFFFFF;*/
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+
+.boundedButton {
+    height: 35px;
+    width: 80px;
+    position: relative;
+    margin-left: -0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    background-image: none;
+}

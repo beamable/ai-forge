@@ -1,0 +1,28 @@
+#textField{
+    align-self: center;
+}
+.input{
+    
+    height: 30px;
+    -unity-text-align: middle-left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#newOrganization{
+    margin-bottom: 20px;
+}
+
+#createNew{
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.btnText{
+    min-width:100px;
+}
+
+#cancel{
+    height: 29px;
+}

@@ -1,0 +1,31 @@
+ConfirmationPopupVisualElement > TemplateContainer > #mainVisualElement > * {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content {
+    height: 40px;
+    justify-content: center;
+}
+
+ConfirmationPopupVisualElement #contentLabel {
+    align-self: center;
+}
+
+ConfirmationPopupVisualElement #buttonsVisualElement {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+PrimaryButtonVisualElement{
+    width: 100px;
+    height: 28px;
+}
+
+PrimaryButtonVisualElement Button {
+    background-color: #0090FD;
+}

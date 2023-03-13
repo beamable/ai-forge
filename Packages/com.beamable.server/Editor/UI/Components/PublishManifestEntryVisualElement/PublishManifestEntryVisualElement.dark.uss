@@ -1,0 +1,19 @@
+﻿.manifestRow.oddRow {
+    background-color: #383838;
+}
+
+#nameMS, .SubTitleText {
+    color: #FFFFFF;
+}
+
+.microserviceImage {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/MS not running without wifi.png");
+}
+
+.storageImage {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/SO not running without wifi.png");
+}
+
+.unpublished #checkImage, .publish-inProgress #checkImage, .publish-failed #checkImage {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Checked_light.png");
+}

@@ -1,0 +1,19 @@
+﻿<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement" class="--noPadding">
+        <engine:VisualElement name="previousBtn" class="selectorBtn">
+            <engine:VisualElement class="image left"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="currentOptionGroup">
+            <engine:Label name="currentOptionLabel"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="nextBtn" class="selectorBtn">
+            <engine:VisualElement class="image right"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</UXML>

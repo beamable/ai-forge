@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5456c92cb5cc94fbda54cf0bee7d9daf, type: 3}
+  m_Name: toolboxData
+  m_EditorClassIdentifier: 
+  _widgets:
+  - Name: Admin Flow
+    Description: UI for game commands and cheats
+    OrientationSupport: -1
+    Tags: 129
+    Icon: {fileID: 2800000, guid: 414502f8105b641c6a853c1320832cb1, type: 3}
+    Prefab: {fileID: 1879866759196870545, guid: 28d63d278d26a754eaec42724a1334d7,
+      type: 3}
+    Support: 0
+  - Name: Currency HUD
+    Description: UI for virtual currency
+    OrientationSupport: -1
+    Tags: 58
+    Icon: {fileID: 2800000, guid: f82f911022e2c4ff79d848df011fc38c, type: 3}
+    Prefab: {fileID: 1538361852517479061, guid: bbbde9ef3c8224fe69016a84827690c6,
+      type: 3}
+    Support: 0
+  - Name: Account HUD
+    Description: UI to open login flow
+    OrientationSupport: -1
+    Tags: 6
+    Icon: {fileID: 2800000, guid: 4b76896686a884657a54573db0ac855b, type: 3}
+    Prefab: {fileID: 2453450058678432510, guid: a14607bd54ddb49458fbc1125c8f8f10,
+      type: 3}
+    Support: 0
+  - Name: Account Management Flow
+    Description: Allows users to manage account
+    OrientationSupport: 1
+    Tags: 5
+    Icon: {fileID: 2800000, guid: 24f0cd8db59fd456bab7240009e42efd, type: 3}
+    Prefab: {fileID: 5536497098831726557, guid: 5fc060f5d55695249ae78906f8db96b3,
+      type: 3}
+    Support: 0
+  - Name: Leaderboard Flow
+    Description: Allow user to manage leaderboard
+    OrientationSupport: 1
+    Tags: 65
+    Icon: {fileID: 2800000, guid: 796b6e22b8a7c6b4aa354a2786e86562, type: 3}
+    Prefab: {fileID: 5960774261714958974, guid: 1b85b3a11dfa349b0933bc289d82af9f,
+      type: 3}
+    Support: 0
+  - Name: Leaderboard Flow (New)
+    Description: Allow user to manage leaderboard
+    OrientationSupport: 1
+    Tags: 65
+    Icon: {fileID: 2800000, guid: 796b6e22b8a7c6b4aa354a2786e86562, type: 3}
+    Prefab: {fileID: 5688538833308535119, guid: 31dc8b01b472b434ea905e42443d6073,
+      type: 3}
+    Support: 0
+  - Name: Announcements Flow
+    Description: Allow user to manage announcements
+    OrientationSupport: 1
+    Tags: 257
+    Icon: {fileID: 2800000, guid: 5a4948df2012d462e957745cbccc795d, type: 3}
+    Prefab: {fileID: 1348922302504892013, guid: 617a55c3b68a545d2a49b29556460894,
+      type: 3}
+    Support: 1
+  - Name: Inventory Flow
+    Description: Allow user to manage inventory
+    OrientationSupport: 1
+    Tags: 49
+    Icon: {fileID: 2800000, guid: c5c1e2aba7df98f4f8d8ec4c2112caa6, type: 3}
+    Prefab: {fileID: 1855707606240579186, guid: a48fff1d8103e4de9bbbca24b1ec16d3,
+      type: 3}
+    Support: 1
+  - Name: Tournament Flow
+    Description: Allow user set up a recurring tournament
+    OrientationSupport: 2
+    Tags: 65
+    Icon: {fileID: 2800000, guid: 7b745bd36546542fb9ce9c62a3cbcad8, type: 3}
+    Prefab: {fileID: 8036622181152675863, guid: 6b1f10e6922a243ea8c5023fbc64881e,
+      type: 3}
+    Support: 1
+  - Name: Store Flow
+    Description: 'Allow user to shop '
+    OrientationSupport: 1
+    Tags: 9
+    Icon: {fileID: 2800000, guid: 5fffe86a96eb640f7997e231642839b0, type: 3}
+    Prefab: {fileID: 3430546881456503221, guid: a97507b4b127e4f88ab7dedd815fa760,
+      type: 3}
+    Support: 0
+  - Name: Lobby flow (BUSS variant)
+    Description: Allow user to match with players with lobbies
+    OrientationSupport: 1
+    Tags: 9
+    Icon: {fileID: 2800000, guid: 3fdee0c59bdd043319c1317eaca8a749, type: 3}
+    Prefab: {fileID: 5679227975823887877, guid: 08f0fa3e933bd854dbbba5b53d9d7ba0,
+      type: 3}
+    Support: 2

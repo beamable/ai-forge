@@ -1,0 +1,14 @@
+{
+    "name": "Unity.Beamable.Server.Runtime.Common",
+    "references": [
+        "Unity.Beamable.Server.Runtime.Mocks"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da5f82a5df104fd4b67a842fafa5c5a, type: 3}
+  m_Name: default
+  m_EditorClassIdentifier: 
+  _tags:
+  - base
+  name: Demo Tournament
+  anchorTimeUTC: 2020-01-01T12:00:00Z
+  playerLimit: 25
+  tiers:
+  - name: Bronze
+    color: {r: 0.72156864, g: 0.33333334, b: 0.16078432, a: 1}
+  - name: Silver
+    color: {r: 0.7921569, g: 0.7921569, b: 0.7921569, a: 1}
+  - name: Gold
+    color: {r: 0.96862745, g: 0.70980394, b: 0, a: 1}
+  stagesPerTier: 3
+  DefaultEntryColor: {r: 0.62352943, g: 0, b: 0, a: 1}
+  ChampionColor: {r: 0.96862745, g: 0.70980394, b: 0, a: 1}
+  stageChanges:
+  - minRank: 1
+    maxRank: 1
+    delta: 2
+    color: {r: 0.96862745, g: 0.70980394, b: 0, a: 1}
+  - minRank: 2
+    maxRank: 2
+    delta: 2
+    color: {r: 0.7921569, g: 0.7921569, b: 0.7921569, a: 1}
+  - minRank: 3
+    maxRank: 3
+    delta: 2
+    color: {r: 0.72156864, g: 0.33333334, b: 0.16078432, a: 1}
+  - minRank: 4
+    maxRank: 10
+    delta: 1
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - minRank: 11
+    maxRank: 20
+    delta: 0
+    color: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+  - minRank: 41
+    maxRank: 50
+    delta: -1
+    color: {r: 0.62352943, g: 0, b: 0, a: 1}
+  rankRewards:
+  - name: Winner
+    tier: 0
+    stageMin:
+      HasValue: 1
+      Value: 1
+    stageMax:
+      HasValue: 1
+      Value: 1
+    minRank:
+      HasValue: 1
+      Value: 1
+    maxRank:
+      HasValue: 1
+      Value: 1
+    currencyRewards:
+    - amount: 1000
+      symbol:
+        Id: currency.gems
+  - name: Bronze Participation
+    tier: 0
+    stageMin:
+      HasValue: 0
+      Value: 1
+    stageMax:
+      HasValue: 0
+      Value: 1
+    minRank:
+      HasValue: 0
+      Value: 1
+    maxRank:
+      HasValue: 0
+      Value: 1
+    currencyRewards:
+    - amount: 20
+      symbol:
+        Id: currency.gems
+  - name: Silver Participation
+    tier: 1
+    stageMin:
+      HasValue: 0
+      Value: 1
+    stageMax:
+      HasValue: 0
+      Value: 1
+    minRank:
+      HasValue: 0
+      Value: 1
+    maxRank:
+      HasValue: 0
+      Value: 1
+    currencyRewards:
+    - amount: 50
+      symbol:
+        Id: currency.gems
+  - name: Gold Participation
+    tier: 2
+    stageMin:
+      HasValue: 0
+      Value: 1
+    stageMax:
+      HasValue: 0
+      Value: 1
+    minRank:
+      HasValue: 0
+      Value: 1
+    maxRank:
+      HasValue: 0
+      Value: 1
+    currencyRewards:
+    - amount: 80
+      symbol:
+        Id: currency.gems

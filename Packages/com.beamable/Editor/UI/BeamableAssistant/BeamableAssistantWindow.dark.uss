@@ -1,0 +1,15 @@
+ScrollView {
+    border-color: #323232;
+}
+
+.beamableAssistantHeader {    
+    background-color: #535353;    
+}
+.beamableAssistantHeader > Label {    
+    color: #eeeeee;
+}
+
+#hintTypeBlank VisualElement{    
+    border-color: #323232;
+    
+}

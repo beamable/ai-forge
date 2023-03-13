@@ -1,0 +1,49 @@
+
+#imageLocal {
+    left: 0px;
+}
+#imageServer {
+    left: 4px;
+}
+.status {
+    /* TEMPORARY, UNTIL WE HAVE IMAGES FOR ALL THIS. */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 2px;
+}
+
+TemplateContainer {
+    flex-grow: 1;
+}
+
+.server-available {
+    border-left-width: 2px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/server-new.png");
+}
+
+.server-not-available {
+    border-left-width: 2px;
+    border-color: #FF0000;
+}
+
+.server-unknown {
+    border-left-width: 2px;
+    border-color: #C4C4C4;
+}
+
+
+.local-available {
+    border-left-width: 2px;
+    border-color: #3e7de7;
+}
+
+.local-not-available {
+    border-left-width: 2px;
+    border-color: #FF0000;
+}
+
+.local-unknown {
+    border-left-width: 2px;
+    border-color: #C4C4C4;
+}

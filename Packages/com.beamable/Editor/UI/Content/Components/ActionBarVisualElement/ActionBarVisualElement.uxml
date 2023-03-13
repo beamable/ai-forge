@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+
+    <engine:VisualElement name="mainVisualElement">
+        <engine:VisualElement name="leftContentVisualElement">
+            <beamable:DropdownButton name="createNewButton" text="Create" forceDropdown="true" tooltip="Create new Content"/>
+            <engine:Button text="Validate" class="boundedButton" name="validateButton"/>
+            <beamable:DropdownButton name="publishButton" text="Publish"/>
+            <beamable:DropdownButton name="downloadButton" text="Download"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="rightContentVisualElement">
+            <beamable:SearchBarVisualElement name="searchBar"/>
+          <engine:Button class="unboundedButton" name="tagButton">
+              <engine:Image name="tagButtonImg"/>
+          </engine:Button>
+          <engine:Button class="unboundedButton" name="typeButton">
+              <engine:Image name="typeButtonImg"/>
+          </engine:Button>
+          <engine:Button class="unboundedButton" name="statusButton">
+              <engine:Image name="statusButtonImg"/>
+          </engine:Button>
+          <engine:Button class="unboundedButton" name="refreshButton">
+              <engine:Image name="refreshButtonImg"/>
+          </engine:Button>
+          <engine:Button class="unboundedButton" name="docsButton">
+                  <engine:Image name="docIcon"/>
+          </engine:Button>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

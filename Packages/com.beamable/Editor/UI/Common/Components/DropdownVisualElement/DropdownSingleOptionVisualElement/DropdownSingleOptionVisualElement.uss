@@ -1,0 +1,5 @@
+﻿#value {
+    -unity-text-align: middle-left;
+    padding-left: 15px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}

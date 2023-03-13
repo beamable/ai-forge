@@ -1,0 +1,8 @@
+{
+    "cid": "1588440633352196",
+    "alias": "gamejam-bdjpz",
+    "pid": "DE_1588440633352197",
+    "platform": "https://dev.api.beamable.com",
+    "socket": "https://dev.api.beamable.com",
+    "containerPrefix": ""
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamableToolbox="Beamable.Editor.UI.Components"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.UI.Components">
+
+    <engine:VisualElement name="realmButtonHolder">
+        <engine:Button class="boundedButton" name="realmButton">
+            <engine:VisualElement name="banner"/>
+            <engine:Image name="dropDownIcon"/>
+            <engine:Label text="Realm Name" class="buttonText"/>
+        </engine:Button>
+    </engine:VisualElement>
+</engine:UXML>

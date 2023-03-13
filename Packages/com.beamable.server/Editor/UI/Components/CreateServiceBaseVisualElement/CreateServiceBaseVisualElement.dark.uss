@@ -1,0 +1,24 @@
+﻿#header {
+    background-color: #414141;
+}
+
+#cancelBtn > TemplateContainer > Button {
+    background-color: rgba(0,0,0,0);
+    border-left-color: #c0c0c0;
+    border-right-color: #c0c0c0;
+    border-top-color: #c0c0c0;
+    border-bottom-color: #c0c0c0;
+}
+
+ServiceCreateDependentService,
+ServiceCreateDependentService > TemplateContainer > #mainContainer{
+    background-color: #414141;
+}
+
+.MicroService {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/MS not runnning.png");
+}
+
+.StorageObject {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/SO not running.png");
+}

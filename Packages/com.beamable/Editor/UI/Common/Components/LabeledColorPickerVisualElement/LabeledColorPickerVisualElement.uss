@@ -1,0 +1,18 @@
+﻿#mainVisualElement {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+#label {
+    padding-left: 20px;
+    width: 120px;
+}
+
+#colorField {
+    min-width: 100px;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

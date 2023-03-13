@@ -1,0 +1,28 @@
+﻿#mainContainer {
+    min-width: 100px;
+    min-height: 26px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 2px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#valueContainer {
+    flex-grow: 1;
+    width: 110px;
+}
+
+#value {
+    flex-grow: 1;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-left;
+    padding-left: 15px;
+}
+
+#button {
+    width: 30px;
+    margin-right: 3px;
+}

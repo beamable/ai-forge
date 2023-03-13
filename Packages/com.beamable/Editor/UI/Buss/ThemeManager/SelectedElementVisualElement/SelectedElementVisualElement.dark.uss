@@ -1,0 +1,33 @@
+﻿
+
+.header {
+    background-color: #282828;
+}
+
+.headerLabel {
+    color: rgba(255, 255, 255, 1);
+}
+
+.classesLabel {
+    color: rgb(255, 255, 255);
+}
+
+#hierarchyContainer {
+    background-color: rgb(77,77,77);
+}
+
+#addButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewLight.png");
+}
+
+#removeButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/removeLight.png");
+}
+
+LabeledTextField #label {
+    color: #ffffff;
+}
+
+LabeledObjectField #label {
+    color: #ffffff;
+}

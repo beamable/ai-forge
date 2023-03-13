@@ -1,0 +1,31 @@
+#mainContainer{
+    width: 300px;
+    align-self: center;
+}
+
+.input{
+    height: 30px;
+    -unity-text-align: middle-left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.btnText{
+    min-width:100px;
+}
+
+#getCode {
+    flex-grow: 1;
+    height: 35px;
+}
+
+#newPasswordLabel{
+    margin-top: 15px;
+}
+
+
+.hidden {
+    position: absolute;
+    right: 10000px;
+}

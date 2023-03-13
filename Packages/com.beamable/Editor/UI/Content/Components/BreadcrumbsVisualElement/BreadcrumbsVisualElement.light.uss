@@ -1,0 +1,13 @@
+BreadcrumbsVisualElement #mainVisualElement {
+    background-color: #8d8d8d;
+}
+
+
+#contentSorter {
+    border-color: #6C6C6C;
+    background-color: #b4b4b4;
+}
+
+#contentSorter Image#dropDownIcon{
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close Dark.png")
+}

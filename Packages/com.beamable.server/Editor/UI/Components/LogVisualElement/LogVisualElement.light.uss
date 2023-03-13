@@ -1,0 +1,82 @@
+#logHeader {
+    background-color: #8d8d8d;
+}
+
+.squareBtn {
+    background-color: #c3c3c3;
+    border-color: #9b9b9b;
+}
+
+#clear {
+    background-color: #c3c3c3;
+    border-color: #9b9b9b;
+}
+
+.attached {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/popup_dark.png");
+    background-color: #c3c3c3;
+}
+
+.detached {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/detached_dark.png");
+    background-color: #c3c3c3;
+}
+
+#advanceBtn {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/advance_dark.png");
+    background-color: #c3c3c3;
+}
+
+#detailWindow, #detailWindowBottomBar, #logWindowHeader, #white, #clearContainer, #logListRoot {
+    border-color: #9b9b9b;
+}
+
+.squareBtn.active {
+    background-color: #ececec;
+}
+
+.confirmBtn {
+    background-color: #c3c3c3;
+    border-color: #9b9b9b;
+}
+
+#debug .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/debug_Gray_light.png");
+}
+
+#debug.active .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/debug_dark.png");
+}
+
+#error .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/error_Gray_light.png");
+}
+
+#warning .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/warning_Gray_light.png");
+}
+
+#info .img {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/info_Gray_light.png");
+}
+
+#detailWindowBottomBar > #copyTextBtn {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/copy light.png");
+}
+
+#pagination > #leftArrow {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Page Previous light.png");
+}
+
+#pagination > #rightArrow {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/next light.png");
+}
+
+#paginationRange {
+    color: #000000;
+}
+
+#popupBtn:hover,
+#detailWindowBottomBar > #copyTextBtn:hover {
+    background-color: #b4b4b4;
+}

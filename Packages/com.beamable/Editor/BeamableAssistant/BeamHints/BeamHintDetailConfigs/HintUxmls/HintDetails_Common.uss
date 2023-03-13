@@ -1,0 +1,3 @@
+.wrapLine {
+    white-space: normal;
+}

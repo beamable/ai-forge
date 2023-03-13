@@ -1,0 +1,26 @@
+{
+    "name": "Unity.Beamable.Server.Runtime.Tests",
+    "references": [
+        "Unity.Beamable",
+        "Beamable.Platform",
+        "Beamable.Coroutines",
+        "Beamable.Service",
+        "Beamable.Content",
+        "Beamable.JsonSerializable",
+        "Unity.Addressables",
+        "Unity.Beamable.Runtime.Common",
+        "Beamable.SmallerJSON",
+        "Unity.Beamable.Tests",
+        "Unity.Beamable.Server.Runtime"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

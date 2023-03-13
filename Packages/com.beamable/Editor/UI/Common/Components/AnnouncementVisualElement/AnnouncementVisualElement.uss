@@ -1,0 +1,97 @@
+#main{
+    flex-direction: row;
+}
+#buttonIcon{
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#texts {
+    flex-direction: column;
+    flex-shrink: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#title Label {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    -unity-font-style: bold;
+    font-size: 12px;
+}
+
+#desc {
+    margin-bottom: 4px;
+}
+#desc Button,
+#desc Label {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    font-size: 12px;
+}
+#desc > VisualElement {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#desc Button {
+    background-image: none;
+    color: #FFFFFF;
+    -unity-font-style: bold;
+
+    /*display: inline;*/
+    /*flex-shrink: 1;*/
+}
+
+#buttons {
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: 5px;
+}
+#action {
+    width: 80px;
+    height: 25px;
+    font-size: 10px;
+    align-items: center;
+    -unity-font-style: bold;
+}
+
+AnnouncementVisualElement.danger {
+    background-color: #3C1919;
+}
+AnnouncementVisualElement.danger #icon {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Warning.png");
+}
+
+AnnouncementVisualElement.info #icon {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Checked.png");
+}
+
+AnnouncementVisualElement.warning {
+    background-color:#83754F;
+}
+AnnouncementVisualElement.warning #icon {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Warning.png");
+}
+
+
+#icon {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    flex-shrink: 0;
+}

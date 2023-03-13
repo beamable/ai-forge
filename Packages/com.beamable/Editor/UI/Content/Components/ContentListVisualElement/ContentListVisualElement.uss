@@ -1,0 +1,30 @@
+
+ContentListVisualElement ScrollView,
+ContentListVisualElement > TemplateContainer,
+ContentListVisualElement {
+    flex-grow: 1;
+}
+
+ContentListVisualElement #mainVisualElement {
+    flex-grow: 1;
+}
+
+ContentListVisualElement HeaderVisualElement {
+    padding-left: 20px;
+}
+
+ContentListVisualElement HeaderVisualElement .splitWrapper{
+    min-width: 40px;
+    margin-left: 4px;
+}
+
+ExtendedListView {
+    flex-grow : 1;
+}
+
+ContentVisualElement > TemplateContainer {
+    flex-grow: 1;
+}
+ContentVisualElement .oddRow {
+    background-color: rgba(0,0,0,.07);
+}

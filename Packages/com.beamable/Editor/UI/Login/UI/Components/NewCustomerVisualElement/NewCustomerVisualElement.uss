@@ -1,0 +1,39 @@
+#textField{
+    align-self: center;
+}
+.input{
+    height: 30px;
+    -unity-text-align: middle-left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#legalButton{
+    align-self: flex-start;
+}
+#term{
+    flex-direction: row;
+    align-self: flex-end;
+}
+#existingOrganization {
+    margin-bottom: 20px;
+}
+#existAccount{
+    flex-direction: row;
+    align-self: flex-end;
+}
+#rightContainer{
+    margin-top: 10px;
+}
+.btnText{
+    left:5px;
+    min-width:100px;
+}
+#checkBox{
+    left:5px;
+}
+
+#cancel{
+    height: 29px;
+}

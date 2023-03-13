@@ -1,0 +1,28 @@
+Button#checkboxButton{
+    background-color:#FFFFFF;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+}
+
+BeamableCheckboxVisualElement {
+    flex-shrink: 0;
+}
+
+#onNotifier {
+    background-color:#0091FF;
+    align-self: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+}

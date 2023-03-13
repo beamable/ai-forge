@@ -1,0 +1,10 @@
+#header {
+    background-color: #282828;
+}
+
+#headerLabel {
+    color: rgba(255, 255, 255, 1);
+}
+
+#hierarchyContainer {
+}

@@ -1,0 +1,28 @@
+#propertyLabel {
+    color: rgb(255, 255, 255);
+}
+
+#propertyLabel:hover {
+    color: rgba(180,180,180,1);
+}
+
+#propertyLabel:disabled{
+    color: #a7a7a7;
+}
+
+StylePropertyVisualElement *:disabled{
+    opacity: 1;
+    color: #a7a7a7;
+}
+
+.equalWidth {
+    width: 0;
+}
+
+#removeButton {
+    background-image: resource("Packages/com.beamable/Editor/UI/Buss/ThemeManager/Assets/remove.png");
+}
+
+.overrideIndicator {
+    background-color: #ffffff;
+}

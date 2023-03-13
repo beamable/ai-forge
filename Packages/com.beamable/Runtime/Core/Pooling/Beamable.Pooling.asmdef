@@ -1,0 +1,16 @@
+{
+    "name": "Beamable.Pooling",
+    "references": [
+        "Beamable.Service",
+        "Beamable.Extensions",
+        "Unity.Beamable.Runtime.Common"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

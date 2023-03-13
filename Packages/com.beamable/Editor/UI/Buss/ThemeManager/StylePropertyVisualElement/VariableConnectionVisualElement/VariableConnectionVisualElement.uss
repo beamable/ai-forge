@@ -1,0 +1,45 @@
+#root {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+#button {
+    width: 30px;
+    height: 30px;
+    -unity-text-align: middle-center;
+    align-self: center;
+    margin-left: 3px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+#variableConnectionElement {
+    flex-grow: 1;
+}
+
+DropdownVisualElement{
+    margin: 5px;
+    flex-grow: 1;
+}
+
+DropdownVisualElement #mainVisualElement{
+    width: auto;
+}
+
+DropdownVisualElement #mainContainer{
+    min-height: 0px;
+    height: 24px;
+}
+
+DropdownVisualElement #button{
+    height: 20px;
+}
+
+#value{
+    min-width: 0px;
+    max-width: 10000px;
+}
+
+#button:hover {
+    -unity-background-image-tint-color: #808080;
+}

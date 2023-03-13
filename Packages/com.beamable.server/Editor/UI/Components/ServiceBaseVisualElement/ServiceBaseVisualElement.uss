@@ -1,0 +1,240 @@
+MicroserviceVisualElement > TemplateContainer > #mainVisualElement,
+StorageObjectVisualElement > TemplateContainer > #mainVisualElement {
+    margin-bottom: 20px;
+}
+
+#mainVisualElement {
+    flex-direction: row;
+}
+
+#serviceCard {
+    flex-grow: 1;
+}
+
+#foldContainer {
+    width: 30px;
+    height: 50px;
+}
+
+#foldButton {
+    height: 30px;
+    background-image: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#foldIcon {
+    width: 10px;
+    height: 10px;
+}
+
+#serviceIcon {
+    align-self: center;
+    margin-left: 4px;
+}
+
+#logHeader{
+    flex-direction: row;
+    height: 30px;
+    flex-shrink: 0;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+#logHeader > .leftArea,
+#logHeader > .rightArea {
+    flex-grow: 1;
+    flex-basis: 0px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logHeader > .leftArea {
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+#logHeader > .centerArea {
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logHeader > .rightArea {
+    padding-right: 10px;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+#serviceIcon {
+    margin-left: 5px;
+    min-width: 20px;
+    min-height: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+#serviceName {
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-right: 5px;
+    -unity-font-style: bold;
+    font-size: 13px;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+#startBtn {
+    width: 28px;
+    flex-basis: auto;
+    position: relative;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+#logContainer {
+    flex-grow: 1;
+}
+
+.logElement {
+    flex-grow: 1;
+}
+
+.subTitle{
+    font-size: 10px;
+    -unity-font-style: normal;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    justify-content: center;
+    -unity-text-align: middle-left;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+#statusIcon, #remoteStatusIcon{
+    /*background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/Local Running L.png");*/
+    width: 26px;
+    height: 26px;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.separator {
+    width: 2px;
+    height: 18px;
+    align-self: center;
+}
+
+#logText{
+    min-height: 100px;
+}
+
+#buttonRow{
+    align-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+#buildDropDown{
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+}
+
+#buildLabel {
+    align-self: center;
+}
+
+.confirmBtn{
+    font-size: 12px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    margin-right: 0px;
+    background-image: none;
+    height: 23px;
+    cursor: pan;
+    align-self: center;
+}
+
+#start {
+    -unity-font-style: bold;
+}
+
+.unity-label{
+    font-size: 12px;
+    -unity-text-align: middle-left;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+
+#microserviceNewTitle {
+    -unity-text-align: middle-left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    flex-grow: 1;
+	margin-right: 0px;
+}
+
+#openDocsBtn, #openScriptBtn, #moreBtn {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+#openDocsBtn > #btnIcon,
+#openScriptBtn > #btnIcon,
+#moreBtn > #btnIcon {
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+
+.hide {
+    position: absolute;
+    left: 999999px;
+}
+
+.folded {
+    max-height: 50px;
+}
+
+.rightArea Button.confirmButton {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#stopImage, #buildImage {
+    align-self: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.foldIcon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/fold_light_dark.png");
+}
+
+.unfoldIcon {
+    background-image: resource("Packages/com.beamable.server/Editor/UI/Icons/unfold_light_dark.png");
+}
+

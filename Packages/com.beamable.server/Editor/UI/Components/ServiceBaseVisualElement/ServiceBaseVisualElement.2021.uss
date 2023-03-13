@@ -1,0 +1,4 @@
+﻿#mainVisualElement {
+    max-width: 100%;
+    overflow: hidden;
+}

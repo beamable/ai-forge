@@ -1,0 +1,5 @@
+Button.unity-button,
+Button, Button.unity-button:hover:active,
+Button:hover:active {
+    font-size: 12px;
+}

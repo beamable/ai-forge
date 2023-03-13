@@ -1,0 +1,22 @@
+﻿<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement" class="--noPadding">
+        <beamable:PreviousNextOptionSelectorVisualElement name="yearSelector"/>
+        <beamable:PreviousNextOptionSelectorVisualElement name="monthSelector"/>
+        <engine:VisualElement name="row" class="row smallRow">
+            <engine:Label name="dayLabel" text="Sun"/>
+            <engine:Label name="dayLabel" text="Mon"/>
+            <engine:Label name="dayLabel" text="Tue"/>
+            <engine:Label name="dayLabel" text="Wed"/>
+            <engine:Label name="dayLabel" text="Thu"/>
+            <engine:Label name="dayLabel" text="Fri"/>
+            <engine:Label name="dayLabel" text="Sat"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</UXML>

@@ -1,0 +1,27 @@
+﻿
+
+.announcement-main * {
+    color: #FFFFFF;
+}
+
+.announcement-buttons {
+    background-color: #565656;
+}
+
+.announcement-hiddenButton {
+    color: #A3A3A3;
+}
+/* === END - ANNOUNCEMENTS === */
+
+/* TODO TD625827 UI hover interactions implemented in different way for each element. Need to standardize our UI elements. */
+.boundedButton:hover, .unboundedButton:hover {
+    -unity-background-image-tint-color: #474747;
+}
+
+#clear:hover, #startBtn:hover {
+    background-color: #474747;
+}
+
+.squareBtn:hover {
+    background-color: #383838;
+}

@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a96b3852b93843ef94fc3401214399e, type: 3}
+  m_Name: MicroserviceConfiguration
+  m_EditorClassIdentifier: 
+  Microservices:
+  - ServiceName: AIMicroservice
+    Enabled: 1
+    Archived: 0
+    TemplateId: small
+    CustomDockerFileStrings: 
+    IncludeDebugTools: 0
+    DebugData:
+      Username: root
+      Password: Password!
+      SshPort: 11100
+    LastBuiltCheckSum: 
+    RobotId: 
+  StorageObjects:
+  - StorageName: AIStorage
+    StorageType: mongov1
+    Enabled: 1
+    Archived: 0
+    TemplateId: small
+    LocalDataPort: 12100
+    LocalUIPort: 13100
+    LocalInitUser: beamable
+    LocalInitPass: beamable
+  ServiceCodeHandlesOnLastDomainReload:
+  - ServiceName: AIMicroservice
+    CodeClass: 1
+    CodeDirectory: Assets\Beamable\Microservices\AIMicroservice
+    AsmDefInfo:
+      Name: Beamable.Microservice.AIMicroservice
+      References:
+      - Unity.Beamable.Runtime.Common
+      - Unity.Beamable.Server.Runtime
+      - Unity.Beamable.Server.Runtime.Shared
+      - Unity.Beamable
+      - Beamable.SmallerJSON
+      - Unity.Beamable.Server.Runtime.Common
+      - Unity.Beamable.Server.Runtime.Mocks
+      - Unity.Beamable.Customer.Common
+      - Beamable.Storage.AIStorage
+      DllReferences:
+      - DnsClient.dll
+      - MongoDB.Bson.dll
+      - MongoDB.Driver.Core.dll
+      - MongoDB.Driver.dll
+      - MongoDB.Libmongocrypt.dll
+      - System.Buffers.dll
+      - System.Runtime.CompilerServices.Unsafe.dll
+      - SharpCompress.dll
+      - OpenAI_API.dll
+      - Newtonsoft.Json.dll
+      Location: Assets/Beamable/Microservices/AIMicroservice/Beamable.Microservice.AIMicroservice.asmdef
+      IncludePlatforms: []
+      AutoReferenced: 0
+    Checksum: 59AE97EE2EAC85896431D3FE503C2FBA
+  - ServiceName: AIStorage
+    CodeClass: 2
+    CodeDirectory: Assets\Beamable\StorageObjects\AIStorage
+    AsmDefInfo:
+      Name: Beamable.Storage.AIStorage
+      References:
+      - Unity.Beamable.Runtime.Common
+      - Unity.Beamable.Server.Runtime
+      - Unity.Beamable.Server.Runtime.Shared
+      - Unity.Beamable
+      - Beamable.SmallerJSON
+      - Unity.Beamable.Server.Runtime.Common
+      - Unity.Beamable.Server.Runtime.Mocks
+      - Unity.Beamable.Customer.Common
+      DllReferences:
+      - DnsClient.dll
+      - MongoDB.Bson.dll
+      - MongoDB.Driver.Core.dll
+      - MongoDB.Driver.dll
+      - MongoDB.Libmongocrypt.dll
+      - System.Buffers.dll
+      - System.Runtime.CompilerServices.Unsafe.dll
+      - SharpCompress.dll
+      Location: Assets/Beamable/StorageObjects/AIStorage/Beamable.Storage.AIStorage.asmdef
+      IncludePlatforms: []
+      AutoReferenced: 0
+    Checksum: A847528C363EB0F39363691063EDF4CF
+  - ServiceName: Unity.Beamable.Customer.Common
+    CodeClass: 3
+    CodeDirectory: Assets\Beamable\Common
+    AsmDefInfo:
+      Name: Unity.Beamable.Customer.Common
+      References:
+      - Unity.Beamable.Runtime.Common
+      - Unity.Beamable.Server.Runtime.Common
+      - Unity.Beamable.Server.Runtime.Mocks
+      - Beamable.SmallerJSON
+      DllReferences: []
+      Location: Assets/Beamable/Common/Unity.Beamable.Customer.Common.asmdef
+      IncludePlatforms: []
+      AutoReferenced: 0
+    Checksum: E2442914E199E7D092DBE28FD1257709
+  LastBuiltDockerImagesCodeHandles: []
+  CustomContainerPrefix: 
+  AutoReferenceContent: 0
+  AutoBuildCommonAssembly: 1
+  EnsureMongoAssemblyDependencies: 1
+  ColorLogs: 1
+  DisableDockerBuildkit: 0
+  DockerDesktopCheckInMicroservicesWindow: 1
+  EnableHotModuleReload: 1
+  EnableAutoPrune: 1
+  EnablePrePublishHealthCheck: 1
+  PrePublishHealthCheckTimeout:
+    HasValue: 0
+    Value: 0
+  RiderDebugTools:
+    HasValue: 0
+    Value:
+      RiderVersion: 2021.3.3
+      RiderToolsDownloadUrl: https://download.jetbrains.com/resharper/dotUltimate.2021.3.2/JetBrains.Rider.RemoteDebuggerUploads.linux-x64.2021.3.2.zip
+  WindowsDockerCommand: docker
+  UnixDockerCommand: /usr/local/bin/docker
+  LocalMicroserviceCPUArchitecturePreference:
+    HasValue: 0
+    Value: 
+  RemoteMicroserviceCPUArchitecturePreference:
+    HasValue: 0
+    Value: 
+  WindowsDockerDesktopPath: C:\Program Files\Docker\Docker\Docker Desktop.exe
+  UnixDockerDesktopPath: /Applications/Docker.app/
+  ForwardContainerLogsToUnityConsole: 0
+  LogProcessLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  LogStandardOutColor: {r: 0.2, g: 0.4, b: 1, a: 1}
+  LogStandardErrColor: {r: 1, g: 0.44, b: 0.2, a: 1}
+  LogDebugLabelColor: {r: 0.25, g: 0.5, b: 1, a: 1}
+  LogInfoLabelColor: {r: 0, g: 0, b: 1, a: 1}
+  LogErrorLabelColor: {r: 1, g: 0, b: 0, a: 1}
+  LogWarningLabelColor: {r: 1, g: 0.6, b: 0.15, a: 1}
+  LogFatalLabelColor: {r: 1, g: 0, b: 0, a: 1}

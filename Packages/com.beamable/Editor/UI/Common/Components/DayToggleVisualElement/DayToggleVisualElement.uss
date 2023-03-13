@@ -1,0 +1,24 @@
+﻿#button{
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+#buttonLabel {
+    font-size: 16px;
+    -unity-font: resource("Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    -unity-text-align: middle-center;
+}
+
+.unchecked {
+    background-color:#616161;
+}
+
+.checked {
+    background-color:#0091FF;
+}
+
+.inactive {
+    background-color: #989898;
+}

@@ -1,0 +1,20 @@
+#mainVisualElement {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    flex-direction: row;
+    align-items: center;
+}
+
+#label {
+    width: 120px;
+}
+
+#textField {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.beamableErrorLabel {
+    position: absolute;
+    width: 0;
+    top: 150%;
+}

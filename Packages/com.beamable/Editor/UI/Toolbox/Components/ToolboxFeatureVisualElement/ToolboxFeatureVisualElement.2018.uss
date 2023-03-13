@@ -1,0 +1,4 @@
+﻿#description{
+    width: 202px;
+    overflow: hidden;
+}

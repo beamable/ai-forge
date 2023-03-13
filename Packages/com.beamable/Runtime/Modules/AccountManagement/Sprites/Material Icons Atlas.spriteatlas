@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Material Icons Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c7de5753eeff9476c99e1ccf08874748, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8c009420f11a449c0bf8330acf653bf8, type: 3}
+  - {fileID: 21300000, guid: de3949616f47c4b51abcae72c7aa042d, type: 3}
+  - {fileID: 21300000, guid: c7b6af71e175a42f492f02e6d7772fc4, type: 3}
+  - {fileID: 21300000, guid: 9a2dec8143d0c449e955ed59f7a65351, type: 3}
+  - {fileID: 21300000, guid: 380a5b9191c744e6dbb98f6ecc80b1b8, type: 3}
+  - {fileID: 21300000, guid: 088179d138d8046d093413f6f0cdee0f, type: 3}
+  - {fileID: 21300000, guid: 6ac7f1422c8cc4b4eb06a59cfcf823ce, type: 3}
+  - {fileID: 21300000, guid: 4236c9a3fed474cf39e58ffe79563a73, type: 3}
+  - {fileID: 21300000, guid: 45878e06d6da04e0ea2373477acdf746, type: 3}
+  - {fileID: 21300000, guid: a31c5a16b01d845d7bd093e3dcb5f5a5, type: 3}
+  - {fileID: 21300000, guid: 39342746a2fc345a1ad06e8c9a6fe514, type: 3}
+  - {fileID: 21300000, guid: 27f164b656477405bb673e7d76c73265, type: 3}
+  - {fileID: 21300000, guid: ffe00af62a19e4f6fab81d0c400b9a7f, type: 3}
+  - {fileID: 21300000, guid: a4d04167ff3c9414996b8b1f724b94c3, type: 3}
+  - {fileID: 21300000, guid: 6594a387a01c541ea8935ee0cccd25ac, type: 3}
+  - {fileID: 21300000, guid: 5da734184a01e480e9a8f11dafc6ebdf, type: 3}
+  - {fileID: 21300000, guid: 79b46d9827476437db9d386e82752c2f, type: 3}
+  - {fileID: 21300000, guid: 81afdb4d79b0549899156c05a5f38a71, type: 3}
+  - {fileID: 21300000, guid: 88c3924f80b1b48a79ab11069658220c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fa-check-circle
+  - fa-user-circle
+  - ic_lock_outline_white_24dp
+  - fa-times-circle
+  - ic_back
+  - fa-spinner
+  - fa-mobile
+  - ic_chevron_left_white_24dp
+  - ic_mail_outline_white_24dp
+  - fa-tablet
+  - ic_close_white_24dp
+  - fa-google
+  - fa-user-friends-2x
+  - fa-facebook
+  - fa-apple
+  - fa-cloud-upload-2x
+  - edit
+  - remove
+  - lost wifi
+  m_RenderDataMap: {}
+  m_Tag: Material Icons Atlas
+  m_IsVariant: 0

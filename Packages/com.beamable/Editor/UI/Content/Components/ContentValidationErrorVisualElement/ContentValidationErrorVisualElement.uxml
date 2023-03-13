@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:editor="UnityEditor.Experimental.UIElements"
+        xmlns:contentManager="Beamable.Editor.Content.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components">
+
+
+    <engine:VisualElement name="mainVisualElement" >
+        <engine:VisualElement name="summaryContainer">
+            <contentManager:CountVisualElement is-dangerous="true"/>
+            <engine:VisualElement class="summaryAlignLeft">
+                <engine:Label name="contentId" />
+            </engine:VisualElement>
+<!--            <engine:VisualElement class="summaryAlignRight">-->
+<!--                <engine:Button name="detailBtn" text="Detail"/>-->
+<!--            </engine:VisualElement>-->
+
+        </engine:VisualElement>
+
+
+    </engine:VisualElement>
+</engine:UXML>

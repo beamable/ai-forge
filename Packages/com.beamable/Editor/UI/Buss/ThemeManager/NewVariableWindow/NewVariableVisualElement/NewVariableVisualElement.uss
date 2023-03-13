@@ -1,0 +1,102 @@
+NewVariableVisualElement,
+NewVariableVisualElement > TemplateContainer,
+NewVariableVisualElement > TemplateContainer > #mainVisualElement {
+    flex-grow: 1;
+}
+
+NewVariableVisualElement > TemplateContainer > #mainVisualElement {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#mainVisualElement {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#buttonStrip {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;    
+}
+
+#confirmButton {
+    width: 100px;
+    height: 28px;
+    align-self: center;
+}
+
+LabeledTextField > * {
+    min-height: 20px;
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+Label {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+TextField {
+    min-height: 20px;
+    font-size: 14px;
+}
+
+DropdownVisualElement,
+DropdownVisualElement > TemplateContainer,
+DropdownVisualElement > TemplateContainer > #mainVisualElement > * {
+    flex-grow: 1;
+}
+
+DropdownVisualElement > TemplateContainer > #mainVisualElement {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+DropdownVisualElement > TemplateContainer > #mainVisualElement > #mainContainer > #valueContainer {
+    width: 0px;
+}
+
+DropdownVisualElement > TemplateContainer > #mainVisualElement > #mainContainer > #valueContainer > #value {
+    -unity-text-align: middle-left;
+    padding-left: 5px;
+}
+
+.hide {
+    position: absolute;
+    left: 50000px;
+}
+
+#propertyContainer {
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#propertyLabel {
+    width: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.beamableErrorLabel {
+    left: 29%;
+}
+
+#propertyValue {
+    flex-grow: 1;
+}

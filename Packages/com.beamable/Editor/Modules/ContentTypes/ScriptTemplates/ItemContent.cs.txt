@@ -1,0 +1,14 @@
+﻿using Beamable;
+using Beamable.Common.Content;
+using Beamable.Common.Inventory;
+
+[System.Serializable]
+public class #SCRIPTNAME#Ref : ItemRef<#SCRIPTNAME#> { }
+
+[ContentType("#SCRIPTNAME#")]
+[System.Serializable]
+public class #SCRIPTNAME# : ItemContent
+{
+
+}
+

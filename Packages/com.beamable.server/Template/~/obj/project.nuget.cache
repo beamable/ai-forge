@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EOMQRW1FFfObXHQS1ElajUWY3PCsEnPFWU2urmF+s6Nd7PWdGmJQNA6A2Se+d2ahUyNtI9m/Rv1TT90wVj0heQ==",
+  "success": true,
+  "projectFilePath": "/Users/chris/Perforce/disruptor_engine_channa/client/Packages/com.beamable.server/Template/~/xxxx.csproj",
+  "expectedPackageFiles": [
+    "/Users/chris/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/chris/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "/Users/chris/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

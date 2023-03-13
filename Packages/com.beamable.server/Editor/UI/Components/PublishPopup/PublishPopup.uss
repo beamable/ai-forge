@@ -1,0 +1,236 @@
+#mainVisualElement, TemplateContainer, #PublishWindowContainer, PublishPopup, #ContentViewport {
+    flex-grow: 1;
+    flex-direction: column;
+    align-content: stretch;
+}
+#ContentView {
+    left: 0;
+    right: 0;
+}
+
+#header{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    -unity-text-align: upper-center;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+#nameMS {
+    align-self: center;
+    margin-left: 3px;
+    flex-grow: 1;
+}
+
+#nameC, #depsC {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#depsColumn > * {
+    padding-right: 20px;
+}
+
+#typeC {
+    width: 50px;
+    justify-content: center;
+}
+
+#enabledC {
+    justify-content: flex-start;
+}
+
+#enabledC.column {
+    width: 50px;
+}
+
+#CommentsC {
+    width: 180px;
+    justify-content: flex-end;
+}
+#CommentsC.column {
+    padding-left: 20px;
+}
+#row #CommentsC > * {
+    flex-grow: 1;
+    margin-left: 45px
+}
+
+#SizeC {
+    width: 160px;
+}
+#SizeC DropdownVisualElement {
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 45px;
+}
+#SizeC #mainContainer {
+    min-width: 70px;
+}
+#SizeC #mainContainer #valueContainer {
+    width: 50px;
+}
+
+#commentsText, #SizeC .template{
+    /*width: 80px;*/
+}
+
+#sizeButton Label {
+    margin-right: 18px;
+    margin-top: 2px;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+
+#CheckC {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.column{
+    flex-direction: row;
+}
+#sizeButton Image#dropDownIcon{
+    align-self: flex-end;
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    width: 15px;
+    height: 7px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close.png")
+}
+
+.boundedButton {
+    height: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    background-image: none;
+}
+#selectionArea{
+    align-self: auto;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.bottomContainer{
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 90px;
+}
+.bottomContainer > * {
+    flex-grow: 1;
+}
+.bottomContainer .unity-base-field {
+    flex-direction: column;
+}
+.bottomContainer .unity-base-field .unity-label {
+    padding-bottom: 5px;
+}
+#buttonStrip {
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 12px;
+}
+
+#buttonStrip Button {
+    height: 32px;
+    width: 120px;
+}
+
+#continueBtn {
+    margin-left: 15px
+}
+
+.SubTitleText{
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.HeaderSeparatorImage {
+    height: 20px;
+    width: 4px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/VerticalLine.png");
+}
+
+#manifestsContainer{
+    border-color: rgba(0,0,0,0);
+    border-width: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.cover {
+    position: absolute;
+    left: 99999px;
+}
+LoadingIndicatorVisualElement {
+    align-items: center;
+}
+#largeCommentsArea {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+LoadingBarElement {
+    align-self: stretch;
+    margin-bottom: 5px;
+}
+#header .column {
+    justify-content: flex-start;
+    -unity-text-align: middle-center;
+}
+#header {
+    border-color: rgba(0,0,0,.1);
+    border-bottom-width: 2px;
+}
+#header, #topMessage, #manifestsContainer {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 10px; /*account for scroll */
+}
+.bottomContainer {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#splitPane {
+    overflow: hidden;
+}
+#splitPane, SplitterVisualElement, #services {
+    flex-grow: 1;
+}
+
+.bottomContainer LogVisualElement {
+    border-color: #000000;
+    border-top-width: 2px;
+}
+
+.splitWrapper.leftSplit{
+    flex-grow: 1;
+    min-height: 200px;
+}
+.splitWrapper.rightSplit {
+    flex-grow: 0;
+    height: 150px;
+}
+.splitWrapper.rightSplit > * {
+    flex-grow: 1;
+}

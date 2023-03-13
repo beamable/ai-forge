@@ -1,0 +1,12 @@
+#mainVisualElement {
+    height: 5px;
+    cursor: resize-vertical;
+    flex-shrink: 0;
+}
+
+#bar {
+    height: 2px;
+    cursor: resize-vertical;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

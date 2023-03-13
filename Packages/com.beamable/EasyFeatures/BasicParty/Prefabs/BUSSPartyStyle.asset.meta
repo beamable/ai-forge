@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:client/Packages/com.beamable/EasyFeatures/BasicParty/Prefabs/BUSSLobbyStyle.asset.meta
+guid: d547de90a0642714690a28464d496af4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+========
+guid: 08f0fa3e933bd854dbbba5b53d9d7ba0
+PrefabImporter:
+  externalObjects: {}
+>>>>>>>> feature/BEAM-2568:client/Packages/com.beamable/EasyFeatures/BasicLobby/Prefabs/BussLobbyView.prefab.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

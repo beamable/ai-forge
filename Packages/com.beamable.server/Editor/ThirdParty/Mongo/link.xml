@@ -1,0 +1,4 @@
+<linker>
+  <assembly fullname="DnsClient" preserve="none">
+  </assembly>
+</linker>

@@ -1,0 +1,101 @@
+#root {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: stretch;
+    margin-left: 40px;
+    min-height: 34px;
+}
+
+#propertyLabel {
+    width: 140px;
+    -unity-text-align: middle-left;
+    height: 20px;
+    align-self: flex-start;
+    margin-top:8px;
+}
+
+CustomMessageBussPropertyVisualElement > Label {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+#value {
+    justify-content: center;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#globalVariable {
+    width: 140px;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+.overriden #globalVariable {
+    display: none;
+}
+
+.dropdown {
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    height: 20px;
+}
+
+.equalWidth {
+    width: 0;
+}
+
+#removeButtonContainer {
+    min-width: 26px;
+    height: 36px;
+    justify-content: center;
+}
+
+#removeButton {
+    align-self: center;
+    width: 16px;
+    height: 16px;
+}
+
+.doesntExists #globalVariable, .doesntExists #removeButton {
+    display: none;
+    visibility: hidden;
+}
+
+.overrideIndicatorParent {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    right: 0px;
+    bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    display: none;
+    align-items: center;
+}
+
+.overrideIndicator{
+    height: 2px;
+    position: relative;
+    top: 2px;
+    flex-grow: 2;
+    opacity: .8;
+}
+.overrideIndicatorSpacer {
+    flex-grow: 1;
+    margin-left: -16px;
+}
+
+.overriden {
+    opacity: .4;
+}
+.overriden .overrideIndicatorParent{
+    display: flex;
+    flex-direction: row;
+}
+
+StylePropertyVisualElement {
+    padding-bottom: 2px;    
+}

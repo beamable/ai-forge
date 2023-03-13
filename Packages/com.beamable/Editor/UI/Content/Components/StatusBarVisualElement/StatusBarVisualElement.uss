@@ -1,0 +1,115 @@
+StatusBarVisualElement #mainVisualElement {
+	flex-direction:row;
+	flex-grow:1;
+	height: 30px;
+	align-items: center;
+}
+
+/*StatusBarVisualElement Label {*/
+/*	min-width:20px;*/
+/*    min-height: 20px;*/
+/*}*/
+
+
+StatusBarVisualElement #UpdateDate {
+    -unity-text-align: middle-right;
+	padding-right: 10px;
+    font-size: 10px;
+}
+
+#messages {
+	flex-grow: 1;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#remoteModeWarning {
+	margin-right: 4px;
+	cursor: link;
+}
+#remoteModeWarning.remote {
+	-unity-font-style: bold;
+}
+
+#status-icon {
+	width: 20px;
+	height: 20px;
+}
+#status-icon.current {
+	background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Checked.png");
+}
+#status-icon.modified {
+	background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/Warning.png");
+}
+
+.statusShowBtn {
+    background-image: none;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+    align-self: center;
+}
+
+.hide {
+	visibility: hidden;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+.testImages
+{
+	width:30px;
+	height:30px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#000000;
+}
+
+#testImage01
+{
+	/* Keep empty */
+}
+
+#testImage02
+{
+	width:100px;
+
+}
+
+#testImage03
+{
+	height:100px;
+}
+
+#testVisualElement04
+{
+	width:10px;
+	background-image: url("project:///Packages/com.beamable/Editor/UI/Content/Icons/Resources/SampleImage.png");
+	-unity-background-scale-mode: stretch-to-fill;
+}
+
+#testVisualElement05
+{
+	width:100px;
+	align-self:stretch;
+
+	background-image: resource("SampleImage.png");
+	width:10px;
+}
+
+#testVisualElement06 {
+    height: 10px;
+    background-image: url("project:///Packages/com.beamable/Editor/UI/Content/Icons/Resources/SampleImage.png");
+    -unity-background-scale-mode: scale-to-fit;
+}

@@ -1,0 +1,33 @@
+﻿#mainVisualElement {
+    width: 290px;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: flex-start;
+}
+
+.row {
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.smallRow {
+    height: 20px;
+}
+
+#dayLabel {
+    width: 40px;
+    -unity-text-align: middle-center;
+}
+
+.activeDay {
+    background-color: #616161;
+}
+
+.inactiveDay {
+    background-color: #989898;
+}
+
+.selectedDay {
+    background-color: #0091FF;
+}

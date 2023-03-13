@@ -1,0 +1,17 @@
+﻿#mainContainer {
+    flex-grow: 1;
+    margin-bottom: 5px;
+    background-color: #262626;
+}
+
+#header {
+    margin-top: 5px;
+    margin-left: 10px;
+    -unity-font-style: bold;
+}
+
+LabeledCheckboxVisualElement {
+    align-self: flex-start;
+    height: 30px;
+    margin-left: 10px;
+}

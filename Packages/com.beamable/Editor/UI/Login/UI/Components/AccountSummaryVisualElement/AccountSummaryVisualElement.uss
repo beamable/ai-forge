@@ -1,0 +1,139 @@
+#textField{
+    align-self: center;
+}
+.input{
+
+    height: 30px;
+    -unity-text-align: middle-left;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#newOrganization{
+    margin-bottom: 20px;
+}
+
+#createNew{
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.btnText{
+    min-width:100px;
+}
+
+#avatarContainer {
+    align-items: center;
+}
+#avatarImg{
+    width: 50px;
+    height: 50px;
+}
+.hidden {
+    position: absolute;
+    left: 1000000px;
+}
+
+
+/*#mainVisualElement{*/
+/*    flex-direction: row;*/
+/*}*/
+/*.labelText{*/
+/*    font-size: 12px;*/
+/*    -unity-font-style: bold;*/
+/*    -unity-font-style: bold;*/
+/*}*/
+/*#leftContainer{*/
+/*    top: 20px;*/
+/*    flex-direction: column;*/
+/*    width: 100px;*/
+/*}*/
+
+
+/*#rightContainer{*/
+/*    top: 20px;*/
+/*    flex-direction: column;*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*#pidContainer{*/
+/*    flex-direction: row;*/
+/*}*/
+/*!*#topPersonalInfo{*!*/
+/*!*    flex-direction: column;*!*/
+/*!*    *!*/
+/*!*}*!*/
+/*!*#bottomPersonalInfo{*!*/
+/*!*    flex-direction: column;*!*/
+/*!*}*!*/
+/*#company{*/
+/*    top: 40px;*/
+/*    flex-direction: row;*/
+/*    padding-bottom: 5px;*/
+/*    padding-top: 5px;*/
+/*}*/
+
+/*#bottomPersonalInfo{*/
+/*    flex-direction: column;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+/*#bottomPersonalInfo TextField {*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*#permission{*/
+/*    flex-direction: row;*/
+/*    top: 40px;*/
+/*    padding-bottom: 5px;*/
+/*    padding-top: 5px;*/
+/*}*/
+/*#email{*/
+/*    flex-direction: row;*/
+/*    top: 40px;*/
+/*    padding-bottom: 5px;*/
+/*    padding-top: 5px;*/
+
+/*}*/
+/*#password{*/
+/*    flex-direction: row;*/
+/*    top: 40px;*/
+/*    padding-bottom: 5px;*/
+/*    padding-top: 5px;*/
+
+/*}*/
+/*#resetPassword{*/
+/*    background-image: none;*/
+/*    max-height: 16px;*/
+/*    border-bottom-width: 1px;*/
+/*    border-right-width: 0px;*/
+/*    border-left-width: 0px;*/
+/*    border-top-width: 0px;*/
+/*    padding-left: 0px;*/
+/*    padding-right: 0px;*/
+/*    left: 15px;*/
+/*}*/
+/*#button{*/
+/*    flex-direction: row;*/
+/*    top: 60px;*/
+/*    padding-bottom: 5px;*/
+/*    padding-top: 5px;*/
+/*}*/
+
+/*#logout{*/
+/*    width: 100px;*/
+/*    height: 23px;*/
+/*    border-radius: 3px;*/
+/*    background-image: none;*/
+/*    border-right-width: 1px;*/
+/*    border-left-width: 1px;*/
+/*    border-top-width: 1px;*/
+/*    border-bottom-width: 1px;*/
+
+/*}*/
+
+/*#switchAccount{*/
+/*    width: 100px;*/
+/*    left: 12px;*/
+
+/*}*/

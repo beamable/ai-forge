@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components ">
+
+
+    <engine:VisualElement name="main">
+        <engine:VisualElement name="buttonIcon">
+        <engine:VisualElement name="icon"/>
+        <engine:VisualElement name="buttons">
+            <engine:Button name="action"/>
+        </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="texts">
+            <engine:VisualElement name="title"/>
+            <engine:VisualElement name="desc"/>
+        </engine:VisualElement>
+       
+    </engine:VisualElement>
+
+</engine:UXML>

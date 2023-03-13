@@ -1,0 +1,9 @@
+#plusLabel {
+    color: rgba(0,0,0,1);
+}
+#arrowImage {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close Dark.png");
+}
+#arrowImage.expanded {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Open Dark.png");
+}

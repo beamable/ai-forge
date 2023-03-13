@@ -1,0 +1,30 @@
+{
+    "name": "Unity.Beamable",
+    "references": [
+        "Beamable.Config",
+        "Beamable.ConsoleCommands",
+        "Beamable.Coroutines",
+        "Beamable.Platform",
+        "Beamable.Service",
+        "Beamable.Pooling",
+        "Beamable.JsonSerializable",
+        "Beamable.SmallerJSON",
+        "Beamable.Runtime.Input",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.TextMeshPro",
+        "Unity.Beamable.Runtime.Common",
+        "VirtualList",
+        "Beamable.UnityUIExtensions",
+        "Unity.Beamable.Purchasing",
+        "Beamable.Endel.NativeWebsocket"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

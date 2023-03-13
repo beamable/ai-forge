@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:editor="UnityEditor.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:contentManager="Beamable.Editor.Content.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd Beamable.Editor.Content.Components">
+
+    <engine:VisualElement name="mainVisualElement" >
+        <engine:Label name="manifestWarningMessage" text="Archiving manifest namespaces is advanced feature. You need to write code in your game to pick namespace to use. Beamable features such as Commerce, Inventory, or Events will always use the global namespace."/>
+        <engine:ScrollView name="scroll">
+            <engine:VisualElement name="listRoot">
+            </engine:VisualElement>
+        </engine:ScrollView>
+        <engine:VisualElement name="buttonStrip">
+            <beamable:GenericButtonVisualElement name="cancelBtn" text="Cancel" type ="Cancel"/>
+            <beamable:PrimaryButtonVisualElement name="archiveBtn" text="Archive"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

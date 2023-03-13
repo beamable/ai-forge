@@ -1,0 +1,11 @@
+﻿#indentedLabelContainer {
+    height: 20px;
+    justify-content: center;
+}
+
+#indentedLabel {
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Medium.ttf");
+    -unity-text-align: middle-left;
+    font-size: 12px;
+    height: 12px;
+}

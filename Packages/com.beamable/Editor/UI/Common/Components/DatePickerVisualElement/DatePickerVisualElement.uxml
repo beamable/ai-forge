@@ -1,0 +1,14 @@
+﻿<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement" class="--noPadding">
+        <beamable:LabeledNumberPicker name="yearPicker" label="Y"/>
+        <beamable:LabeledNumberPicker name="monthPicker" label="M" min="1" max="12"/>
+        <beamable:LabeledNumberPicker name="dayPicker" label="D" min="1" max="31"/>
+    </engine:VisualElement>
+
+</UXML>

@@ -1,0 +1,4 @@
+#statusIcon.inSync {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/in-sync-dark.png");
+
+}

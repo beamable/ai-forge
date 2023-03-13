@@ -1,0 +1,37 @@
+#rowContainer {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+ContentPopupLinkVisualElement > TemplateContainer {
+    flex-grow: 1;
+}
+
+.alignLeft {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+    padding-right: 30px;
+}
+#title {
+    min-width: 210px;
+    align-self: flex-start;
+    overflow: hidden;
+}
+
+.alignRight {
+    flex-direction: row;
+    -unity-text-align: middle-center;
+    right: 20px;
+}
+
+#checkIcon{
+    height: 10px;
+    width: 10px;
+}    
+
+
+.checked {
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/Checked.png");
+    
+}

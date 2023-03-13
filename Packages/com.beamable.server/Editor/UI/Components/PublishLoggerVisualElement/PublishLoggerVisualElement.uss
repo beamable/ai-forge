@@ -1,0 +1,36 @@
+﻿.logContainer {
+    flex-grow: 1;
+    align-content: center;
+    border-width: 1px;
+    border-color: #6C6C6C;
+}
+
+ScrollView {
+    flex-grow: 1;
+}
+
+ScrollView #ContentView.content-view {
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+#logWindowBody, .logContainer {
+    flex-grow: 1;
+}
+ListView {
+    flex-grow: 1;
+}
+
+#logListRoot {
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    flex-grow: 1;
+}
+
+ListView ConsoleLogVisualElement:selected {
+    background-color: rgb(58, 127, 214);
+}

@@ -1,0 +1,137 @@
+#mainVisualElement {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+#refreshButtonImg {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+#refreshButton{
+    justify-content: center;
+}
+
+#leftContentVisualElement {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    margin-right: 10px;
+}
+
+#rightContentVisualElement {
+    flex-grow: 1;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#searchBar {
+    align-self: center;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+/* Different button class selectors. Possibly used multiple times */
+
+.unboundedButton {
+    height: 35px;
+    width: 37px;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+    cursor: pan;
+    border-radius: 0px;
+}
+
+
+#downloadButton {
+    border-right-width: 1px;
+}
+
+.boundedButton {
+    height: 35px;
+    width: 70px;
+    position: relative;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-right-width: 1px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    border-radius: 0px;
+    background-image: none;
+}
+
+.dropdownButton{
+    background-image: none;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: -6px;
+    bottom: -3px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Different button name selectors. Used one time each */
+.createButtonLabel{
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+#tagButtonImg {
+    margin-top: 2px;
+}
+
+#typeButtonImg{
+    margin-top: 2px;
+}
+
+#statusButtonImg {
+    margin-top: 2px;
+}
+
+#docIcon {
+    top: 8px;
+    width: 8px;
+    height: 15px;
+    align-self: center;
+}
+
+#downloadButton {
+    width: 85px;
+}
+
+Button.unity-button,
+Button {
+    background-color: rgba(0,0,0,0);
+}

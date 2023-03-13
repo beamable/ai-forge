@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainVisualElement">
+        <engine:VisualElement name="leftContentVisualElement">
+
+            <engine:Button name="publish" class="boundedButton">
+                <engine:Image name="publishIcon"/>
+                <engine:Label class="buttonText" text="Publish"/>
+            </engine:Button>
+
+            <engine:Button name="dependencies" class="boundedButton">
+                <engine:Image name="dependenciesIcon"/>
+                <engine:Label class="buttonText" text="Dependencies"/>
+            </engine:Button>
+
+            <engine:Button name="createNew" class="boundedButton">
+                <engine:VisualElement class="mainPart">
+                    <engine:Image name="createNewIcon"/>
+                    <engine:Label class="buttonText" text="Create New"/>
+                </engine:VisualElement>
+                <engine:Image name="dropDownImg" class="--image-scale-to-fit"/>
+            </engine:Button>
+            
+            <engine:Button name="startAll" class="boundedButton --noPadding">
+                <engine:VisualElement class="mainPart">
+                    <engine:Image name="startIcon"/>
+                    <engine:Label class="buttonText" text="Play"/>
+                </engine:VisualElement>
+                <engine:Image name="dropDownImg" class="--image-scale-to-fit"/>
+            </engine:Button>
+     
+        </engine:VisualElement>
+
+        <engine:VisualElement name="rightContentVisualElement">
+            <engine:Button name="refreshButton" class="unboundedButton">
+                <engine:Image name="refreshIcon"/>
+            </engine:Button>
+            <engine:Button name="infoButton" class="unboundedButton">
+                <engine:Image name="infoIcon"/>
+            </engine:Button>
+        </engine:VisualElement>
+        
+    </engine:VisualElement>
+
+</engine:UXML>

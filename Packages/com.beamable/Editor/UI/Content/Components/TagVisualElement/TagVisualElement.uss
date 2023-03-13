@@ -1,0 +1,23 @@
+TagVisualElement, TagVisualElement > TemplateContainer {
+    flex-shrink: 0;
+}
+
+TagVisualElement #mainVisualElement {
+	border-radius:3px;
+    height: 15px;
+    margin-left: 2px;
+}
+#mainVisualElement .localOnly {
+    background-color: #4F80F8;
+}
+#mainVisualElement .localDeleted {
+    background-color: #FF0000;
+    opacity: 0.6;
+}
+#label {
+    font-size: 10px;
+   -unity-text-align: middle-center;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #ffffff;
+}

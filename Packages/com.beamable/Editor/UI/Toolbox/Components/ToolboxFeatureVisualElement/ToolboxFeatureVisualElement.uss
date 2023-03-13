@@ -1,0 +1,86 @@
+
+#functionIcon{
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /*border-radius: 10px;*/
+}
+#title{
+    font-size: 12px;
+    margin-left: 10px;
+}
+#description{
+    font-size: 10px;
+    top:0px;
+    margin-left: 10px;
+}
+
+ToolboxFeatureVisualElement {
+    max-height: 160px;
+}
+
+ToolboxFeatureVisualElement.toolbox-invisible-element{
+    opacity: 0;
+}
+
+#titleAndIcon{
+    margin-top: 2px;
+    flex-direction: row;
+}
+#infoIconBtn{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+    cursor: pan;
+}
+
+#infoIcon{
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/INFO.png");
+}
+
+#mainContent{
+    margin-bottom: 10px;
+}
+
+#imageMask {
+    top:10px;
+    align-self: center;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    /*border-radius: 8px;*/
+}
+
+.imageMaskDefault {
+    background-color: #000000;
+    opacity: 0.0;
+}
+
+.imageMaskHover {
+    background-color: #000000;
+    opacity: 0.3;
+}
+
+.imageMaskSelected {
+    background-color: #3094ff;
+    opacity: 0.5;
+}

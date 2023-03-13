@@ -1,0 +1,16 @@
+#topBar{
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/actionBarBackground.png");
+}
+
+#moduleButtonImg {
+    width: 25px;
+    height: 25px;
+    margin-top: 1px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Toolbox/Icons/Module_light.png")
+}
+.boundedButton {
+    border-color: #383838;
+}
+.unboundedButton {
+    border-color: #383838;
+}

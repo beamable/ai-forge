@@ -1,0 +1,24 @@
+{
+  "name": "com.beamable",
+  "version": "0.0.0",
+  "displayName": "Beamable",
+  "description": "A better way to build games in Unity\n\nWe provide an SDK that enables game makers to easily add social, commerce and content management features to their games with drag-and-drop prefabs inside Unity.",
+  "unity": "2019.4",
+  "changelogUrl": "https://github.com/beamable/Changelogs/blob/ci/com-beamable-changelog.md",
+  "documentationUrl": "https://docs.beamable.com/docs",
+  "keywords": [
+    "beamable",
+    "engine"
+  ],
+  "author": "Beamable <info@beamable.com> (https://www.beamable.com)",
+  "license": "ISC",
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.addressables": "1.18.19",
+    "com.unity.textmeshpro": "1.4.1",
+    "com.unity.editorcoroutines": "1.0.0",
+    "com.unity.test-framework": "1.1.19",
+    "com.unity.test-framework.performance": "2.8.1-preview"
+  },
+  "samples": []
+}

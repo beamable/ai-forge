@@ -1,0 +1,32 @@
+.register-content {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.register-content .register-field {
+    flex-direction: row;
+}
+.register-content .register-field TextField {
+    flex-grow:1;
+}
+.register-content .register-field Label {
+    min-width: 100px;
+    -unity-text-align: middle-right;
+}
+.register-content .register-header {
+    align-self: center;
+}
+
+.register-content .register-footer {
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.register-content .register-error {
+    color: #ff0000;
+}
+
+.register-content Button {
+    width: 150px;
+    margin-top: 6px;
+}

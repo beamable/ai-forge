@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+<!--    <engine:VisualElement name="mainVisualElement">-->
+<!--        <engine:VisualElement name="leftContainer">-->
+<!--            <engine:Image name="avatarImg"/>-->
+<!--            >            </engine:VisualElement>-->
+<!--        <engine:VisualElement name="rightContainer">-->
+<!--            <engine:VisualElement name="topPersonalInfo">-->
+<!--                <engine:Label name="name" class= "labelText" text="Beamable Tester"/>-->
+<!--            </engine:VisualElement>-->
+<!--            <engine:VisualElement name="bottomPersonalInfo">-->
+<!--                <engine:VisualElement name="company">-->
+<!--                    <engine:Label name="companyTitle" class= "labelText" text="Company:"/>-->
+<!--                    <engine:TextField name="companyName" text="Beamable.Inc"/>-->
+<!--                    <engine:TextField name="cid" text="12345678"/>-->
+<!--                </engine:VisualElement>-->
+<!--                <engine:VisualElement name="permission">-->
+<!--                    <engine:Label name="permissionTitle" class="labelText" text="Permission:"/>-->
+<!--                    <engine:TextField name="status" text="Admin"/>-->
+<!--                </engine:VisualElement>-->
+<!--                <engine:VisualElement name="email">-->
+<!--                </engine:VisualElement>-->
+<!--                -->
+<!--                <engine:Label name="emailTitle" class="labelText" text="Email:"/>-->
+<!--                <engine:TextField name="emailInput" text="test@beamable.com"/>-->
+
+<!--                <engine:VisualElement name="button">-->
+<!--                    <engine:Button name="logout" text="Log out"/>-->
+<!--                    <engine:Button name="switchAccount" text="Switch Account"/>-->
+<!--                </engine:VisualElement>-->
+<!--            </engine:VisualElement>-->
+<!--        </engine:VisualElement>-->
+
+
+<!--    </engine:VisualElement>-->
+
+    <engine:VisualElement name="mainContainer">
+
+
+        <engine:VisualElement name="textField">
+
+            <engine:VisualElement name="avatarContainer">
+                <engine:Image name="avatarImg"/>
+            </engine:VisualElement>
+
+            <engine:Label name="organization" text="Company Alias" class="labelText"/>
+            <engine:TextField name="alias" class="input" />
+
+            <engine:Label name="game-label" text="Game Name" class="labelText"/>
+            <engine:TextField name="game" class="input" />
+
+            <engine:Label name="realm-label" text="Realm Name" class="labelText"/>
+            <engine:TextField name="realm" class="input" />
+
+            <engine:Label name="account" text="Email" class="labelText"/>
+            <engine:TextField name="email" class="input"/>
+
+            <engine:Label name="role" text="Permissions" class="labelText"/>
+            <engine:TextField name="role" class="input"/>
+
+            <beamable:GenericButtonVisualElement name="switchGame" text="Switch Game" type="Link"/>
+            <beamable:GenericButtonVisualElement name="resetPassword" text="Reset Password" type="Link"/>
+
+            <engine:VisualElement name="actionBtn">
+              <beamable:GenericButtonVisualElement name="logout" text="Log out" type ="Cancel"/>
+<!--                <beamable:PrimaryButtonVisualElement name="signIn" text="Sign In"/>-->
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+
+</engine:UXML>

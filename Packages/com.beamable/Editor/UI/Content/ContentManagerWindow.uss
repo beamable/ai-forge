@@ -1,0 +1,63 @@
+/* global styles for the window live here */
+
+#_windowRoot {
+    flex-grow: 1;
+}
+#window-main {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    min-width: 550px;
+    min-height: 150px;
+}
+
+#explorer-container {
+    position: absolute;
+    top: 35px;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+}
+
+
+ExplorerVisualElement > TemplateContainer,
+ExplorerVisualElement {
+    flex-grow: 1;
+}
+
+#status-bar-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+   background-color: #484848;
+}
+
+/* Debug colors */
+#explorer-container {
+    /*background-color: #018d98;*/
+}
+
+#status-bar-container {
+    /*background-color: #ccffcc;*/
+    height:30px;
+}
+
+#breadcrumb-container {
+    /*background-color: #3c3c3c;*/
+}
+
+#tree-container {
+    /*background-color: #d25a00;*/
+}
+
+#list-container {
+    /*background-color: #6C6C6C;*/
+}
+
+
+
+

@@ -1,0 +1,20 @@
+﻿.bottomContainer {
+    height: 150px;
+    flex-grow: 0;
+    padding-top: 0;
+}
+
+#largeCommentsArea {
+    flex-grow: 0;
+    height: 150px;
+}
+
+.splitWrapper.rightSplit {
+    flex: 0;
+    min-height: 160px;
+}
+
+.splitWrapper.leftSplit {
+    padding-bottom: 10px;
+    flex: 1;
+}

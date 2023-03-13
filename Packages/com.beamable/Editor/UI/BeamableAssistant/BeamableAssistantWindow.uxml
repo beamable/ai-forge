@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="window-main">
+        <engine:VisualElement name="assistant-container">
+            <engine:VisualElement name="beam-hints-container">
+
+                <beamable:SplitterVisualElement name="beam-hints-splitter">
+                    <engine:VisualElement class="splitWrapper leftSplit">
+                        <engine:VisualElement class="beamableAssistantHeader">
+
+                            <engine:VisualElement class="splitPadding"/>
+                            <engine:Label class="title noMarginNoPaddingNoBorder" text="Hint Domain"/>
+                        </engine:VisualElement>
+                        
+                        <engine:ScrollView name="domain-tree-scroll">
+                            <engine:VisualElement name="domain-tree-container">
+                                <engine:VisualElement class="splitPadding"/>
+                            </engine:VisualElement>
+                        </engine:ScrollView>
+                    </engine:VisualElement>
+                    
+                    <engine:VisualElement class="splitWrapper rightSplit">
+                        <engine:VisualElement class="beamableAssistantHeader">
+
+                            <engine:VisualElement name="hintTypeBlank">
+                                <engine:VisualElement/>
+                            </engine:VisualElement>
+
+                            <engine:Label class="title" text="Hint ID"/>
+
+                            <beamable:SearchBarVisualElement name="hintsSearchBar" class="assistantSearchField"/>                           
+
+                            <engine:VisualElement class="splitPadding"/>
+
+
+                        </engine:VisualElement>
+
+                        <engine:ScrollView name="hints-container-scroll">
+                            <engine:VisualElement name="hints-container"/>
+                        </engine:ScrollView>
+                    </engine:VisualElement>
+                </beamable:SplitterVisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+
+    </engine:VisualElement>
+
+</engine:UXML>

@@ -1,0 +1,3 @@
+﻿.disabled *{
+    opacity: .8;
+}

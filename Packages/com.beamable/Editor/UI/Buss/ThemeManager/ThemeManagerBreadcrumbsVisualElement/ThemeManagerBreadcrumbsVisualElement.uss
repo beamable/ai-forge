@@ -1,0 +1,54 @@
+﻿#mainVisualElement {
+    height: 30px;
+    flex-direction: row-reverse;
+    padding-right: 5px;
+}
+
+.boundedButton {
+    height: 22px;
+    position: relative;
+    top: 4px;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    cursor: pan;
+    background-image: none;
+    /*border-color:#8f8f8f;*/
+    justify-content: center;
+}
+
+#propertiesFilter Label {
+    margin-right: 18px;
+    margin-top: 2px;
+    font-size: 10px;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    align-self: flex-start;
+    -unity-text-align: middle-left;
+}
+
+Image#dropDownIcon {
+    align-self: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    width: 10px;
+    height: 5px;
+    background-image: resource("Packages/com.beamable/Editor/UI/Content/Icons/dropdown Close.png")
+}
+
+.buttonText {
+    align-self: center;
+    align-content: center;
+}
+
+.hidden {
+    visibility: hidden;
+}

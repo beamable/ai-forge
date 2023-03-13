@@ -1,0 +1,51 @@
+#textBox{
+    width: 300px;
+    flex-grow: 1;
+    align-self: center;
+    height: 300px;
+}
+
+ScrollView {
+    flex-grow: 1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#ContentView.content-view{
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+#legalDoc {
+    margin-bottom: 5px;
+}
+
+.btnText{
+    left:5px;
+    min-width:100px;
+}
+#checkBox{
+    left:5px;
+}
+#actionBtn{
+    flex-direction: row;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+#cancel{
+    height: 29px;
+}
+
+#term{
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+#functionArea{
+    top: 10px;
+    align-self: center;
+    width: 300px;
+}

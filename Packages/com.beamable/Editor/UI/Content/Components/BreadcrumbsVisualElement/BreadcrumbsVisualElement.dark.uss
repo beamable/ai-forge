@@ -1,0 +1,3 @@
+BreadcrumbsVisualElement #mainVisualElement {
+    background-color: #131313;
+}

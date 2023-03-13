@@ -1,0 +1,8 @@
+﻿#value{
+    margin-top: 15px;
+    flex-direction: row;
+    align-self: center;
+    -unity-font-style: bold;
+    font-size: 12px;
+    padding-bottom: 15px;
+}

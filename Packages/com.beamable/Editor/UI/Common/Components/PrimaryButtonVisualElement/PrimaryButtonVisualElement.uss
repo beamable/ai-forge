@@ -1,0 +1,66 @@
+Button.unity-button,
+Button {
+    background-image: none;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    background-color: #0090FD;
+    -unity-text-align: middle-center;
+    color: #f4f4f4;
+    flex-grow: 1;
+    -unity-font: url("project:///Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+}
+
+Button.unity-button:hover,
+Button:hover {
+    background-image: none;
+    color: #f4f4f4;
+    background-color: #25A1FF;
+}
+
+Button.unity-button:hover:active,
+Button:hover:active {
+    background-image: none;
+    background-color: #4CB2FF;
+}
+TemplateContainer {
+    flex-grow: 1;
+}
+
+LoadingSpinnerVisualElement {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.disabled Button.unity-button,
+.disabled Button, Button.unity-button:disabled,
+Button:disabled {
+    background-image: none;
+    background-color: #838383;
+}
+.disabled Button.unity-button:hover:active,
+.disabled Button:hover:active {
+    background-image: none;
+    background-color: #656565;
+}
+
+.loading LoadingSpinnerVisualElement {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loading Button.unity-button,
+.loading Button {
+    background-image: none;
+    background-color: #838383;
+}
+
+.failure Button.unity-button,
+.failure Button {
+    background-color: #E02020;
+}
+
+.failure Button.unity-button:hover,
+.failure Button:hover {
+    background-color: #e53636;
+}

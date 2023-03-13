@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xmlns:beamable="Beamable.Editor.UI.Components"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="mainContainer">
+    <engine:VisualElement name="textField">
+        <engine:Label name="organization" text="Please enter your Organization's Alias" class="labelText"/>
+        <engine:TextField name="organizationID" class="input" />
+        <beamable:GenericButtonVisualElement name="existingOrganization" text="Sign into an existing organization" type="Link"/>
+        <engine:Label name="project" text="Please enter your Game's name" class="labelText"/>
+        <engine:TextField name="projectID" class="input"/>
+        <engine:Label name="createAccount" text="Please create your account" class="labelText"/>
+        <engine:TextField name="account" class="input"/>
+        <engine:TextField name="password" class="input"/>
+        <engine:TextField name="confirmPassword" class="input"/>
+        <engine:VisualElement name="rightContainer">
+            <engine:VisualElement name="term">
+                <engine:Toggle name="checkBox"/>
+                <engine:Label text="I have read and agree to the" class="labelText"/>
+                <beamable:GenericButtonVisualElement name="legalButton" text="terms and conditions" type="Link" />
+            </engine:VisualElement>
+            <engine:VisualElement name="actionBtn">
+                <beamable:PrimaryButtonVisualElement name="signIn" text="Create Organization"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="errorContainer">
+            <engine:Label name="errorLabel"></engine:Label>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    </engine:VisualElement>
+
+</engine:UXML>

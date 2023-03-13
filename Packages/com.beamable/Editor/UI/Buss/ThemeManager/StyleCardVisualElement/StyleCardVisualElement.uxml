@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.Experimental.UIElements"
+        xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="UnityEngine.Experimental.UIElements ../UIElementsSchema/UnityEngine.Experimental.UIElements.xsd">
+
+    <engine:VisualElement name="cardContainer">
+        <engine:VisualElement name="cardHeader">
+            <engine:VisualElement name="foldIconParent"/>
+            <engine:VisualElement name="selectorLabelParent"/>
+            <engine:VisualElement name="optionsButton" class="button smallButton edit"/>
+<!--            TODO: restore while doing BEAM-3122-->
+<!--            <engine:VisualElement name="undoButton" class="button smallButton undo"/>-->
+            <engine:VisualElement name="cleanAllButton" class="button smallButton cleanAll"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="variables">
+            <engine:VisualElement name="sectionHeader">
+                <engine:TextElement name="sectionLabel" text="Variables"/>
+                <engine:VisualElement name="divider"/>
+                <engine:VisualElement name="addVariableButton" class="button smallButton add"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        
+        <engine:VisualElement name="properties">
+            <engine:VisualElement name="sectionHeader">
+                <engine:TextElement name="sectionLabel" text="Properties"/>
+                <engine:VisualElement name="divider"/>
+                <engine:VisualElement name="showAllButton" class="button mediumButton headerButton">
+                    <engine:TextElement text="Show All" name="showAllButtonText"/>
+                </engine:VisualElement>
+                <engine:VisualElement name="addRuleButton" class="button smallButton add"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+
+</UXML>

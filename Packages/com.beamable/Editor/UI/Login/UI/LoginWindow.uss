@@ -1,0 +1,112 @@
+#main.cover {
+    position: absolute;
+    left: 500000px;
+}
+.loginRoot {
+    flex-grow: 1;
+}
+
+#main > TemplateContainer {
+    flex-grow: 1;
+}
+#main {
+    flex-grow: 1;
+    margin-bottom: 50px;
+
+    /*min-width: 350px;*/
+}
+.linkText {
+    background-color: rgba(0,0,0,0);
+}
+
+#ContentView.content-view{
+    left: 0px;
+    right:0px;
+}
+
+ScrollView {
+    flex-grow: 1;
+}
+ScrollView #unity-content-container {
+    flex-grow: 1;
+}
+
+#_windowRoot {
+    flex-grow: 1;
+    /*min-width:500px;*/
+}
+
+#window-main {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#main > * {
+    top:30px;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#debugButtons {
+    flex-direction: row;
+    background-color: rgba(0,0,0,.3);
+}
+#debugButtons Button {
+    font-size: 8px;
+}
+
+#header.hidden {
+    position: absolute;
+    left: 50000px;
+}
+
+#logo{
+    background-image: resource("Packages/com.beamable/Editor/UI/Login/UI/icon/logo2 L white.png");
+    width: 285px;
+    height: 70px;
+    align-self: center;
+    top:10px;
+
+}
+
+#welcomeText{
+    top: 20px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    width: 300px;
+    align-self: center;
+}
+
+#textField {
+    width: 300px;
+}
+
+
+
+#errorLabel {
+    color: #FF0000;
+    -unity-text-align: upper-center;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding-right: 0px;
+}
+
+#actionBtn{
+    flex-direction: row;
+    margin-top: 20px;
+    align-self: stretch;
+}
+#actionBtn PrimaryButtonVisualElement {
+    flex-grow: 1;
+    height: 35px;
+}
+
+#versionNumber {
+    flex-direction: row;
+    align-self: flex-end;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}

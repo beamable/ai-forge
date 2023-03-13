@@ -1,0 +1,25 @@
+{
+    "name": "Beamable.Platform",
+    "references": [
+        "PubNub",
+        "Beamable.Config",
+        "Beamable.Coroutines",
+        "Beamable.JsonSerializable",
+        "Beamable.Pooling",
+        "Beamable.Service",
+        "Beamable.SmallerJSON",
+        "Beamable.ConsoleCommands",
+        "Unity.Beamable.Runtime.Common",
+        "Google.Play.Games"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Facebook.Unity.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

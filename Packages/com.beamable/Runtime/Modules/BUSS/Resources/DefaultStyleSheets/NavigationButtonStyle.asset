@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6878a57282fc4d5dae9c2e3538013b26, type: 3}
+  m_Name: NavigationButtonStyle
+  m_EditorClassIdentifier: 
+  _styles:
+  - _folded: 0
+    _properties:
+    - _key: backgroundColor
+      _property:
+        _type: Beamable.UI.Buss.VertexColorBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_colorRect":{"BottomLeftColor":{"r":0.6431372761726379,"g":0.41960784792900088,"b":0.21176470816135407,"a":1.0},"BottomRightColor":{"r":0.5568627715110779,"g":0.30980393290519717,"b":0.1411764770746231,"a":1.0},"TopLeftColor":{"r":0.9803921580314636,"g":0.8156862854957581,"b":0.48235294222831728,"a":1.0},"TopRightColor":{"r":0.8470588326454163,"g":0.6549019813537598,"b":0.3764705955982208,"a":1.0},"_drawerMode":0}}'
+    - _key: roundCorners
+      _property:
+        _type: Beamable.UI.Buss.FloatBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_floatValue":5.0}'
+    - _key: shadowColor
+      _property:
+        _type: Beamable.UI.Buss.SingleColorBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
+    - _key: shadowOffset
+      _property:
+        _type: Beamable.UI.Buss.Vector2BussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_vector2Value":{"x":0.0,"y":-2.0}}'
+    - _key: shadowSoftness
+      _property:
+        _type: Beamable.UI.Buss.FloatBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_floatValue":3.0}'
+    _cachedProperties: []
+    _selector: '#navButtonBackground'
+  - _folded: 0
+    _properties:
+    - _key: backgroundColor
+      _property:
+        _type: Beamable.UI.Buss.VertexColorBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_colorRect":{"BottomLeftColor":{"r":0.21960784494876862,"g":0.5607843399047852,"b":0.05098039284348488,"a":1.0},"BottomRightColor":{"r":0.21960784494876862,"g":0.5607843399047852,"b":0.05098039284348488,"a":1.0},"TopLeftColor":{"r":0.7058823704719544,"g":0.8745098114013672,"b":0.3137255012989044,"a":1.0},"TopRightColor":{"r":0.7058823704719544,"g":0.8745098114013672,"b":0.3137255012989044,"a":1.0},"_drawerMode":3}}'
+    - _key: roundCorners
+      _property:
+        _type: Beamable.UI.Buss.FloatBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_floatValue":5.0}'
+    - _key: borderColor
+      _property:
+        _type: Beamable.UI.Buss.SingleColorBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_color":{"r":0.6784313917160034,"g":0.8627451062202454,"b":0.25882354378700259,"a":1.0}}'
+    - _key: borderWidth
+      _property:
+        _type: Beamable.UI.Buss.FloatBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_floatValue":1.0}'
+    - _key: borderMode
+      _property:
+        _type: Beamable.UI.Buss.BorderModeBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"Enum":1}'
+    _cachedProperties: []
+    _selector: '#navButton'
+  - _folded: 0
+    _properties:
+    - _key: backgroundColor
+      _property:
+        _type: Beamable.UI.Buss.SingleColorBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}'
+    - _key: backgroundImage
+      _property:
+        _type: Beamable.UI.Buss.SpriteBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"AssetSerializationKey":0}'
+    _cachedProperties: []
+    _selector: '#backButton'
+  - _folded: 0
+    _properties:
+    - _key: backgroundColor
+      _property:
+        _type: Beamable.UI.Buss.SingleColorBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"_color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0}}'
+    - _key: backgroundImage
+      _property:
+        _type: Beamable.UI.Buss.SpriteBussProperty, Unity.Beamable, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _json: '{"AssetSerializationKey":1}'
+    _cachedProperties: []
+    _selector: '#topButton'
+  _assetReferences:
+  - {fileID: 21300000, guid: 1b68f40c46e4a44679281a7a5a9c142c, type: 3}
+  - {fileID: 21300000, guid: 847db4468a5744b659edd02f10023968, type: 3}
+  _isReadOnly: 1
+  _sortingOrder: 200

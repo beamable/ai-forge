@@ -1,0 +1,7 @@
+#button {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/addNewDark.png");
+}
+
+#button.whenConnected {
+    background-image: resource("Packages/com.beamable/Editor/UI/Common/Icons/removeDark.png");
+}

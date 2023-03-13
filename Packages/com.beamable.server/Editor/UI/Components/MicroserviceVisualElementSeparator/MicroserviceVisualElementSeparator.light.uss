@@ -1,0 +1,3 @@
+#bar {
+    background-color: rgba(166,166,166,.5);
+}

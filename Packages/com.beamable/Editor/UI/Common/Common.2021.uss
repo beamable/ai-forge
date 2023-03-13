@@ -1,0 +1,14 @@
+.unity-list-view__empty-label {
+    display: none;
+}
+
+.invisible {
+    position: absolute;
+    left: 0px;
+    display: none;
+}
+
+#main-scrollView,
+#main-scrollView > VisualElement > #unity-content-viewport > #unity-content-container {
+    flex-grow: 1;
+}

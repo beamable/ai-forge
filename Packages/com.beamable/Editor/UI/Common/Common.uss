@@ -1,0 +1,210 @@
+.beamablePlaceholder {
+    position: absolute;
+    opacity: .4;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.beamablePlaceholder.hidden {
+    opacity: 0;
+}
+
+.beamableErrorLabel {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #FF0000;
+    font-size: 10px;
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+}
+
+.beamableErrorTextField.hasError {
+    border-color: #FF0000;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+.beamableErrorLabel.beamableErrorHidden {
+    position: absolute;
+    right: 100000px;
+}
+
+.beamableErrorToggleField {
+    width: 15px;
+    overflow: visible;
+    flex-direction: column;
+}
+.beamableErrorToggleField Label {
+    overflow: visible;
+    -unity-text-align: middle-left;
+}
+
+/* === BEGIN - ANNOUNCEMENTS === */
+.announcement-main {
+    flex-direction: row;
+    /*background-color: #B3BAAF;*/
+    /*border-left-width: 1px;*/
+    /*border-right-width: 1px;*/
+    /*border-top-width: 1px;*/
+    /*border-bottom-width: 1px;*/
+    /*border-color: #D5D5D5;*/
+}
+
+.announcement-main * {
+    -unity-font: resource("Packages/com.beamable/Editor/UI/Font/Lato-Semibold.ttf");
+    color: #000000;
+    -unity-font-style: bold;
+}
+
+.announcement-ignoreSection {
+    flex-grow: 1;
+    max-width: 35px;
+    min-width: 35px;
+}
+
+#announcement-ignore {
+    width: 13px;
+    height: 13px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+}
+
+.announcement-logoSection {
+    flex-grow: 1;
+    max-width: 60px;
+    min-width: 60px;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#announcement-logo {
+    width: 50px;
+    height: 40px;
+    align-self: center;
+}
+
+.announcement-textsSection {
+    width: 0px;
+    flex-direction: column;
+    flex-grow: 8;
+    justify-content: center;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+#announcement-title {
+    -unity-text-align: lower-left;
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+#announcement-description {
+     font-size: 11px;
+     padding-right: 5px;
+}
+
+.announcement-buttonsSection {
+    max-width: 100px;
+    min-width: 100px;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    align-content: stretch;
+}
+
+.announcement-buttons {
+    height: 21px;
+    font-size: 10px;
+    align-self: stretch;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.announcement-hiddenButton {
+    color: #FFFFFF;
+    background-image: none;
+    -unity-font-style: bold;
+    font-size: 12px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+}
+
+.announcement-hiddenButton:hover {
+    color: #FFFFFF
+}
+
+.announcement-text {
+    font-size: 11px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+/* === END - ANNOUNCEMENTS === */
+
+.noMarginNoPaddingNoBorder {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.--noBorder {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.--noPadding {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.--noMargin {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.--positionHidden {
+    position: absolute;
+    right: 10000px;
+}
+
+.--margin5px {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.invisible {
+    position: absolute;
+    left: 50000px;
+}
